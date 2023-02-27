@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------
+Ultimate Member plugin
+--------------------------------------------------------------*/
+.page .um-form {
+    padding: 50px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.um-field-b, .um-field-c {
+    margin-bottom: 15px;
+}
+
+.wp-embed-responsive.um-page-password-reset {
+    background-color: #edf0f2;
+}
+
+.page .um.um-password.um-um_password_id {
+    padding: 50px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.page .um input[type=submit].um-button, .page .um input[type=submit].um-button:focus, .page .um a.um-button, .page .um a.um-button.um-disabled:hover, .page .um a.um-button.um-disabled:focus, .page .um a.um-button.um-disabled:active {
+    color: #07294d;
+    background-color: var(--edubin-primary-color);
+    font-size: 15px;
+    line-height: 17px !important;
+    font-weight: 600 !important;
+    padding: 1em 2em !important;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+
+.page .um input[type=submit].um-button:hover, .page .um a.um-button:hover {
+    background-color: #07294d;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.page .um-right.um-half .um-button {
+    background-color: #07294d;
+    color: #fff;
+}
+
+.page .um-right.um-half .um-button:hover {
+    background-color: var(--edubin-primary-color);
+    color: #07294d;
+}
+
+.page .um .um-form input[type=text], .page .um .um-form input[type=tel], .page .um .um-form input[type=number], .page .um .um-form input[type=password], .page .um .um-form textarea, .page .um .upload-progress, .page .select2-container .select2-choice, .page .select2-drop, .page .select2-container-multi .page .select2-choices, .page .select2-drop-active, .page .select2-drop.select2-drop-above {
+    border: 1px solid #ddd !important;
+    height: 45px !important;
+}
+
+.page .um .um-form input[type=text]:focus, .page .um .um-form input[type=tel]:focus, .page .um .um-form input[type=number]:focus, .page .um .um-form input[type=password]:focus, .page .um .um-form .um-datepicker.picker__input.picker__input--active, .page .um .um-form .um-datepicker.picker__input.picker__input--target, .page .um .um-form textarea:focus {
+    border: 1px solid #07294d !important;
+}
+
+.page .um-item {
+    display: inline-block;
+    max-width: 315px;
+    margin: 15px;
+}
+
+.page .um-962.um .um-profile-body {
+    max-width: 100%
+}
+
+.page .um-962.um {
+    max-width: 100%;
+}
+
+.page .um-profile-nav {
+    background: #07294d;
+}
+
+.page .um .um-profile-nav-item.active a {
+    background: var(--edubin-primary-color);
+    color: #07294d !important;
+}
+
+.page .um .um-profile-nav-item.active a:hover, .page .um-profile-nav-item a:hover {
+    background: var(--edubin-primary-color);
+}
+
+.page .um-account-side li {
+    background: #edf0f2;
+}
+
+.page .um a.um-link {
+    color: #07294d;
+}
+
+.page .um-account-side li a.current span.um-account-icon {
+    color: var(--edubin-primary-color);
+}
+
+.page .um-account-main div.um-account-heading {
+    color: #07294d;
+}
+
+.page .um-account-side li a span.um-account-icon, .page .um-account-side li a.current span.um-account-icon, .page .um-account-side li a.current:hover span.um-account-icon {
+    color: #07294d;
+}

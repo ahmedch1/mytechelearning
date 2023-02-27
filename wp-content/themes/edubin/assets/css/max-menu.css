@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+Max Mega Menu
+--------------------------------------------------------------*/
+.navigation-section.d-inline-block.pull-right { width: 100%; margin-top: 20px; }
+#mega-menu-wrap-primary { background: transparent; }
+h2.widgettitle { font-size: 18px; margin-top: 20px; }
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-megamenu>ul.mega-sub-menu { box-shadow: 0 6px 12px rgba(0, 0, 0, .07);    /*    padding: 20px;*/ margin-top: 20px; }
+#mega-menu-wrap-primary #mega-menu-primary ul ul ul { list-style: none; }
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-flyout ul.mega-sub-menu { margin-top: 20px; }
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link { box-shadow: 0 6px 12px rgba(0, 0, 0, .07); background: #f1f1f1; padding: 8px 15px 8px 15px; line-height: 25px; }
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item>a.mega-menu-link { color: #222; }
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item.mega-toggle-on>a.mega-menu-link { background: transparent; color: #222; }
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item>a.mega-menu-link:hover { background: transparent; color: #222; }
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item.mega-current-menu-item>a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item.mega-current-menu-ancestor>a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item.mega-current-page-ancestor>a.mega-menu-link { background: transparent; color: #222; }
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu>ul.mega-sub-menu>li.mega-menu-row .mega-menu-column { float: left; min-height: 1px; padding: 20px 20px; }
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu>ul.mega-sub-menu>li.mega-menu-row .mega-menu-column>ul.mega-sub-menu>li.mega-menu-item { padding: 0; width: 100%; }
+@media (min-width:767.89px) {
+    .header-area { display: flex; align-items: center; justify-content: space-between; }
+}
+@media (max-width:575.98px) {
+    #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item>a.mega-menu-link { color: inherit; }
+}
+.navigation-section { width: 100%; }
+#mega-menu-wrap-primary #mega-menu-primary { text-align: right; }
+.main-navigation li { display: block; }
+#mega-menu-wrap-primary #mega-menu-primary ul ul ul li { border-top: none; padding: 5px 0; }
+#mega-menu-wrap-primary #mega-menu-primary ul ul ul li a { color: #353535 }
+#mega-menu-wrap-primary #mega-menu-primary ul ul ul li a:hover { color: var(--edubin-primary-color); }

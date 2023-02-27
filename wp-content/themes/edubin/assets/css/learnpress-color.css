@@ -1,0 +1,204 @@
+/* == Single course page == */
+
+body .course-sidebar-preview .course-price .price {
+    color: var(--edubin-heading-color);
+}
+.single-lp_course .lp-archive-courses .course-summary .course-summary-content .course-detail-info {
+    background: #273044;
+}
+.single-lp_course #popup-course #popup-header {
+    background: #07294d;
+}
+.single-lp_course .course-tab-panels {
+    background: #fff;
+}
+.single-lp_course .course-featured-review.margin-bottom {
+    background: #fff;
+}
+.single-lp_course #learn-press-course .course-summary-sidebar .course-sidebar-preview .course-price .price {
+    color: var(--edubin-heading-color);
+}
+.learnpress-page .lp-button, .learnpress-page #lp-button {
+    color: var(--edubin-btn-color) !important;
+    background: var(--edubin-btn-bg-color) !important;
+    border-color: var(--edubin-btn-bg-color) !important;
+}
+.learnpress-page .lp-button:hover, .learnpress-page #lp-button:hover {
+    color: var(--edubin-btn-hover-color) !important;
+    background: var(--edubin-btn-bg-hover-color) !important;
+    border-color: var(--edubin-btn-bg-hover-color) !important;
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.item-preview .course-item-preview {
+    background: #07294d;
+}
+.single-lp_course .course-curriculum .section-content .course-item-preview:before {
+    background: #07294d;
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .count-questions {
+    background: #07294d;
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .duration {
+    background: #07294d;
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link::before {
+    color: #07294d;
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link:hover .item-name {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course #learn-press-course-tabs input[name="learn-press-course-tab-radio"]:nth-child(2):checked~.learn-press-nav-tabs .course-nav:nth-child(2) label {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course .learnpress li.course-nav.active {
+    background: var(--edubin-primary-color);
+}
+.single-lp_course ul.learn-press-nav-tabs .course-nav.active::before {
+    background: var(--edubin-primary-color);
+}
+.single-lp_course #learn-press-course-tabs input[name="learn-press-course-tab-radio"]:nth-child(1):checked~.learn-press-nav-tabs .course-nav:nth-child(1) label {
+    color: var(--edubin-content-color);
+}
+.single-lp_course #learn-press-course-tabs input[name="learn-press-course-tab-radio"]:nth-child(2):checked~.learn-press-nav-tabs .course-nav:nth-child(2) label {
+    color: var(--edubin-content-color);
+}
+.single-lp_course #learn-press-course-tabs input[name="learn-press-course-tab-radio"]:nth-child(3):checked~.learn-press-nav-tabs .course-nav:nth-child(3) label {
+    color: var(--edubin-content-color);
+}
+.single-lp_course #learn-press-course-tabs input[name="learn-press-course-tab-radio"]:nth-child(4):checked~.learn-press-nav-tabs .course-nav:nth-child(4) label {
+    color: var(--edubin-content-color);
+}
+.single-lp_course #learn-press-course-tabs input[name="learn-press-course-tab-radio"]:nth-child(5):checked~.learn-press-nav-tabs .course-nav:nth-child(5) label {
+    color: var(--edubin-content-color);
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-header .section-left .section-title {
+    color: var(--edubin-heading-color);
+}
+.course-reviews-list li .review-title, .course-reviews-list-shortcode li .review-title {
+    color: var(--edubin-heading-color);
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-desc {
+    color: --edubin-content-color;
+}
+.single-lp_course input[name="course-faqs-box-ratio"]:checked+.course-faqs-box .course-faqs-box__title {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course .course-tab-panel-faqs .course-faqs-box:hover .course-faqs-box__title {
+    color: var(--edubin-primary-color);
+}
+.edubin-course-info ul li i {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item .meta-item__value>div a:hover {
+    color: var(--edubin-primary-color)
+}
+.single-lp_course .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item.meta-item-categories .meta-item__value div a:hover {
+    color: var(--edubin-primary-color)
+}
+.learnpress-profile #learn-press-profile .lp-user-profile-socials a:hover {
+    border-color: var(--edubin-primary-color);
+    background: var(--edubin-primary-color);
+}
+.learnpress-profile #learn-press-profile #profile-nav .lp-profile-nav-tabs li.active, .learnpress-profile #learn-press-profile #profile-nav .lp-profile-nav-tabs li:hover {
+    background: var(--edubin-primary-color)
+}
+.learnpress-profile #learn-press-profile #profile-nav .lp-profile-nav-tabs>li>a>i {
+    color: var(--edubin-primary-color)
+}
+.learnpress-profile .learn-press-profile-course__tab__inner a.active {
+    color: var(--edubin-primary-color);
+}
+.learn-press-profile-course__tab__inner a.active::before {
+    background-color: var(--edubin-primary-color);
+}
+.learnpress-profile .learn-press-course-tab-filters .learn-press-filters a.active {
+    color: var(--edubin-primary-color);
+}
+.learnpress-profile #learn-press-profile #profile-nav .lp-profile-nav-tabs>li ul li a:hover {
+    color: var(--edubin-primary-color);
+}
+.learnpress-checkout #checkout-account-register .lp-checkout-sign-in-link a, .learnpress-checkout #checkout-account-register .lp-checkout-sign-up-link a, .learnpress-checkout #checkout-account-login .lp-checkout-sign-in-link a, .learnpress-checkout #checkout-account-login .lp-checkout-sign-up-link a {
+    color: var(--edubin-primary-color);
+}
+.learnpress-checkout #checkout-account-register .lp-checkout-sign-in-link a:hover, .learnpress-checkout #checkout-account-register .lp-checkout-sign-up-link a:hover, .learnpress-checkout #checkout-account-login .lp-checkout-sign-in-link a:hover, .learnpress-checkout #checkout-account-login .lp-checkout-sign-up-link a:hover {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course .single-lp_course .course-tab-panel-faqs .course-faqs-box__title {
+    color: var(--edubin-heading-color);
+}
+.single-lp_course .course-extra-box__content-inner {
+    background: #fff;
+}
+.single-lp_course .course-extra-box__content li::before {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course .learn-press-breadcrumb li a:hover {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course .lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item::before {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course #popup-course #popup-header .popup-header__inner .course-title a:hover {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course #popup-course #sidebar-toggle:before {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course #learn-press-course .lp-course-author .course-author__pull-right .author-title a:hover {
+    color: var(--edubin-primary-color);
+}
+.learnpress-checkout #checkout-order .lp-checkout-order__inner .course-name a:hover {
+    color: var(--edubin-primary-color);
+}
+.learnpress-checkout #learn-press-checkout-form a:hover {
+    color: var(--edubin-secondary-color);
+}
+#learn-press-checkout>div>table>tbody>tr.item>td>a:hover {
+    color: var(--edubin-primary-color);
+}
+.single-lp_course .lp-modal-dialog .lp-modal-content .lp-modal-header {
+    background: var(--edubin-secondary-color);
+}
+.learn-press-message.success a {
+    color: var(--edubin-primary-color);
+}
+.learnpress-profile .learn-press-form-login button[type=submit], .learnpress-profile .learn-press-form-register button[type=submit] {
+    color: var(--edubin-btn-color);
+    background-color: var(--edubin-btn-bg-color);
+    border-color: var(--edubin-btn-border-color);
+}
+.learnpress-profile .learn-press-form-login button[type=submit]:hover, .learnpress-profile .learn-press-form-register button[type=submit]:hover {
+    color: var(--edubin-btn-hover-color);
+    background-color: var(--edubin-btn-bg-hover-color);
+    border-color: var(--edubin-btn-border-hover-color);
+}
+/*----edubin-heading-color*/
+
+.single-lp_course #learn-press-course .course-featured-review .featured-review__title {
+    color: var(--edubin-heading-color);
+}
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.item-locked .course-item-status::before {
+    color: var(--edubin-heading-color);
+}
+.widget h2.widgettitle {
+    color: var(--edubin-heading-color);
+}
+.single-lp_course #learn-press-course .course-summary-sidebar .course-extras .course-extras__title {
+    color: var(--edubin-heading-color);
+}
+.single-lp_course ul.learn-press-nav-tabs .course-nav.active label {
+    color: var(--edubin-heading-color);
+}
+.learnpress-checkout #learn-press-checkout-form a {
+    color: var(--edubin-primary-color);
+}
+#learn-press-checkout>div>table>tbody>tr.item>td>a {
+    color: var(--edubin-heading-color);
+}
+/*--edubin-content-color*/
+
+.single-lp_course .learn-press-breadcrumb li a {
+    color: var(--edubin-content-color);
+}
+.single-lp_course .learn-press-breadcrumb {
+    color: var(--edubin-content-color);
+}

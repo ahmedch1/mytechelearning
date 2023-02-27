@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------
+Zoom Conferencing
+--------------------------------------------------------------*/
+
+/*Archive*/
+
+.edubin-zm-single {
+    background: #fff;
+}
+
+.edubin-zm-single-content {
+    padding: 30px;
+}
+
+.post-type-archive-zoom-meetings .vczapi-list-zoom-meetings--item__details__meta .meta {
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+}
+
+.post-type-archive-zoom-meetings .vczapi-list-zoom-meetings--item__details__meta .meta:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.edubin-metting-excerpt {
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+}
+
+.edubin-zm-single {
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.edubin-zm-single .edubin-zm-single-thumb {
+    overflow: hidden;
+}
+
+.edubin-zm-single .edubin-zm-single-thumb img {
+    max-height: 233px;
+    object-fit: cover;
+    height: 233px;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.edubin-zm-single:hover .edubin-zm-single-thumb img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+/*Single page*/
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-timer .dpn-zvc-timer-cell-number {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.dpn-zvc-single-content-wrapper {
+    margin-top: 0;
+}
+
+a.vczapi-meeting-state-change {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-timer .dpn-zvc-meeting-ended {
+    background: #07294d;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-timer .dpn-zvc-timer-cell {
+    background: #07294d;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-timer .dpn-zvc-meeting-ended h3 {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-tile {
+    background: #07294d;
+    padding: 4px 16px;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper {
+    background: #fff;
+    padding: 30px;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-timer .dpn-zvc-timer-cell-string {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-tile h3 {
+    font-size: 18px;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-content {
+    background: #fff;
+    padding: 20px 0 0 0;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-content .dpn-zvc-sidebar-content-list {
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-content .dpn-zvc-sidebar-content-list>span>strong {
+    font-size: 16px;
+    color: #07294d;
+}
+
+.edubin-zm-single-content .vczapi-list-zoom-meetings--item__details__meta .meta>strong {
+    font-size: 16px;
+    color: #07294d;
+}
+
+.dpn-zvc-display-or-hide-localtimezone-notice>strong {
+    font-size: 16px;
+    color: #07294d;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn-join-link {
+    background: var(--edubin-primary-color);
+    color: #07294d;
+    font-family: var(--edubin-heading-font-family);
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    border-radius: 2px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn-start-link {
+    background: #07294d;
+    font-family: var(--edubin-heading-font-family);
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    border-radius: 2px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s
+}
+
+.dpn-zvc-single-content-wrapper .deepn-zvc-single-featured-img {
+    background: #fff;
+    margin-bottom: 0;
+}
+
+.dpn-zvc-single-content-wrapper .deepn-zvc-single-description {
+    background: #fff;
+    padding: 35px 45px 45px;
+}
+
+.dpn-zvc-single-content-wrapper .deepn-zvc-single-description h3 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 40px;
+    color: #07294d;
+}
+
+.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box:first-child {
+    padding: 0;
+}
+
+.edubin-zm-single-title a {
+    color: #07294d;
+    font-weight: 700;
+    font-size: 24px;
+}

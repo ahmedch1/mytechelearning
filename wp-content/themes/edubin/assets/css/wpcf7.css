@@ -1,0 +1,61 @@
+/*=== Contact from 7 Addon ====*/
+
+.edubin-form-wrapper {
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 75px 0px rgba(0, 0, 0, 0.1);
+}
+.edubin-form-wrapper .wpcf7 {
+    padding: 50px 50px 0 50px;
+}
+.edubin-form-wrapper .wpcf7-field-container {
+    padding: 40px 50px 15px 50px;
+}
+.edubin-form-wrapper .wpcf7-head-container {
+    background-color: #07294d;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.edubin-form-wrapper .wpcf7-title {
+    color: var(--edubin-primary-color);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: var(--edubin-primary-color);
+}
+.edubin-form-wrapper .wpcf7-description {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.edubin-form-wrapper input[type=date], .edubin-form-wrapper input[type=datetime], .edubin-form-wrapper input[type=datetime-local], .edubin-form-wrapper input[type=email], .edubin-form-wrapper input[type=month], .edubin-form-wrapper input[type=number], .edubin-form-wrapper input[type=password], .edubin-form-wrapper input[type=range], .edubin-form-wrapper input[type=search], .edubin-form-wrapper input[type=tel], .edubin-form-wrapper input[type=text], .edubin-form-wrapper input[type=time], .edubin-form-wrapper input[type=url], .edubin-form-wrapper input[type=week], .edubin-form-wrapper select, .edubin-form-wrapper textarea {
+    color: #8a8a8a;
+    width: 100%;
+    overflow: hidden;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.edubin-form-wrapper input[type=submit], .edubin-form-wrapper button[type=submit] {
+    background-color: var(--edubin-btn-bg-color);
+    padding: 15px 30px;
+    border: 1px solid var(--edubin-btn-border-color);
+    font-size: 15px;
+    line-height: 17px!important;
+    color: var(--edubin-btn-color);
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+.edubin-form-wrapper input[type=submit]:hover, .edubin-form-wrapper button[type=submit]:hover {
+    color: var( --edubin-btn-hover-color);
+    border-color:var( --edubin-btn-border-hover-color);
+    background-color: var( --edubin-btn-bg-hover-color);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}

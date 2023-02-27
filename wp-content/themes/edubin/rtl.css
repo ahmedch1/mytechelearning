@@ -1,0 +1,1846 @@
+/*
+Theme Name: Edubin
+
+Adding support for languages written in a Right To Left (RTL) direction is easy,
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/* Reset */
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+th {
+    text-align: right;
+}
+
+/* Accessibility */
+.screen-reader-text:focus {
+    left: auto;
+    right: 5px;
+}
+
+/* Typography */
+textarea {
+    padding-right: 12px;
+}
+
+li>ul, li>ol {
+    margin-left: 0;
+    margin-right: 1.5em;
+}
+
+th:first-child, td:first-child {
+    padding-left: 0.4em;
+    padding-right: 0;
+}
+
+th:last-child, td:last-child {
+    padding-left: 0;
+    padding-right: 0.4em;
+}
+
+/* Forms */
+input[type="radio"], input[type="checkbox"] {
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+
+/* Media */
+.mejs-offscreen {
+    right: -10000px;
+}
+
+/* Site Branding */
+.custom-logo-link {
+    padding-left: 1em;
+    padding-right: 0;
+}
+
+/* Main Navigation */
+.main-navigation ul {
+    text-align: right;
+}
+
+.main-navigation ul ul {
+    padding-left: 0;
+    padding-right: 1.5em;
+}
+
+.menu-toggle .icon {
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+
+.dropdown-toggle {
+    left: -0.5em;
+    right: auto;
+}
+
+/* Blog, Archive, Search */
+.author.vcard img {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.blog .entry-meta a.post-edit-link, .archive .entry-meta a.post-edit-link, .search .entry-meta a.post-edit-link {
+    margin-left: 0;
+    margin-right: 1em;
+}
+
+.search .page .entry-meta a.post-edit-link {
+    margin-right: 0;
+}
+
+.sticky .icon-thumb-tack {
+    left: auto;
+    right: -1.5em;
+}
+
+.prev.page-numbers .icon, .next.page-numbers .icon {
+    display: inline-block;
+    -ms-transform: rotate(180deg);    /* IE 9 */
+    -webkit-transform: rotate(180deg);    /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.nav-links .nav-previous .nav-title .nav-title-icon-wrapper {
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+
+.nav-links .nav-next .nav-title .nav-title-icon-wrapper {
+    margin-left: 0;
+    margin-right: 0.5em;
+}
+
+ul.entry-meta li i {
+    padding-right: 0;
+    float: right;
+    padding-left: 6px;
+}
+
+.post .entry-meta li.byline.list-inline-item {
+    margin-right: 0 !important;
+}
+
+.post .entry-meta li span.author i {
+    float: none;
+    display: inline-flex;
+}
+
+/* Blog Entries */
+.list-inline-item:not(:last-child) {
+    margin-right: inherit;
+    margin-left: 0.5rem;
+}
+.post-share.style-01 .share-label {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.edubin-entry-footer .entry-post-share {
+    text-align: left;
+}
+
+.post-share .share-list {
+    right: inherit !important;
+    left: 85px;
+}
+
+.edubin-entry-footer .cat-links, .edubin-entry-footer .tags-links {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.edubin-entry-footer .cat-links .icon, .edubin-entry-footer .tags-links .icon {
+    left: auto;
+    margin-left: 0.5em;
+    margin-right: 0;
+    right: 0;
+}
+
+.post-share .share-list:before {
+    left: 20px;
+    right: inherit;
+}
+
+.post-share.style-03 .share-icon {
+    margin-left: inherit;
+    margin-right: 8px;
+}
+
+/* Comments */
+.comment-body {
+    margin-left: 0;
+    margin-right: 65px;
+}
+
+.comment-reply-link .icon {
+    left: auto;
+    right: -2em;
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.comment-metadata {
+    margin-bottom: 10px;
+    margin-right: 55px;
+}
+
+.comment-reply-link {
+    padding-right: 0;
+}
+
+.comment-author .avatar {
+    left: auto;
+    right: 0;
+}
+
+.comment-reply-link:before {
+    left: auto;
+    right: -2em;
+}
+
+.children .comment-author .avatar {
+    left: auto;
+    right: 0x;
+}
+
+.form-submit {
+    text-align: left;
+}
+
+/* Post Formats */
+.format-quote blockquote .icon {
+    left: auto;
+    right: -1.25em;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+/* Post Navigation */
+.nav-links .nav-previous .nav-title .nav-title-icon-wrapper, .nav-links .nav-next .nav-title .nav-title-icon-wrapper {
+    display: inline-block;
+    -ms-transform: rotate(180deg);    /* IE 9 */
+    -webkit-transform: rotate(180deg);    /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+/* Widgets */
+.widget .widget-title:after {
+    margin-right: 15px;
+}
+
+.widget ul {
+    margin: 0;
+}
+
+.search-form .search-submit {
+    left: 0px;
+    right: auto;
+}
+
+.search-form i {
+    margin-left: 0;
+}
+
+.tagcloud ul li {
+    float: right;
+    margin: 4px 0 0 4px;
+}
+
+.widget ul li li {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+.widget_text ul {
+    margin: 0 1.5em 1.5em 0;
+}
+
+.widget_text ul li ul {
+    margin: 0 1.5em 0 0;
+}
+
+/* Footer */
+.social-navigation a {
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+/* Customizer styles */
+.edubin-customizer.edubin-front-page .edubin-panel .edubin-panel-title {
+    left: 3.2em;
+    right: auto;
+}
+
+/* Gallery Styles */
+.gallery-item, .gallery-caption {
+    text-align: right;
+}
+
+/* SVG Fallback */
+.no-svg .dropdown-toggle {
+    left: 0;
+    right: auto;
+}
+
+/* Media queries */
+@media screen and (min-width:48em) {
+    body.page-template-full-width-page #primary {
+        float: none;
+    }
+
+    .has-sidebar #secondary {
+        float: left;
+        display: contents;
+    }
+
+    .error404 #primary {
+        float: none;
+    }
+
+    /* Site Branding */
+    .custom-logo-link {
+        padding-left: 2em;
+        padding-right: 0;
+    }
+
+    /* Navigation */
+    .main-navigation ul ul {
+        padding-right: 0;
+    }
+
+    .main-navigation ul ul:before, .main-navigation ul ul:after {
+        left: 0.5em;
+        right: auto;
+    }
+
+    .main-navigation ul ul, .main-navigation ul ul ul {
+        left: auto;
+        right: -999em;
+    }
+
+    .main-navigation ul ul li:hover>ul, .main-navigation ul ul li.focus>ul {
+        left: auto;
+        right: 100%;
+    }
+
+    .main-navigation ul li:hover>ul, .main-navigation ul li.focus>ul {
+        left: auto;
+        right: 0.5em;
+    }
+
+    .main-navigation ul li.menu-item-has-children:before, .main-navigation ul li.menu-item-has-children:after, .main-navigation ul li.page_item_has_children:before, .main-navigation ul li.page_item_has_children:after {
+        left: 1em;
+        right: auto;
+    }
+
+    .main-navigation .menu-item-has-children>a>.icon, .main-navigation .page_item_has_children>a>.icon {
+        left: auto;
+        right: 5px;
+    }
+
+    .main-navigation ul ul .menu-item-has-children>a>.icon, .main-navigation ul ul .page_item_has_children>a>.icon {
+        left: 1em;
+        right: auto;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    /* Scroll down arrow */
+    .navigation-top .menu-scroll-down {
+        left: 0;
+        right: auto;
+    }
+
+    .site-header .menu-scroll-down {
+        left: 0;
+        right: auto;
+    }
+
+    .entry-title a {
+        margin-left: auto;
+        margin-right: -2px;
+    }
+
+    /* Front Page */
+    .page-two-column .panel-content .entry-header {
+        float: right;
+    }
+
+    .page-two-column .panel-content .entry-content {
+        float: left;
+    }
+
+    /* Front Page - Recent Posts */
+    .page-two-column .panel-content .recent-posts {
+        clear: left;
+        float: left;
+    }
+
+    /* Blog, Archive, Search */
+    .sticky .icon-thumb-tack {
+        left: auto;
+        right: -2.5em;
+    }
+
+    .edubin-entry-footer .edit-link a.post-edit-link {
+        margin-left: 0;
+        margin-right: 1em;
+    }
+
+    /* Entry content */
+
+    /* with sidebar */
+    .has-sidebar .entry-content blockquote.alignleft {
+        margin-left: 0;
+        width: 34%;
+    }
+
+    .has-sidebar #primary .entry-content blockquote.alignright, .has-sidebar #primary .entry-content blockquote.alignright.below-entry-meta {
+        margin-right: 0;
+        width: 34%;
+    }
+
+    .has-sidebar #primary .entry-content blockquote.alignleft.below-entry-meta {
+        margin-left: -72.5%;
+        width: 62%;
+    }
+
+    /* blog index and archive */
+    .blog:not(.has-sidebar) .entry-content blockquote.alignleft, .edubin-front-page.page-two-column .entry-content blockquote.alignleft, .archive:not(.has-sidebar) .entry-content blockquote.alignleft, .page-two-column .entry-content blockquote.alignleft {
+        margin-left: 0;
+        width: 34%;
+    }
+
+    .blog:not(.has-sidebar) .entry-content blockquote.alignright, .edubin-front-page.page-two-column #primary .entry-content blockquote.alignright, .archive:not(.has-sidebar) .entry-content blockquote.alignright, .page-two-column #primary .entry-content blockquote.alignright {
+        margin-right: -72.5%;
+        width: 62%;
+    }
+
+    /* Post formats */
+    .format-quote blockquote .icon {
+        left: auto;
+        right: -1.5em;
+    }
+
+    .navigation.pagination {
+        float: left;
+    }
+
+    .has-sidebar .navigation.pagination, .archive.page-one-column:not(.has-sidebar) .navigation.pagination {
+        float: none;
+    }
+
+    .post-navigation .nav-previous {
+        float: right;
+    }
+
+    .post-navigation .nav-next {
+        float: left;
+        text-align: left;
+    }
+
+    /* Comments */
+    ol.children .children {
+        padding-left: 0;
+        padding-right: 2em;
+    }
+
+    /* Post Navigation */
+    .nav-links .nav-previous .nav-title .nav-title-icon-wrapper {
+        left: auto;
+        right: -2em;
+    }
+
+    .nav-links .nav-next .nav-title .nav-title-icon-wrapper {
+        left: -2em;
+        right: auto;
+    }
+
+    /* Footer */
+    .site-footer .widget-column.footer-widget-1 {
+        float: right;
+    }
+
+    .site-footer .widget-column.footer-widget-2 {
+        float: left;
+    }
+
+    .social-navigation {
+        clear: right;
+        float: right;
+    }
+
+    .social-navigation+.site-info {
+        margin-left: 0;
+        margin-right: 6%;
+    }
+
+}
+
+.site-footer .widget ul li a {
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width:67em) {
+
+    /* Sticky posts */
+    .sticky .icon-thumb-tack {
+        left: auto;
+        right: -1.25em;
+    }
+
+}
+
+@media screen and (min-width:79em) {
+    .has-sidebar #primary .entry-content blockquote.alignright, .has-sidebar #primary .entry-content blockquote.alignright.below-entry-meta {
+        margin-right: -20%;
+    }
+
+    .blog:not(.has-sidebar) .entry-content blockquote.alignleft, .archive:not(.has-sidebar) .entry-content blockquote.alignleft, .page-two-column .entry-content blockquote.alignleft, .edubin-front-page .entry-content blockquote.alignleft {
+        margin-left: -20%;
+    }
+
+}
+
+.header-top .header-right {
+    float: left;
+}
+
+.header-top .header-left {
+    float: right;
+}
+
+.header-top .contact-info .list-inline-item:first-child, .header-top .social-info li.list-inline-item:first-child {
+    margin-right: 0;
+}
+
+i {
+    margin-right: 0;
+}
+
+.header-top .contact-info .list-inline-item:last-child {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.header-top .social-info li i {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.header-top .social-info li.list-inline-item:last-child {
+    margin-right: 20px;
+}
+
+.header-menu .main-navigation .menu-all-pages-container li:last-child a {
+    padding-left: 0;
+}
+
+.header-menu .main-navigation .menu-all-pages-container .sub-menu li:first-child a {
+    padding-right: 20px;
+}
+
+.header-menu .site-branding {
+    float: right;
+}
+
+.header-menu .navigation-section {
+    float: left;
+}
+
+@media screen and (max-width:1024px) {
+    .mobile-menu>ul li {
+        position: relative;
+        line-height: 40px;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width:48em) {
+    .main-navigation ul li.menu-item-has-children:before, .main-navigation ul li.menu-item-has-children:after, .main-navigation ul li.page_item_has_children:before, .main-navigation ul li.page_item_has_children:after {
+        left: auto;
+        right: 2rem;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .navigation-section {
+        width: auto;
+    }
+
+    .zmm-dropdown-toggle {
+        left: 0;
+        right: auto;
+    }
+
+}
+
+.page-header.jumbotron {
+    border-radius: 0;
+}
+
+.post .entry-meta li {
+    margin-left: 10px;
+    padding-left: 6px;
+}
+
+.post .entry-meta li:first-child {
+    margin-right: 0;
+}
+
+.post .entry-meta li:last-child {
+    margin-right: .5rem;
+}
+
+.post-navigation .nav-links .nav-next i, .post-navigation .nav-links .nav-previous i {
+    display: none;
+}
+
+.post-navigation .nav-next .nav-title::before {
+    content: "\f053";
+    font-family: fontawesome;
+    margin-right: 7px;
+}
+
+.post-navigation .nav-previous .nav-title::after {
+    content: "\f054";
+    font-family: fontawesome;
+    margin-left: 7px;
+}
+
+.site-footer form.search-form button {
+    height: 46px;
+}
+
+body .not-found .search-form .search-submit, .wrong-search-wrapper .search-form .search-submit {
+    right: 0;
+}
+
+.type-attachment .entry-meta li:first-child {
+    margin-right: 0;
+}
+
+.type-attachment .entry-meta li:last-child {
+    margin-right: .5rem;
+}
+
+.main-navigation .main-menu>li:last-child a {
+    padding-right: 17px;
+}
+
+@media screen and (max-width:767px) {
+    .post .entry-meta li:last-child {
+        margin-right: 0;
+    }
+
+    .type-attachment .entry-meta li:last-child {
+        margin-right: 0;
+    }
+
+    .type-attachment p.attachment {
+        margin-top: 25px;
+    }
+
+}
+
+/* New style for RTL start*/
+
+/* Header */
+
+.header-top .header-right .login-register {
+    padding-left: 0;
+}
+
+.header-top .header-right .login-register ul li::before {
+    right: inherit;
+    left: 49%;
+}
+
+.header-top .header-right .login-register ul li:first-child {
+    padding-right: 15px;
+}
+
+.header-top .header-right .edubin-custom-user-profile ul li::after {
+    left: -15px;
+    right: unset;
+}
+
+.header-top ul.social-icons li {
+    padding: 0 7px 0 0;
+}
+
+.header-top ul.social-icons li:last-child {
+    padding-right: 8px;
+}
+
+.header-top .header-left {
+    text-align: right;
+}
+
+.header-right-icon.pull-right {
+    float: left;
+    margin-left: 0;
+}
+
+.header-right-icon ul li {
+    margin-left: 15px;
+}
+
+.is-header-top-main .page-header {
+    text-align: right;
+}
+
+.header-top ul.social-icons {
+    float: left;
+}
+
+/* Menu */
+.main-navigation ul ul a::before {
+    right: 5px;
+}
+
+.main-navigation ul ul a:hover::before {
+    right: 18px;
+}
+
+.main-navigation ul ul a:hover {
+    padding-right: 35px;
+}
+
+/* Widget/sidebar */
+.widget input[type="search"].search-field {
+    padding: 0.58em 15px 0.58em 10px;
+}
+
+/* Blog */
+article.post {
+    text-align: right;
+}
+
+#secondary.widget-area .widget {
+    text-align: right;
+}
+
+div#comments {
+    text-align: right;
+}
+
+.edubin-search-box .edubin-search-form button {
+    right: 72%;
+}
+
+.edubin-latest-news.layout-1 .single-news {
+    text-align: right;
+}
+
+.single-news .news-cont ul li {
+    margin-right: 0;
+}
+
+.edubin-latest-news .single-news .news-cont ul li {
+    margin-right: 0;
+}
+
+.edubin-latest-news.layout-5 .single-news .news-cont ul li a i {
+    float: right;
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.edubin-latest-news.layout-5 .single-news .news-cont ul li a {
+    margin-right: 0;
+}
+
+.edubin-latest-news.layout-5 .single-news .news-cont ul li i {
+    margin-left: 8px;
+}
+
+nav.navigation.pagination {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.edubin_recent_post img {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* Testimonial */
+.edubin-testi-3 .testimonial-thum {
+    float: right;
+    padding-right: 40px;
+}
+
+.edubin-testi-3 .testimonial-cont:after {
+    right: 40px;
+    left: unset;
+}
+
+.edubin-single-course-2>.thum .edubin-course-price-4 {
+    right: unset;
+    left: 15px;
+}
+
+/*Footer*/
+.site-footer .footer-top {
+    text-align: right;
+}
+
+.site-footer .widget ul.menu li:before {
+    content: "\f134";
+}
+
+.site-footer .widget ul li:before {
+    content: "\f15d";
+    right: 0;
+}
+
+.site-footer .widget ul.menu li {
+    padding: 4px 14px 4px 0;
+}
+
+.site-footer .widget ul li {
+    padding-right: 12px;
+}
+
+.site-footer .two-column-menu.widget ul.menu li {
+    padding: 4px 15px 4px 0;
+}
+
+.site-footer .widget .edubin-social a i {
+    margin-left: 0;
+}
+
+/* Owl carousel */
+.owl-carousel, .bx-wrapper {
+    direction: ltr;
+}
+
+.owl-carousel .owl-item {
+    direction: rtl;
+}
+
+/* Slick */
+.slick-slider .slick-track, .slick-slider .slick-list {
+    direction: ltr;
+}
+
+/*zoom*/
+.edubin-zm-single {
+    text-align: right;
+}
+
+.dpn-zvc-primary {
+    text-align: right;
+}
+
+/* Shop/Woocommerce */
+.woocommerce-product-gallery {
+    direction: ltr;
+}
+
+body:not(.edubin-front-page) .entry-header, body:not(.edubin-front-page) .entry-content, body:not(.edubin-front-page) #comments {
+    text-align: right;
+    padding: 30px;
+}
+
+.woocommerce ul.products li.product a i {
+    margin-right: 0;
+}
+
+.woocommerce a.add_to_cart_button {
+    margin-right: 0;
+}
+
+.related.products>h2 {
+    text-align: right;
+}
+
+.woocommerce span.onsale {
+    right: 0;
+}
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    float: left;
+    text-align: right
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    float: right;
+}
+
+.single-product.woocommerce .product .product_title {
+    text-align: right;
+}
+
+.woocommerce div.product form.cart .button {
+    float: right;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.single-product.woocommerce .quantity .qty {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: 5px;
+}
+
+.woocommerce div.product form.cart div.quantity {
+    float: right;
+}
+
+.woocommerce .woocommerce-product-rating .star-rating {
+    margin: .5em 4px 20px 4px;
+    float: right;
+}
+
+.woocommerce table.shop_table {
+    text-align: right;
+}
+
+.woocommerce-checkout .checkout .col-2 h3#ship-to-different-address {
+    float: right;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li {
+    text-align: right;
+}
+
+.woocommerce div.product p.price del, .woocommerce div.product span.price del {
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin: 0 0 0 0;
+    padding: 0 80px 20px 30px;
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+    float: right;
+    left: inherit;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+    display: block;
+    clear: both;
+}
+
+.woocommerce .star-rating {
+    margin-bottom: 15px;
+}
+
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+    text-align: left;
+}
+
+.woocommerce form.register {
+    text-align: revert;
+}
+
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+    text-align: right;
+}
+
+/* Global Course */
+.edubin-course .author__name img.avatar {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.edubin-course .course-meta span {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.tutor-course-loop-price>.price .tutor-loop-cart-btn-wrap, .tutor-course-loop-price .tutor-public-course-start-learning {
+    margin-left: inherit;
+}
+
+.tutor-course-loop-header-meta .tutor-course-wishlist {
+    float: left;
+}
+
+.tutor-loop-author>div {
+    float: right;
+}
+
+.tutor-single-course-avatar {
+    margin-right: 0;
+}
+
+.tutor-loop-author .tutor-single-course-avatar .tutor-text-avatar {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.tutor-star-rating-group i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+/* LearnPress */
+.edubin-course .course__media+.course__content .course__content--info {
+    text-align: right;
+}
+#popup-course #sidebar-toggle {
+    right: 475px;
+}
+
+.edubin-course-top-info .course-title {
+    margin-left: 85px;
+    margin-right: 0;
+}
+
+.edubin-course-top-info .course-short-text {
+    padding-right: 0;
+    padding-left: 150px;
+}
+
+.single-lp_course .entry-content-left {
+    padding-right: 0;
+    padding-left: 40px;
+}
+
+.lp-sidebar-col {
+    padding-left: 0;
+    padding-right: 15px;
+}
+@media (max-width:922px) {
+    .edubin-course-top-info .course-title {
+        margin-left: 0;
+    }
+
+    .edubin-course-top-info .course-short-text {
+        padding-left: 0;
+    }  
+.single-lp_course .entry-content-left {
+    padding-right: 0;
+    padding-left: 0;
+}
+}
+.single-course-layout-01 #learn-press-course-tabs ul.learn-press-nav-tabs {
+    display: flow-root;
+}
+
+.single-lp_course .course-tab-panel .lp-course-author {
+    display: inline-flex;
+    padding-top: 30px;
+}
+.single-lp_course .course-tab-panel .course-description{
+    padding-top: 30px;
+}
+#learn-press-course-tabs ul.learn-press-nav-tabs:after {
+    top: 44px;
+}
+
+.course-tab-panel .lp-course-author .course-author__pull-left {
+    margin-right: inherit;
+    margin-left: 40px;
+}
+
+.single-lp_course .course-curriculum .section-header {
+    padding: 30px 0 26px 0;
+}
+
+.learnpress .course-features ul li i {
+    margin-left: 8px;
+}
+
+.edubin-course-rating .course-rate__details {
+    margin-right: 0;
+}
+
+.course-rate .course-rate__details {
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+.course-features .course-rate .course-rate__details {
+    margin-right: 0;
+}
+
+.edubin-single-course-1 .thum .edubin-course-price-1 {
+    right: unset;
+    left: 40px;
+}
+
+.edubin-lp-courses-addons.edubin-nav-button-2 .edubin-carousel-activation button.edubin-carosul-next {
+    right: 100% !important;
+}
+
+.edubin-lp-courses-addons.edubin-nav-button-2 .edubin-carousel-activation:hover button.slick-arrow i {
+    margin-left: 0;
+}
+
+.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta {
+    text-align: left !important;
+}
+
+#learn-press-profile-nav {
+    float: right !important;
+    margin-left: 30px !important;
+}
+
+#learn-press-profile-nav .tabs>li:hover:not(.active) ul {
+    right: 100% !important;
+}
+
+.edubin-single-course-1 .course-bottom>.thum {
+    margin-left: 5px;
+}
+
+.edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.slick-arrow {
+    right: 92%;
+}
+
+.edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.edubin-carosul-next {
+    right: auto;
+    left: 0;
+}
+
+.edubin-single-course-1 .course-content {
+    text-align: right;
+}
+
+.edubin-single-course-1 .course-bottom .admin {
+    float: left;
+}
+
+.learnpress .edubin-course-info ul li span.value {
+    float: left;
+}
+
+.learnpress .edubin-course-info ul li span.label {
+    float: right;
+}
+
+ul.learn-press-nav-tabs .course-nav {
+    float: right !important;
+}
+
+.learnpress .lp-single-course .course-author .author-name {
+    margin: 0 0 0 30px;
+}
+
+.lp-single-course .course-author .author-name {
+    float: right !important;
+}
+
+.edubin-course-rating .rating-number span {
+    float: left;
+}
+
+.lp-single-course .course-features .lp-course-buttons {
+    float: left;
+}
+
+.edubin-single-course-1 .course-bottom .admin ul {
+    padding-left: 0;
+}
+
+.edubin-single-course-1 .course-bottom .admin ul li i {
+    margin-left: 0;
+}
+
+.edubin-single-course-1 .course-bottom .admin ul li {
+    margin-left: 15px;
+}
+
+.edubin-single-course-1 .course-bottom .admin ul li:last-child {
+    margin-left: 0;
+}
+
+.learnpress .entry-content .lp-archive-courses ul {
+    float: right !important;
+    float: none !important;
+}
+
+.courses-search.float-right {
+    float: right !important;
+}
+
+.courses-search button {
+    left: 5px;
+    right: unset;
+}
+
+.edubin-single-course-1 ul.edubin-course-rate {
+    padding-left: 10px;
+    margin-bottom: -3px;
+    position: relative;
+    top: 0;
+}
+
+.single-lp_course .lp-archive-courses .course-summary .course-summary-content .lp-entry-content.lp-content-area .entry-content-left {
+    padding-left: 40px;
+}
+
+.edubin-course-info ul li i {
+    margin-right: 0;
+    margin-left: 8px;
+    float: right;
+    margin-top: 0;
+}
+.single-course-layout-01 #learn-press-course-tabs ul.learn-press-nav-tabs .course-nav label {
+    padding: 9px 20px;
+}
+.single-course-layout-04 #learn-press-course-tabs ul.learn-press-nav-tabs .course-nav label {
+    padding: 9px 20px;
+}
+.edubin-course-info ul li:first-child i {
+    margin-top: 0;
+}
+
+body #popup-course #popup-header, body #popup-course #popup-footer {
+    left: 0;
+    right: inherit;
+}
+
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .item-icon, .single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .item-name {
+    text-align: right;
+}
+
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item {
+    padding: 0 15px 0 15px;
+}
+
+.single-lp_course #learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link {
+    width: calc(100% - 1px);
+}
+
+.single-lp_course #popup-course #popup-sidebar .course-curriculum .section .section-content .course-item .section-item-link .course-item-meta {
+    text-align: right !important;
+}
+
+.single-lp_course #popup-course #popup-sidebar .course-curriculum .section .section-content .course-item .section-item-link .course-item-meta .item-meta {
+    margin-right: 8px;
+}
+
+.single-lp_course #popup-course #popup-sidebar .course-curriculum .section .section-header .section-left .section-title {
+    text-align: right;
+    padding-right: 8px;
+}
+
+/* The events calender */
+.edubin-single-event-addon .event-meta-wrap>span:nth-child(1) {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.edubin-single-event-addon .event-meta-wrap>span i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.events-address ul li .single-address .icon {
+    right: 0;
+}
+
+.events-address ul li .single-address .cont {
+    padding-left: 0;
+    padding-right: 28px;
+}
+
+#tribe-events .tribe-events-button {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.edubin-event {
+    text-align: right;
+}
+
+.edubin-event ul li .edubin-single-event span {
+    margin-right: 0;
+}
+
+.post-type-archive-tribe_events span.tribe-events-c-small-cta__price {
+    right: 43px;
+}
+
+.tribe-events-calendar-day span.tribe-events-c-small-cta__price {
+    right: -100px;
+}
+
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-g-row--gutters>.tribe-common-g-col {
+    text-align: right;
+}
+
+.events-address ul li .single-address {
+    text-align: right;
+}
+
+.single-tribe_events a.tribe-events-gcal, .single-tribe_events a.tribe-events-ical {
+    margin-right: 15px;
+}
+
+.edubin-enevt-content {
+    text-align: right;
+}
+
+.single-tribe_events .tribe-events-cal-links {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--labels .tribe-events-c-view-selector__button:after {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.tribe-events .tribe-events-c-top-bar__datepicker-button:after {
+    margin-right: 6px;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-nav__next:after {
+    margin-left: inherit;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-nav__next:after {
+    margin-right: 8px;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-nav__prev:before {
+    margin-right: inherit;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-nav__prev:before {
+    margin-left: 8px;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__today-button {
+    margin-right: inherit;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__today-button {
+    margin-left: 15px;
+}
+
+.tribe-events .tribe-events-c-top-bar__nav-list-item {
+    padding-right: inherit;
+}
+
+.tribe-events .tribe-events-c-top-bar__nav-list-item {
+    padding-left: 15px;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu {
+    top: 0px;
+    left: 700px !important;
+    z-index: 10;
+    display: block;
+    width: 325px;
+}
+
+.tooltipster-base.tribe-events-tooltip-theme span.tribe-events-c-small-cta__price {
+    right: 32px;
+}
+
+/* Ultimate member */
+.um {
+    text-align: right !important;
+}
+
+.um-login.um-logout {
+    text-align: right;
+}
+
+/* Elementor page builder*/
+.edubin-rtl {
+    text-align: right;
+}
+
+.edubin-rtl-icon-none-left-margin i {
+    margin-left: 0;
+}
+
+.elementor-social-icon:last-child {
+    margin-right: 10px !important;
+}
+
+.edubin-facilities-rtl .elementor-image-box-img {
+    margin-right: 0px;
+    margin-left: 30px !important;
+}
+
+.edubin-counter-rtl .elementor-counter .elementor-counter-number-suffix {
+    text-align: right;
+}
+
+.edubin-accordion-rtl .elementor-accordion {
+    text-align: right;
+}
+
+/*Elementor addons*/
+.edubin-icon-category-style-1 button.edubin-carosul-next.slick-arrow i {
+    margin-left: 0;
+}
+
+.edubin-icon-category-style-1 button.edubin-carosul-prev.slick-arrow i {
+    margin-left: 0;
+}
+
+/*Tutor LMS */
+.tutor-loop-course-container {
+    text-align: right;
+}
+
+.tutor-course-loop-price>.price {
+    justify-content: space-between;
+}
+
+.tutor-course-loop-price>.price .tutor-loop-cart-btn-wrap {
+    margin-left: 0;
+}
+
+.tutor-loop-author {
+    float: right;
+}
+
+.tutor-single-course-segment {
+    text-align: right;
+}
+
+.tutor-custom-list-style li:before {
+    right: 0;
+}
+
+.tutor-custom-list-style li {
+    padding-right: 25px;
+}
+
+.tutor-wrap nav.course-enrolled-nav ul {
+    text-align: right;
+}
+
+.tutor-progress-percent {
+    padding-right: 20px;
+}
+
+.tutor-single-course-meta ul li {
+    float: left;
+    margin-right: 0;
+}
+
+.tutor-single-course-meta ul li {
+}
+
+.single-instructor-wrap .tutor-instructor-left {
+    padding-left: 30px;
+}
+
+.single-instructor-wrap .single-instructor-bottom .courses, .single-instructor-wrap .single-instructor-bottom .students {
+    margin-left: 20px;
+    float: right;
+}
+
+.tutor-topics-in-single-lesson .tutor-topics-title h3 {
+    text-align: right;
+    padding: 10px 55px 10px 30px;
+}
+
+.tutor-single-lesson-button-group .tutor-single-lesson-button a>i:first-child, .tutor-topics-in-single-lesson .tutor-single-lesson-items a>i:first-child {
+    margin-left: 10px;
+}
+
+.tutor-lessons-under-topic .tutor-lesson-right-icons {
+    left: 25px;
+}
+
+.tutor-single-page-top-bar {
+    padding-left: 15px;
+}
+
+.tutor-tabs-btn-group a span, .tutor-tabs-btn-group a i {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.single_add_to_cart_button i, a.tutor-button i, .tutor-button i, a.tutor-btn i, .tutor-btn i {
+    margin-left: 7px;
+}
+
+.tutor-course-lesson h5 .tutor-lesson-duration {
+    margin-left: 0;
+    margin-right: auto;
+    padding-right: 5px;
+}
+
+.tutor-course-lesson h5 i {
+    margin-left: 10px;
+}
+
+.tutor-lessons-under-topic .tutor-lesson-right-icons .tutor-lesson-complete {
+    margin-right: 8px;
+}
+
+.tutor-single-lesson-button-group .tutor-single-lesson-button a, .tutor-topics-in-single-lesson .tutor-single-lesson-items a {
+    padding: 15px 20px 15px 30px;
+}
+
+.tutor-dashboard-info-table-wrap table {
+    text-align: right;
+}
+
+.tutor-dashboard-info-cards {
+    text-align: right;
+}
+
+.tutor-dashboard-permalinks a {
+    display: flex;
+}
+
+.tutor-dashboard-permalinks a:before {
+    margin-left: 15px;
+    float: right;
+    margin-right: 0;
+}
+
+.tutor-dashboard-content {
+    text-align: right;
+}
+
+.tutor-dashboard-header-info {
+    padding-right: 20px;
+    text-align: right;
+}
+
+.rtl .single-instructor-wrap .instructor-bio {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-top .header-right .edubin-custom-user-profile {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.tutor-course-builder-upload-tips ul li {
+    text-align: right;
+}
+
+.tutor-course-builder-upload-tips ul li::after {
+    left: inherit;
+    right: -26px;
+}
+
+.tutor-course-builder-upload-tips ul {
+    padding: 0 35px 0 0;
+}
+
+.tutor-course-builder-upload-tips .tutor-course-builder-tips-title i {
+    margin-left: 11px;
+    margin-right: inherit;
+}
+
+.tutor-option-field-row label, .tutor-form-group label {
+    text-align: right;
+}
+
+.settings-tabs-heading h3 {
+    text-align: right;
+}
+
+.tutor-course-builder-section-title h3 span, .tutor-course-builder-section-title h3 i {
+    float: right;
+}
+
+.tutor-topic-title {
+    padding-right: 15px;
+}
+
+.tutor-dashboard-builder-header .tutor-dashboard-builder-header-left button i {
+    margin-left: 9px;
+}
+
+.tutor-dashboard-builder-header .tutor-dashboard-builder-header-right a i {
+    padding-left: 9px;
+}
+
+.tutor-frontend-builder-item-scope {
+    text-align: right;
+}
+
+.tutor-form-group {
+    text-align: left;
+}
+
+.tutor-styled-radio>span::before {
+    right: 0;
+}
+
+.tutor-styled-radio>span {
+    padding-right: 30px;
+}
+
+.select2-results__option[aria-selected] {
+    text-align: right;
+}
+
+.tutor-align-items-center {
+    text-align: right;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    text-align: right;
+}
+
+.select2-selection__rendered [class^="tutor-icon-"] {
+    vertical-align: baseline;
+    margin-left: 6px;
+}
+
+.tutor-course-available-instructors .added-instructor-item .instructor-icon {
+    margin-left: 15px;
+}
+
+.tutor-add-quiz-button-wrap>*+* {
+    margin-right: 15px;
+}
+
+.tutor-untopics-lessons .course-content-item .tutor-lesson-top i, .course-contents .course-content-item .tutor-lesson-top i {
+    padding-left: 7px;
+}
+
+.course-move-handle {
+    line-height: inherit;
+}
+
+.tutor-metabox-add-topics, .tutor-topics-edit-form {
+    text-align: right;
+}
+
+.tutor-option-gorup-fields-wrap .tutor-lesson-video-runtime .tutor-option-group-field {
+    padding-left: 30px;
+}
+
+.mce-container, .mce-container *, .mce-widget, .mce-widget * {
+    text-align: right;
+}
+
+.tutor-course-level-meta label {
+    margin: 0 0 0 40px;
+}
+
+.settings-tabs-navs-wrap .settings-tabs-navs {
+    text-align: right;
+}
+
+.course-settings-tabs-container .settings-tabs-container {
+    text-align: right;
+}
+
+.tutor-topic-title {
+    padding-left: 15px;
+    text-align: right;
+}
+
+.tutor-option-gorup-fields-wrap .tutor-lesson-video-runtime .tutor-option-group-field {
+    padding-right: 30px;
+}
+
+.lesson-modal-close-wrap a {
+    left: 0;
+    right: auto;
+}
+
+.tutor-modal-wrap .modal-header h1 {
+    text-align: right;
+}
+
+.quiz-modal-tab-navigation-btn.quiz-modal-btn-first-step {
+    margin-left: 10px;
+}
+
+.tutor-next-previous-pagination-wrap {
+    flex-direction: row-reverse;
+}
+
+.edubin-quickinfo .qicon i {
+    margin-left: 10px;
+}
+
+.tutor-price-preview-box .price {
+    text-align: right;
+}
+
+.tutor-alert-warning {
+    text-align: right;
+}
+
+.tutor-segment-title.edubin-tutor-segment-title {
+    padding: 40px 40px 25px 40px;
+    text-align: right;
+}
+
+.tutor-question-top {
+    -ms-flex-direction: row-reverse;
+    flex-direction: inherit;
+}
+
+.tutor-lesson-content-area, .tutor-quiz-single-wrap {
+    text-align: right;
+}
+
+.tutor-certificate-btn-group .tutor-copy-link {
+    margin-left: 15px;
+}
+
+.tutor-certificate-sidebar-course {
+    text-align: right;
+}
+
+.tutor-certificate-sidebar-course .tutor-star-rating-group {
+    text-align: right;
+}
+
+.tutor-sidebar-course-author img {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.tutor-sidebar-filter .single-filter {
+    text-align: right;
+}
+
+.tutor-sidebar-filter .single-filter label .filter-checkbox {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.tutor-archive-single-cat .category-toggle {
+    right: inherit;
+    left: 0;
+}
+
+.tutor-sidebar-filter .edubin-filter-course-count {
+    float: left;
+    padding-right: 0;
+    padding-left: 25px;
+}
+
+.tutor-course-pricing .tutor-course-loop-price .tutor-loop-cart-btn-wrap {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.tutor-course-col .tutor-course-body {
+    text-align: right;
+}
+
+.tutor-course-col .tutor-course .tutor-loop-rating-wrap .tutor-star-rating-group i {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+.tutor-certificate-sidebar-btn-container .download-btn {
+    padding-right: 50px;
+}
+
+.tutor-question-wrap {
+    text-align: right;
+}
+
+.question-top-meta .tutor-question-avater {
+    float: right;
+}
+
+.question-top-meta .review-meta {
+    float: right;
+    margin-right: 10px;
+}
+
+.tutor-user-public-profile .photo-area .pp-area {
+    padding-right: 25px;
+    top: -220px;
+}
+
+.tutor-user-public-profile .photo-area .pp-area .profile-name {
+    padding-right: 25px;
+    padding-bottom: 0;
+}
+
+.tutor-user-public-profile .tutor-user-profile-content {
+    float: right;
+    text-align: right;
+}
+
+.tutor-course-filter-wrapper>div:first-child h4 {
+    text-align: right;
+}
+
+.tutor-course-filter-wrapper>div:first-child label {
+    text-align: right;
+}
+
+.tutor-course-filter-wrapper>div:last-child {
+    padding-right: 30px !important;
+}
+
+.tutor-course-filter-wrapper>div:first-child {
+    float: right;
+}
+
+.tutor-single-course-meta.tutor-meta-top li.tutor-course-level {
+    margin-left: 10px;
+}
+
+.tutor-review-individual-item .review-avatar {
+    float: right;
+}
+
+.single-instructor-wrap .tutor-instructor-left {
+    padding-right: 0;
+}
+
+.single-instructor-wrap .instructor-avatar {
+    float: right;
+}
+
+.single-instructor-wrap .instructor-name {
+    padding-right: 20px;
+}
+
+/*LearnDash LMS*/
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-expand-button {
+    padding-right: 0;
+}
+
+.edubin-lp-courses-addons.edubin-nav-button-2 .edubin-carousel-activation button.slick-arrow {
+    right: 0;
+}
+
+.edubin-single-course-1.ld-course .course-bottom .course-meta {
+    float: left;
+}
+
+.edubin-single-course-2.ld-course .see-more-btn {
+    float: right;
+}
+
+/*Edubin core*/
+.instructor-1 .instructor-1-single .cont {
+    padding-right: 20px;
+}
+
+.instructor-1 .instructor-1-single .cont span i {
+    margin-left: 5px;
+}

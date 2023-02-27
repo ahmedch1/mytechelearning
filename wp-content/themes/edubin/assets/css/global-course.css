@@ -1,0 +1,1458 @@
+/*========================*
+    Global Course CSS 
+*=========================*/
+body.single-course-layout-01 .page-header {
+    text-align: center;
+}
+
+/* ===== Course singe page layout 2 top header info ======= */
+.edubin-course-top-info.course-page-header.dark {
+    background-position: center;
+    background-size: cover;
+    min-height: 290px;
+    position: relative;
+}
+
+.edubin-course-top-info.course-page-header.dark:before {
+    background-color: #07294d;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+
+.edubin-single-course-lead-info {
+    z-index: 1;
+    position: relative;
+}
+
+.edubin-course-top-info {
+    background: #eff1f6;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.is-header-top-main .edubin-course-top-info {
+    margin-top: 45px;
+}
+
+.edubin-single-course-lead-info .header-breadcrumb {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.edubin-course-top-info .course-title {
+    color: var(--edubin-heading-color);
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 85px;
+}
+
+.edubin-course-top-info .edubin-single-course-lead-meta {
+    margin: 0 -15px;
+    color: var(--edubin-content-color);
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 36px;
+    margin-bottom: 5px;
+}
+
+.edubin-course-top-info .lead-meta-label {
+    margin-right: 14px;
+}
+
+.edubin-course-top-info .lead-meta-item+.lead-meta-item:before {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    content: "";
+    width: 1px;
+    height: 18px;
+    background: #b6b9bc;
+}
+
+.edubin-course-top-info .lead-meta-item {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0 0;
+    padding: 0 15px;
+}
+
+.edubin-course-top-info .course-short-text {
+    margin-top: 25px;
+    padding-right: 150px;
+}
+
+.single-course-layout-03 .edubin-course-top-info .course-short-text {
+    padding-right: 0;
+}
+
+.single-course-layout-03 .edubin-course-top-info .course-title {
+    font-size: 42px;
+    margin-right: 0;
+}
+
+.edubin-course-top-info .course-short-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media (max-width:768px) {
+    .edubin-course-top-info {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        min-height: inherit;
+    }
+
+    .edubin-course-top-info .course-title {
+        margin-right: 0;
+    }
+
+    .edubin-course-top-info .course-short-text {
+        padding-right: 0;
+    }
+
+}
+
+.edubin-course-top-info .lead-meta-value a {
+    color: var(--edubin-heading-color);
+    font-weight: 400;
+}
+
+.edubin-course-top-info  .tutor-meta-value, .edubin-course-top-info .tutor-meta a {
+    font-weight: 400;
+}
+
+.edubin-course-top-info .page-title-bar-meta {
+    text-align: center;
+}
+
+.edubin-course-top-info .page-title-bar-meta > div {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.edubin-course-top-info .page-title-bar-meta > div a {
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-top-info .page-title-bar-meta > div a:hover {
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-top-info .page-title-bar-meta div span {
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-top-info .page-title-bar-meta .post-author img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #fff;
+}
+
+.edubin-course-top-info .page-title-bar-meta .meta-icon {
+    font-size: 14px;
+    margin-right: 7px;
+}
+
+/* ===== Course singe page layout 2 top header info light ======= */
+.edubin-course-top-info.light .header-breadcrumb a {
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-top-info.light .header-breadcrumb ul li.trail-end {
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-top-info.light .trail-items li::after {
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-top-info.light .header-breadcrumb a:hover:hover, .edubin-course-top-info.light .header-breadcrumb a:active:hover, .edubin-course-top-info.light .header-breadcrumb a:focus:hover, .edubin-course-top-info.light .header-breadcrumb a:visited:hover {
+    color: var(--edubin-primary-color);
+}
+
+/* ===== Course singe page layout 2 top header info dark ======= */
+.edubin-course-top-info.dark {
+    background: #021c3b;
+}
+
+.edubin-course-top-info.dark .course-title {
+    color: #fff;
+}
+
+.edubin-course-top-info.dark .edubin-single-course-lead-meta {
+    color: #fff;
+}
+
+.edubin-course-top-info.dark .lead-meta-item+.lead-meta-item:before {
+    background: #d9dee3;
+}
+
+.edubin-course-top-info.dark .course-short-text p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.edubin-course-top-info.dark .lead-meta-value a {
+    color: #fff;
+}
+
+.edubin-course-top-info.dark .page-title-bar-meta > div a {
+    color: #fff;
+}
+
+.edubin-course-top-info.dark .page-title-bar-meta > div a:hover {
+    color: #fff;
+}
+
+.edubin-course-top-info.dark .page-title-bar-meta div span {
+    color: #fff;
+}
+
+.edubin-course-top-info.dark .header-breadcrumb a:hover:hover, .edubin-course-top-info.dark .header-breadcrumb a:active:hover, .edubin-course-top-info.dark .header-breadcrumb a:focus:hover, .edubin-course-top-info.dark .header-breadcrumb a:visited:hover {
+    color: var(--edubin-primary-color);
+}
+
+/*
+Course Sidebar
+*/
+#secondary.widget-area .widget.course__widget {
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #ededed;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.course-sidebar-preview {
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ededed;
+    box-shadow: 0 0 30px rgb(0 0 0 / 5%);
+}
+
+.widget-area .widget.edubin-course-widget {
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #ededed;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.intro-video-sidebar {
+    margin-bottom: 35px;
+}
+
+.intro-video-sidebar.full__preview {
+    margin-bottom: 35px;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-right: -30px;
+}
+
+.widget.edubin-ld-widget>.intro-video-sidebar {
+    margin-bottom: 0;
+}
+
+.intro-video-sidebar .intro-video {
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 3px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-video-sidebar.intro-video-content .intro-video {
+    padding: 190px 0;
+}
+
+.intro-video-sidebar.is__sidebar .intro-video {
+    padding: 0;
+}
+
+@media (max-width:991.98px) {
+    .intro-video-sidebar .intro-video {
+        padding: 160px 0;
+    }
+
+    .intro-video-sidebar.intro-video-content .intro-video {
+        padding: 180px 0;
+    }
+
+}
+
+@media (max-width:768.98px) {
+    .intro-video-sidebar .intro-video {
+        padding: 120px 0;
+    }
+
+    .intro-video-sidebar.intro-video-content .intro-video {
+        padding: 150px 0;
+    }
+
+}
+
+@media (max-width:575.98px) {
+    .intro-video-sidebar .intro-video {
+        padding: 60px 0;
+    }
+
+    .intro-video-sidebar.intro-video-content .intro-video {
+        padding: 60px 0;
+    }
+
+}
+
+.intro-video-sidebar .intro-video .edubin-popup-videos {
+    background: #fff;
+    width: 52px;
+    display: inline-block;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 50%;
+    font-size: 18px;
+    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 10%);
+}
+
+.edubin-course.layout__5 .intro-video-sidebar .intro-video .edubin-popup-videos {
+    top: -24px;
+    position: relative;
+}
+
+.intro-video-sidebar .intro-video .edubin-popup-videos span {
+    top: 1px;
+    left: 2px;
+    position: relative
+}
+
+.intro-video-sidebar .intro-video .edubin-popup-videos:hover {
+    opacity: .9
+}
+
+/* ========Global sidebar course info ====== */
+.edubin-course-info {
+    padding: 0 32px 0 32px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.edubin-course-info ul.edubin-course-info {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.edubin-course-info ul li {
+    font-size: 15px;
+    overflow: hidden;
+    border-top: 1px solid rgba(204, 204, 204, 0.3);
+    padding: 13px 0;
+}
+
+.edubin-course-info ul li span.language-tag.value {
+    display: inline-grid;
+    line-height: 28px;
+}
+
+.edubin-course-info ul li:first-child {
+    border-top: none;
+}
+
+/*.edubin-course-info ul li:last-child {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+}*/
+.course-sidebar-preview .entry-post-share {
+    border-top: 1px solid rgba(204, 204, 204, 0.3);
+    padding-top: 25px;
+}
+
+.edubin-course-info ul li i {
+    color: var(--edubin-primary-color);
+    margin-right: 5px;
+}
+
+.edubin-course-info ul li span.value {
+    float: right;
+}
+
+.edubin-course-info ul li span.label {
+    font-weight: 500;
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-info ul li .language-tag.value>span:not(:first-child) {
+    display: none;
+}
+
+.edubin-course-info ul li span.lp_course_cat.value>a:not(:first-child) {
+    display: none;
+}
+
+.edubin-course-info ul li span.lp_course_cat.value>a {
+    color: var(--edubin-content-color);
+}
+
+.edubin-course-info ul li span.lp_course_cat.value>a:hover {
+    color: var(--edubin-primary-color);
+}
+
+.edubin-course-info ul li span.value a:nth-child(n+2) {
+    display: none;
+}
+
+/* ========Global related/recent post widget ====== */
+.pxcv-rr-item-widget {
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget ul.pxcv-rr-item-widget li {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.widget ul.pxcv-rr-item-widget li:last-child {
+    border-bottom: none;
+}
+
+.pxcv-rr-item-widget li {
+    padding: 0;
+    line-height: inherit;
+}
+
+.widget.edubin-lp-widget.widget_pxcv_posts ul li {
+    border-top: none;
+    padding: 25px 0;
+}
+
+.pxcv-rr-item-widget li img {
+    min-width: 92px;
+    width: 92px;
+}
+
+.pxcv-rr-item-widget .pxcv-rr-item-image_wrapper {
+    margin: 1px 19px 0 0;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.pxcv-rr-item-widget .pxcv-rr-item-image_wrapper img {
+    overflow: hidden;
+    border-radius: 100px;
+    transition: all 1.5s cubic-bezier(0, 0, .2, 1);
+}
+
+.pxcv-rr-item-widget .pxcv-rr-item-image_wrapper:hover img {
+    transition: all 1.5s cubic-bezier(0, 0, .2, 1);
+    transform: scale3d(1.1, 1.1, 1.1);
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.pxcv-rr-item-widget .meta-data {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: -3px;
+}
+
+.pxcv-rr-item-widget .meta-data span {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.pxcv-rr-item-widget .pxcv-rr-item-content_wrapper {
+    width: calc(100% - 20px);
+    align-self: center;
+}
+
+.pxcv-rr-item-widget .pxcv-rr-item-content {
+    margin-top: 3px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.pxcv-rr-item-widget .post__title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    transition: 0.4s;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.pxcv-rr-item-widget .post__title:hover {
+    color: var(--edubin-primary-color);
+}
+
+.widget_rt_posts .pxcv-rr-item-widget {
+    margin-top: 0;
+    margin-bottom: -7px;
+}
+
+.pxcv-rr-item-widget .course-price>.price>span:nth-child(1) {
+    color: var(--edubin-primary-color);
+}
+
+.pxcv-rr-item-widget span>.price {
+    color: var(--edubin-primary-color);
+    font-size: 16px !important;
+    font-weight: 500;
+}
+
+.pxcv-rr-item-widget .price__link {
+    color: var(--edubin-primary-color);
+}
+
+.widget_pxcv_posts.style__square .pxcv-rr-item-widget .pxcv-rr-item-image_wrapper {
+    min-width: 100px;
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.widget_pxcv_posts.style__square .pxcv-rr-item-widget .pxcv-rr-item-image_wrapper img {
+    min-width: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.widget_pxcv_posts.style__square .pxcv-rr-item-widget .pxcv-rr-item-image_wrapper:hover img {
+    border-radius: 5px;
+}
+
+/* ===== Sidebar course info ======= */
+.edubin-course-info {
+    margin-bottom: 20px;
+}
+
+.edubin-course-info ul {
+    list-style: none;
+}
+
+.edubin-course-info ul.course-info-list {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.edubin-course-info ul li span.value {
+    float: right;
+}
+
+.edubin-course-info ul li i {
+    margin-right: 5px;
+    color: var(--edubin-primary-color);
+}
+
+/* ==================== ## Global Course - carousel ==================== */
+.edubin-carousel-activation .slick-slide {
+    margin: 0 15px;
+}
+
+.edubin-carousel-activation .edubin-course .course__media img {
+    height: 220px;
+}
+
+/* ==================== ## Global Course - Grid ==================== */
+.course__container {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 14px 12px rgb(0 0 0 / 6%);
+    background: #ffffff;
+}
+
+.edubin-course.layout__6 .course__container {
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.course__container:hover .course__media-link:before {
+    opacity: 0.2;
+}
+
+.course__media .course__media-link:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.4s;
+    background: #1C1F27;
+    opacity: 0;
+}
+
+.edubin-course .course__content--info {
+    position: relative;
+    z-index: 1;
+    padding: 20px 30px;
+}
+
+.edubin-course {
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+}
+
+.edubin-course:hover {
+    transition: all 0.5s ease;
+}
+
+.e-c-layout-3 .edubin-course {
+    margin-bottom: 0;
+}
+
+.edubin-course .course__content-meta span {
+    font-size: 13px;
+}
+
+.edubin-course .course__content--meta>span {
+    margin-right: 10px;
+}
+
+.edubin-course .course__content-meta>span i {
+    margin-right: 2px;
+}
+
+.edubin-course .course__content--info+.course__content--meta {
+    font-size: 15px;
+    position: relative;
+    padding: 14px 30px 14px 30px;
+}
+
+.edubin-course .course-meta {
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.edubin-course .course-meta span {
+    margin-right: 8px;
+}
+
+.edubin-course .course-meta i {
+    margin-right: 4px;
+    font-size: 14px;
+    color: var(--edubin-primary-color);
+}
+
+.edubin-course .course-meta span i {
+    margin-right: 4px;
+    font-size: 14px;
+    color: var(--edubin-primary-color);
+}
+
+.edubin-course .course__border {
+    border-top: 1px solid #ebebeb;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.edubin-course .course__content--meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 30px;
+}
+
+.edubin-course .course__content--meta:empty {
+    display: none;
+}
+
+.edubin-course .course__content--meta>span:last-child {
+    margin-right: 0;
+}
+
+.edubin-course .course__content--meta>span {
+    margin-right: 10px;
+}
+
+.edubin-course .course__content--meta .price {
+    font-weight: 700;
+}
+
+.edubin-course .course__content--meta .price.see__more {
+    font-weight: 500;
+}
+
+.edubin-course .course__content--meta span i {
+    margin-right: 2px;
+    font-size: 13px;
+    color: var(--edubin-primary-color);
+}
+
+.edubin-course .course__content--meta>.price {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    color: var(--edubin-heading-color);
+}
+
+.edubin-course .course__media {
+    position: relative;
+}
+
+.edubin-course .course__media img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.edubin-course.col__4 .course__media img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.intro-video-sidebar .intro-video {
+    height: 220px;
+}
+
+.edubin-course.col__4 .intro-video-sidebar .intro-video {
+    height: 180px;
+}
+
+#edubindiv1 .edubin-course.col__3 .intro-video-sidebar .intro-video {
+    height: 180px;
+}
+
+.edubin-course.col__3 .intro-video-sidebar .intro-video {
+    height: 220px;
+}
+
+.edubin-course.col__2 .intro-video-sidebar .intro-video {
+    height: 300px;
+}
+
+.edubin-course.layout__5 .intro-video-sidebar .intro-video {
+    height: 250px;
+}
+
+.edubin-course.layout__5.col__6 .intro-video-sidebar .intro-video {
+    height: 300px;
+}
+
+.edubin-course .author__name img.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 2px solid #cccccc;
+}
+
+.col-lg-4 .edubin-course .author__name img.avatar, .col-lg-6 .edubin-course .author__name img.avatar {
+    border: 0;
+}
+
+.edubin-course .course-price {
+    font-size: 14px;
+    font-weight: 800;
+    min-width: 62px;
+    height: 62px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    box-shadow: 5px 4px 13px 0px rgb(0 0 0 / 11%);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    right: 0;
+    margin-right: 30px;
+    color: #fff;
+    background: var(--edubin-primary-color);
+}
+
+.edubin-course .course__content--meta span {
+    font-size: inherit;
+    font-style: inherit;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.edubin-course.layout__6 .course__content--meta span {
+    margin-right: 4px;
+}
+
+.edubin-course .course__content--meta span:last-child {
+    margin-right: 0;
+}
+
+.edubin-course .course__content--meta span.origin-price {
+    font-size: 0.85em;
+    margin-bottom: 4px;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.edubin-course .course__media+.course__content .course__categories {
+    margin-top: -15px;
+}
+
+.edubin-course .course__media+.course__content .course__content--info {
+    padding: 0 30px 20px 30px;
+}
+
+.edubin-course.layout__2.col__3 .course__media+.course__content .course__content--info {
+    padding-top: 20px;
+}
+
+#edubindiv1 .edubin-course.layout__2.col__4 .course__media+.course__content .course__content--info {
+    padding-top: 20px;
+}
+
+.edubin-course .course__categories {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    max-width: 70%;
+}
+
+.edubin-course .course__categories a {
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 0 11px;
+    line-height: 29px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: var(--edubin-secondary-color);
+    white-space: nowrap;
+    background: var(--edubin-primary-color);
+    box-shadow: 5px 4px 13px 0px rgb(0 0 0 / 22%);
+}
+
+.edubin-course.layout__4 .course__categories a {
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+.edubin-course .course__categories a:hover {
+    color: var(--edubin-secondary-color);
+}
+
+.edubin-course .course__categories a:nth-child(n+2) {
+    display: none;
+}
+
+.edubin-course .course__level {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    max-width: 70%;
+}
+
+.edubin-course .course__level span {
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 0 11px;
+    line-height: 29px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: var(--edubin-secondary-color);
+    white-space: nowrap;
+    background: var(--edubin-primary-color);
+    box-shadow: 5px 4px 13px 0px rgb(0 0 0 / 22%);
+}
+
+.edubin-course.layout__6 .course__level span {
+    border-radius: 100px;
+    padding: 0 15px;
+}
+
+.edubin-course .course__wishlist {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    max-width: 70%;
+}
+
+.edubin-course .course__title {
+    padding-top: 17px;
+    line-height: 18px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.edubin-course.layout__2.col__4 .course__title {
+    padding-top: 40px;
+}
+
+#edubindiv1 .edubin-course.layout__2.col__4 .course__title {
+    padding-top: 15px;
+}
+
+.edubin-course.col__3 .course__title {
+    padding-top: 20px;
+}
+
+.edubin-course.review__show .course__title {
+    padding-top: 10px;
+}
+
+.edubin-course.layout__2 .course__title {
+    padding-top: 18px;
+}
+
+.edubin-carousel-activation .edubin-course.layout__2 .course__title {
+    padding-top: 40px;
+}
+
+.edubin-course.layout__2.col__6 .course__title {
+    padding-top: 40px;
+}
+
+.edubin-course.layout__5.review__show .course__title {
+    padding-top: 20px;
+}
+
+.edubin-course .course__title a {
+    color: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.edubin-course.col__6 .course__title a {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.edubin-course.col__4 .course__title a {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+body.archive.post-type-archive .edubin-course.col__4 .course__title a {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.edubin-carousel-activation .edubin-course .course__title a {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.edubin-course.col__3 .course__title a {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.edubin-course.layout__6.col__3 .course__title a {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.edubin-course.layout__6.col__2 .course__title a {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+#edubindiv1 .col-lg-4 .course__title a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.edubin-course .course__title a:hover {
+    color: var(--edubin-primary-color);
+}
+
+.edubin-course .author__name a {
+    color: #686f7a;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.edubin-course .author__name a:hover {
+    color: var(--edubin-primary-color);
+}
+
+.edubin-course .updating-icon:before {
+    margin-right: 0;
+}
+
+.edubin-course p.course__excerpt {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+/*Course Price */
+.edubin-course .price__2 {
+    position: absolute;
+    right: 40px;
+    bottom: -29px
+}
+
+.edubin-course .price__2 span {
+    font-size: 14px;
+    color: #07294d;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--edubin-primary-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.edubin-course .price__2 del {
+    margin-right: 2px;
+    font-weight: 400
+}
+
+.edubin-course .price__3 span {
+    font-size: 14px;
+    color: #07294d;
+    font-weight: 600;
+    background-color: var(--edubin-primary-color);
+    text-align: center;
+    display: block;
+    padding: 8px 15px;
+    border-top-left-radius: 3px
+}
+
+.edubin-course .price__3 {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.edubin-course .price__4 span {
+    font-size: 14px;
+    color: #07294d;
+    font-weight: 600;
+    background-color: var(--edubin-primary-color);
+    text-align: center;
+    display: block;
+    padding: 5px 15px;
+    border-radius: 4px
+}
+
+.edubin-course.layout__4 .price__4 span {
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 100px;
+    font-size: 13px;
+    line-height: 29px;
+}
+
+.edubin-course .price__4 {
+    position: absolute;
+    right: 20px;
+    top: 20px
+}
+
+.edubin-course.layout__4 .price__4 {
+    top: 25px
+}
+
+.edubin-course .edubin-course-rate i svg {
+    width: 13px;
+}
+
+.edubin-course .edubin-course-rate i svg path {
+    width: 13px;
+}
+
+#edubindiv2 > div:nth-child(1) > div > div > div.col-md-7 > div > div.course__content--meta.tpc_pt_0.tpc_pb_0 > div.course__meta-right > div > div:nth-child(5) > i.fas > svg > path {
+    width: 13px;
+}
+
+#edubindiv1 .edubin-course-rate .ldcr-rating {
+    font-size: 14px;
+}
+
+/* Course Style 5 */
+.edubin-course.layout__5 .course__media > a>img {
+    height: 250px;
+}
+
+.course__content--meta.layout__5 {
+    background-color: rgb(0 0 0 / 77%);
+    padding: 15px 30px;
+    bottom: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+}
+
+.edubin-course.layout__5 .author__name {
+    color: #fff;
+}
+
+.edubin-course.layout__5 .price__2 {
+    position: absolute;
+    right: 40px;
+    bottom: 42px;
+    z-index: 1;
+}
+
+.edubin-course.layout__5.review__show .price__2 {
+    position: absolute;
+    right: 40px;
+    bottom: 72px;
+    z-index: 1;
+}
+
+#edubindiv1 .edubin-course.layout__5 .price__2 {
+    bottom: 62px;
+}
+
+.edubin-course .edubin-course-rate {
+    padding-top: 20px;
+}
+
+.edubin-course.layout__2 .edubin-course-rate {
+    padding-top: 10px;
+}
+
+.edubin-course.layout__5 .edubin-course-rate {
+    padding-top: 5px;
+}
+
+.edubin-course .edubin-course-rate .course-reviews-text {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.edubin-course.layout__5 .edubin-course-rate .course-reviews-text {
+    color: #fff;
+}
+
+.edubin-course.layout__5 .author__name img.avatar {
+    width: 35px;
+    height: 35px;
+}
+
+/* Course carousal CSS */
+.edubin__courses__addon .slick-slide {
+    margin: 0 15px;
+}
+
+.edubin__courses__addon .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.edubin-course .course-reviews-text {
+    margin-left: 5px;
+}
+
+/* ==================== ## Global Course - List ==================== */
+.edubin-course.edubin-course-list {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    min-height: 215px;
+    position: relative;
+}
+
+.edubin-course-list .course__media {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.edubin-course.edubin-course-list .course__title {
+    margin-top: 0;
+    height: inherit;
+}
+
+@media (max-width:768px) {
+    .edubin-course.edubin-course-list .course__title {
+        margin-top: 30px;
+    }
+
+    .edubin-course.edubin-course-list .course__title a {
+        font-size: 22px;
+    }
+
+}
+
+.edubin-course.edubin-course-list .course__title a {
+    font-size: 20px;
+}
+
+.edubin-course.edubin-course-list .course__content--meta {
+    padding: 10px 0
+}
+
+.edubin-course.edubin-course-list .course__content--meta>span {
+    margin-right: 6px;
+}
+
+#edubindiv2 .col-lg-12:last-child .edubin-course.edubin-course-list {
+    border-bottom: 0;
+}
+
+/* ==================== ## Global course filter ==================== */
+#edubindiv1 .edubin-course .course__media img {
+    object-fit: cover;
+    height: 180px;
+}
+
+.single-filter.widget.hide__filter_cat span.filter-checkbox-count {
+    display: none;
+}
+
+.post-type-archive.post-type-archive-courses .site__content>.tutor-course-filter-wrapper>div {
+    padding: 0;
+}
+
+.edubin-course-filter-wrapper {
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.edubin-course-filter-wrapper>div:first-child {
+    width: 270px;
+}
+
+.edubin-course-filter-wrapper>div:last-child {
+    width: calc(100% - 270px);
+    padding-left: 30px !important;
+}
+
+@media (max-width:767.98px) {
+    .edubin-course-filter-wrapper>div:last-child {
+        padding-right: 30px !important;
+    }
+
+    .edubin-course-filter-wrapper {
+        background: #fff;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .edubin-container .searchandfilter input[type="submit"] {
+        margin-top: 15px;
+    }
+
+}
+
+.edubin-archive-single-cat {
+    position: relative;
+    color: #2a3235
+}
+
+.edubin-course-filter-wrapper .widget-title {
+    color: #07294d;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 36px;
+    position: relative;
+}
+
+.edubin-course-filter-wrapper .widget-title:before {
+    bottom: -8px;
+}
+
+.edubin-course-filter-wrapper .filter-content {
+    overflow: overlay;
+}
+
+.edubin-course-filter-wrapper .single-filter.widget {
+    background: #f5f5f5;
+    padding: 0 30px 0 30px;
+    padding-top: 20px;
+}
+
+.edubin-course-filter-wrapper .single-filter.widget .widget-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.edubin-course-filter-wrapper .single-filter.widget:nth-child(2) {
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+.edubin-course-filter-wrapper .single-filter.widget:last-child {
+    padding-bottom: 30px;
+}
+
+.edubin-course-filter-wrapper .single-filter.widget label {
+    display: block;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 15px;
+    color: #666;
+    transition: all 0.5s ease;
+}
+
+.edubin-course-filter-wrapper .single-filter.widget label:hover {
+    color: var(--edubin-primary-color);
+    transition: all 0.5s ease;
+}
+
+.edubin-course-filter-wrapper .filter-checkbox-count {
+    font-size: 14px;
+}
+
+.edubin-course-filter-wrapper>div:first-child .edubin-course-search-field i {
+    line-height: 38px;
+    color: var(--edubin-heading-color)
+}
+
+.edubin-wrap.edubin-courses-wrap.edubin-container.edubin-course-filter-loop-container .course__title a {
+    color: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.edubin-wrap.edubin-courses-wrap.edubin-container.edubin-course-filter-loop-container .course__title {
+    height: 55px;
+}
+
+.edubin-wrap.edubin-courses-wrap.edubin-container .course__title {
+    height: 60px;
+}
+
+.edubin-wrap.edubin-courses-wrap.edubin-container .course__title a {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.edubin-course-filter-wrapper .edubin-clear-all-filter {
+    margin-top: 0;
+    background: #fff;
+    padding: 0 30px 30px 30px;
+}
+
+.edubin-course-filter-wrapper .edubin-clear-all-filter>a i {
+    padding-right: 5px;
+}
+
+.edubin-course-filter-wrapper select[name=edubin_course_filter] {
+    padding: 3px 5px 3px 12px;
+}
+
+.edubin-course-filter-wrapper label {
+    margin-bottom: 12px;
+}
+
+.edubin-course-filter-wrapper .filter-content::-webkit-scrollbar {
+    width: 1em;
+}
+
+div.edubin_search_result {
+    display: none;
+}
+
+.edubin-archive-single-cat .category-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #29303b;
+    line-height: 24px
+}
+
+.edubin-archive-single-cat .edubin-archive-childern {
+    padding: 0 0px 2px 10px;
+}
+
+.edubin-archive-single-cat {
+    position: relative;
+    color: #2a3235
+}
+
+/** === edubin_ld_related_course_content ==== **/
+
+.related-post-wrap.related_course {
+    margin-bottom: -50px;
+}
+
+.related-post-wrap.related_course .related-title {
+    font-size: 28px;
+    margin-bottom: 45px;
+}
+
+.related-post-wrap.related_course .post-thumbnail {
+    margin-left: inherit;
+    margin-right: inherit;
+    max-height: 200px;
+    border-radius: 0;
+}
+
+.related-post-wrap.related_course .post-thumbnail img {
+    height: inherit;
+    object-fit: inherit;
+}
+
+.related-post-wrap.related_course .entry-title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.related-post-wrap.related_course .price {
+    color: var(--edubin-primary-color);
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+}
+
+.related-post-wrap.related_course .course-item-wrap {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 14px 12px rgb(0 0 0 / 6%);
+    background: #ffffff;
+    margin-bottom: 30px;
+}
+
+.related-post-wrap.related_course .entry-desc {
+    padding: 25px 30px 35px;
+}
+
+/** === pxcv-rr-item-widget ==== **/
+.widget ul.pxcv-rr-item-widget li {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 25px;
+    display: flex;
+    padding-top: 25px;
+}
+
+.widget ul.pxcv-rr-item-widget li:first-child {
+    padding-top: 0;
+}
+
+.widget ul.pxcv-rr-item-widget li:last-child {
+    padding-bottom: 0;
+}

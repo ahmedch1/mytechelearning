@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/*===== Tool tip and effect =======*/
+
+[class*="hint--"] {
+  position: relative;
+  display: inline-block;
+}
+
+[class*="hint--"]:before, [class*="hint--"]:after {
+  position: absolute;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1000000;
+  pointer-events: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-transition-delay: 0ms;
+  transition-delay: 0ms;
+}
+
+[class*="hint--"]:hover:before, [class*="hint--"]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+[class*="hint--"]:hover:before, [class*="hint--"]:hover:after {
+  -webkit-transition-delay: 100ms;
+  transition-delay: 100ms;
+}
+
+[class*="hint--"]:before {
+  content: '';
+  position: absolute;
+  background: transparent;
+  border: 7px solid transparent;
+  z-index: 1000001;
+}
+
+[class*="hint--"]:after {
+  background: var(--edubin-primary-color);
+  color: var(--edubin-secondary-color);
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 14px;
+  white-space: nowrap;
+  border-radius: 5px;
+}
+
+[class*="hint--"][aria-label]:after {
+  content: attr(aria-label);
+}
+
+[class*="hint--"][data-hint]:after {
+  content: attr(data-hint);
+}
+
+[aria-label='']:before, [aria-label='']:after, [data-hint='']:before, [data-hint='']:after {
+  display: none !important;
+}
+
+.hint--top-left:before {
+  border-top-color: var(--edubin-primary-color);
+}
+
+.hint--top-right:before {
+  border-top-color: var(--edubin-primary-color);
+}
+
+.hint--top:before {
+  border-top-color: var(--edubin-primary-color);
+}
+
+.hint--bottom-left:before {
+  border-bottom-color: var(--edubin-primary-color);
+}
+
+.hint--bottom-right:before {
+  border-bottom-color: var(--edubin-primary-color);
+}
+
+.hint--bottom:before {
+  border-bottom-color: var(--edubin-primary-color);
+}
+
+.hint--left:before {
+  border-left-color: var(--edubin-primary-color);
+}
+
+.hint--right:before {
+  border-right-color: var(--edubin-primary-color);
+}
+
+.hint--top:before {
+  margin-bottom: -13px;
+}
+
+.hint--top:before, .hint--top:after {
+  bottom: 100%;
+  left: 50%;
+}
+
+.hint--top:before {
+  left: calc(50% - 7px);
+}
+
+.hint--top:after {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.hint--top:hover:before {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.hint--top:hover:after {
+  -webkit-transform: translateX(-50%) translateY(-8px);
+  transform: translateX(-50%) translateY(-8px);
+}

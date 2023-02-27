@@ -1,0 +1,224 @@
+/* === Buddypress plugin with learndash === */
+#buddypress #learndash_profile div#course_list>div {
+    background: #fff;
+    width: 31.5%;
+    margin-right: 30px;
+    float: left;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width:736px) and (max-width:1120px) {
+    #buddypress #learndash_profile div#course_list>div {
+        width: 30.5%;
+    }
+
+}
+
+@media (min-width:100px) and (max-width:735.99px) {
+    #buddypress #learndash_profile div#course_list>div {
+        width: 100%;
+        margin-right: 0;
+    }
+
+}
+
+#buddypress #learndash_profile div#course_list>div:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+#buddypress #learndash_profile a, #buddypress #learndash_profile div {
+    font-size: inherit;
+}
+
+/*--------------------------------------------------------------
+Boddypress plugin
+--------------------------------------------------------------*/
+.buddypress-wrap .grid.bp-list>li .list-title {
+    color: #07294d;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bp-list li .item-meta, .bp-list li .meta {
+    font-size: 14px;
+}
+
+.buddypress-wrap .grid.bp-list>li .action .generic-button a, .buddypress-wrap .grid.bp-list>li .action .generic-button button {
+    background-color: #07294d;
+    border: 0;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 13px 2em;
+    text-shadow: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.buddypress .buddypress-wrap .bp-list.grid .action a:focus, .buddypress .buddypress-wrap .bp-list.grid .action a:hover, .buddypress .buddypress-wrap .bp-list.grid .action button:focus, .buddypress .buddypress-wrap .bp-list.grid .action button:hover {
+    background: #ededed;
+    background-color: var(--edubin-primary-color);
+    color: #333;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@media screen and (min-width:46.8em) {
+    .bp-list li .action {
+        clear: left;
+        padding: 0;
+        text-align: center;
+    }
+
+}
+
+.buddypress-wrap .grid.bp-list>li .action .generic-button {
+    width: auto;
+}
+
+.buddypress .buddypress-wrap .um .um-members-pagi span.current {
+    background: #07294d;
+}
+
+.buddypress-wrap .bp-navs li.current a, .buddypress-wrap .bp-navs li.current a:focus, .buddypress-wrap .bp-navs li.current a:hover, .buddypress-wrap .bp-navs li.selected a, .buddypress-wrap .bp-navs li.selected a:focus, .buddypress-wrap .bp-navs li.selected a:hover {
+    background: #07294d;
+    color: #fff;
+}
+
+.buddypress-wrap .members-list li .member-name {
+    margin-bottom: 5px;
+    color: #07294d;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buddypress .buddypress-wrap .activity-state a, .buddypress .buddypress-wrap .comment-reply-link, .buddypress .buddypress-wrap .generic-button a, .buddypress .buddypress-wrap a.bp-title-button, .buddypress .buddypress-wrap a.button, .buddypress .buddypress-wrap button, .buddypress .buddypress-wrap input[type=button], .buddypress .buddypress-wrap input[type=reset], .buddypress .buddypress-wrap input[type=submit], .buddypress .buddypress-wrap ul.button-nav:not(.button-tabs) li a {
+    line-height: 1.3;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    background-color: #07294d;
+    border: 0;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 13px 2em;
+    text-shadow: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.buddypress .buddypress-wrap .button-nav li a:focus, .buddypress .buddypress-wrap .button-nav li a:hover, .buddypress .buddypress-wrap .button-nav li.current a, .buddypress .buddypress-wrap .comment-reply-link:focus, .buddypress .buddypress-wrap .comment-reply-link:hover, .buddypress .buddypress-wrap .generic-button a:focus, .buddypress .buddypress-wrap .generic-button a:hover, .buddypress .buddypress-wrap a.button:focus, .buddypress .buddypress-wrap a.button:hover, .buddypress .buddypress-wrap button:focus, .buddypress .buddypress-wrap button:hover, .buddypress .buddypress-wrap input[type=button]:focus, .buddypress .buddypress-wrap input[type=button]:hover, .buddypress .buddypress-wrap input[type=reset]:focus, .buddypress .buddypress-wrap input[type=reset]:hover, .buddypress .buddypress-wrap input[type=submit]:focus, .buddypress .buddypress-wrap input[type=submit]:hover {
+    background: #ededed;
+    background-color: var(--edubin-primary-color);
+    color: #333;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.buddypress-wrap .bp-pagination {
+    font-size: 15px;
+}
+
+.activity-list .activity-item .bp-generic-meta.action .button {
+    color: #07294d;
+}
+
+.activity-list .activity-item .bp-generic-meta.action .unfav .like-count {
+    color: var(--edubin-primary-color);
+}
+
+.activity-list .activity-item .bp-generic-meta.action .unfav:before {
+    color: var(--edubin-primary-color);
+}
+
+.buddypress-wrap button.ac-reply-cancel:focus, .buddypress-wrap button.ac-reply-cancel:hover {
+    text-decoration: none;
+}
+
+.buddypress .buddypress-wrap button.text-button:focus, .buddypress .buddypress-wrap button.text-button:hover, .buddypress .buddypress-wrap input.text-button:focus, .buddypress .buddypress-wrap input.text-button:hover {
+    text-decoration: none;
+}
+
+.activity-list .load-more, .activity-list .load-newest {
+    border: none;
+}
+
+.activity-list .load-more:focus, .activity-list .load-more:hover, .activity-list .load-newest:focus, .activity-list .load-newest:hover {
+    border: none;
+}
+
+.buddypress-wrap .activity-update-form {
+    border: 1px solid #ddd;
+}
+
+.buddypress .buddypress-wrap .activity-list.bp-list {
+    border: none;
+}
+
+.buddypress .buddypress-wrap span.like-text.hint--bottom.hint--medium.hint--multiline {
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.buddypress .buddypress-wrap .activity-list.bp-list .activity-item {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 0 6px #ddd;
+    -moz-box-shadow: 0 0 6px #ddd;
+    box-shadow: 0 0 6px #ddd;
+}
+
+@media screen and (min-width:46.8em) {
+    .buddypress-wrap .activity-inner {
+        font-size: 16px;
+    }
+
+}
+
+body.forum-archive.bbpress.bp-nouveau.archive {
+    background: #fff;
+}
+
+#bbpress-forums li.bbp-body, #bbpress-forums li.bbp-footer, #bbpress-forums li.bbp-header {
+    list-style: none;
+    font-size: initial;
+}
+
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
+    padding: 15px;
+    margin-left: 0;
+}
+
+#bbpress-forums .bbp-forum-info .bbp-forum-content, #bbpress-forums p.bbp-topic-meta {
+    font-size: inherit;
+}
+
+#bbpress-forums div.bbp-search-form {
+    margin-bottom: 20px;
+}
+
+#bbpress-forums input#bbp_search_submit {
+    padding: 11px 1.5em;
+}
+
+#bbpress-forums {
+    font-size: 14px;
+}
+
+.buddypress-wrap .bp-subnavs li.current a, .buddypress-wrap .bp-subnavs li.selected a {
+    color: #fff;
+}

@@ -1,0 +1,41 @@
+/* 404 not found page */
+.error-404 .site__content {
+    padding: 200px 0;
+}
+
+.error-404 .error-404-heading {
+    font-size: 54px;
+    margin-bottom: 10px;
+    color: #07294d;
+}
+
+.error-404 .error-404-heading span {
+    color: var(--edubin-primary-color);
+}
+
+.error-404 .error-404-img {
+    margin: 30px auto;
+}
+
+.error-404 .text-404 {
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+.error-404 a {
+    font-size: 20px;
+    text-decoration: underline;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.error-404 a:hover {
+    color: var(--edubin-primary-color);
+    text-decoration: underline;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.error-404 .go-home {
+    margin-bottom: 30px;
+}

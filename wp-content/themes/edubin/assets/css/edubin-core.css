@@ -1,0 +1,4600 @@
+/*== Version: 8.13.27 ====*/
+
+/*----New carousel nav style ----*/
+
+.edubin-carousel-nav-1 button.slick-arrow {
+    position: absolute;
+    background: transparent;
+    transform: translateY(-50%);
+    padding: 0;
+    top: 50%;
+    color: #ec5251;
+    border: 2px solid #ec5251;
+    background: #ec5251;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    z-index: 1;
+    opacity: 0;
+    border-radius: 5px;
+    height: 42px;
+    width: 42px;
+}
+.edubin-carousel-nav-1 button.edubin-carosul-next {
+    left: auto;
+    right: 0;
+}
+.edubin-carousel-nav-1:hover button.slick-arrow {
+    opacity: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.edubin-carousel-nav-1 button.slick-arrow i {
+    color: #fff;
+}
+.edubin-carousel-nav-1 button.slick-arrow:hover i {
+    color: #fff;
+}
+/*================================
+New carousel dot style 
+========*========================*/
+
+.edubin-carousel-dot-1 .slick-dots {
+    list-style: none;
+}
+.edubin-carousel-dot-1 .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #e3e3e3;
+    border-radius: 100%;
+}
+.edubin-carousel-dot-1 .slick-dots li.slick-active button {
+    background: var(--edubin-primary-color);
+}
+.edubin-carousel-dot-1 .slick-dots li button:before {
+    display: none;
+}
+.edubin-carousel-dot-1 .slick-dots {
+    bottom: -60px;
+}
+.edubin-carousel-dot-1 .slick-dots li {
+    margin: 0 7px;
+    width: 12px;
+    height: 12px;
+}
+/*=== Resent/Latest widget ===*/
+
+.edubin_recent_post {
+    padding-top: 10px;
+}
+.edubin_recent_post img {
+    float: left;
+    object-fit: cover;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.edubin_recent_post .edubin_recent_post_title {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.edubin_recent_post .edubin_recent_post_title a {
+    color: #07294d;
+}
+.edubin_recent_post .edubin_recent_post_title a:hover {
+    color: var(--edubin-primary-color);
+}
+.edubin_recent_post .date {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #8a8a8a;
+    margin-bottom: 20px;
+}
+.edubin_recent_post li.edubin_recent_post_list {
+    clear: both;
+    margin-bottom: 0;
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+}
+/*====End widget css ====*/
+
+/*===== Social shortcode ====*/
+
+.edubin-social {
+    margin-top: -30px;
+    transition: all 0.5s ease;
+}
+.edubin-social a.edubin-social-icon {
+    border: 2px solid #021d3a;
+    line-height: 37px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+    background: #021d3a;
+    font-size: 15px;
+}
+.edubin-social a.edubin-social-icon:hover {
+    border-color: #07294d;
+    transition: all 0.5s ease;
+    color: #07294d;
+}
+.edubin-social a.edubin-social-icon:first-child {
+    margin-left: 0;
+}
+.edubin-social a.edubin-social-icon:last-child {
+    margin-left: 0;
+}
+/* Section Title style */
+
+.edubin-section-title .section-title-txt {
+    font-size: 48px;
+    color: #23252a;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    display: inline-block;
+}
+.edubin-section-title .section-subtitle-txt {
+    color: #07294d;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+.page.type-page .entry-content p.section-subtitle-txt {
+    margin-bottom: 0;
+}
+.edubin-section-title span.edubin-title-sperator {
+    background-color: var(--edubin-primary-color);
+    display: inline-block;
+    height: 3px;
+    margin-bottom: 13px;
+    margin-top: 0px;
+    position: relative;
+    width: 42px;
+}
+.edubin-section-title.title-style-three span.edubin-title-sperator::before {
+    background-color: var(--edubin-primary-color);
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: -13px;
+    margin-bottom: 13px;
+    margin-top: 25px;
+    position: absolute;
+    width: 50px;
+}
+.edubin-title-align-left .edubin-section-title.title-style-three span.edubin-title-sperator::before, .edubin-title-align-justify .edubin-section-title.title-style-three span.edubin-title-sperator::before {
+    left: 13px;
+}
+.edubin-section-title.edubin-subtitle-position-top {
+    display: flex;
+    flex-direction: column;
+}
+.edubin-section-title.edubin-subtitle-position-top .section-title-txt {
+    order: 2;
+}
+.edubin-section-title.edubin-subtitle-position-top .section-subtitle-txt {
+    order: 1;
+}
+.edubin-section-title.edubin-subtitle-position-top img {
+    order: 3;
+}
+.edubin-section-title.edubin-subtitle-position-top i {
+    order: 3;
+}
+.edubin-section-title img {
+    margin: auto;
+}
+.edubin-section-title.edubin-subtitle-position-top .edubin-title-sperator-sec {
+    order: 4;
+}
+.edubin-section-title.edubin-subtitle-position-top.title-style-four .edubin-title-sperator-sec {
+    order: 2;
+}
+.edubin-section-title.edubin-subtitle-position-top.title-style-four .section-title-txt {
+    order: 3;
+}
+.edubin-section-title.edubin-subtitle-position-top.title-style-four span.edubin-title-sperator {
+    margin-top: 8px;
+}
+.title-style-two .edubin-title-sperator-sec, .title-style-five .edubin-title-sperator-sec {
+    display: none;
+}
+.title-style-two .section-title-txt {
+    padding: 0 10.5%;
+    position: relative;
+}
+.title-style-two .section-title-txt::before, .title-style-two .section-title-txt::after {
+    background: #412e51 none repeat scroll 0 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+}
+.title-style-two .section-title-txt::after {
+    right: 0;
+    top: 50%;
+    left: auto;
+}
+.title-style-two .section-title-txt {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.section-advancetitle-txt {
+    color: var(--edubin-primary-color);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 28px;
+    margin: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+.edubin-title-sperator-sec {
+    line-height: 1;
+}
+.slider-btn-left {
+    display: inline-block;
+}
+.slider-btn-right {
+    display: inline-block;
+}
+/*----------------------
+    Slick Dot
+    -----------------------*/
+
+.edubin-carousel-activation .slick-dots {
+    text-align: center;
+    bottom: -45px;
+}
+.edubin-carousel-activation .slick-dots li {
+    display: inline-block;
+    margin: 0;
+}
+.edubin-carousel-activation .slick-dots li button {
+    border: 1px solid var(--edubin-primary-color);
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    text-indent: -9999px;
+}
+.edubin-carousel-activation .slick-dots li.slick-active button {
+    background-color: var(--edubin-primary-color);
+}
+/* === Icon category box addon ====*/
+
+.edubin-icon-category-style-1 .slick-slide .edubin-icon-category .single-category {
+    padding: 20px 8px;
+    margin: 0 15px;
+    border-radius: 5px;
+    display: block;
+    background: #ff6f6f;
+}
+.edubin-icon-category-style-1 .slick-slide:nth-child(4n+2) .edubin-icon-category .single-category {
+    background: #4886ff;
+}
+.edubin-icon-category-style-1 .slick-slide:nth-child(4n+3) .edubin-icon-category .single-category {
+    background: #009688;
+}
+.edubin-icon-category-style-1 .slick-slide:nth-child(4n+4) .edubin-icon-category .single-category {
+    background: #b5d56a;
+}
+.edubin-icon-category-style-1 .edubin-icon-category .single-category {
+    padding: 20px 8px;
+    margin: 0 15px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #ff6f6f;
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 30px;
+}
+.edubin-icon-category-style-1 .edubin-icon-category:nth-child(4n+2) .edubin-icon-category .single-category {
+    background: #4886ff;
+}
+.edubin-icon-category-style-1 .edubin-icon-category:nth-child(4n+3) .edubin-icon-category .single-category {
+    background: #009688;
+}
+.edubin-icon-category-style-1 .edubin-icon-category:nth-child(4n+4) .edubin-icon-category .single-category {
+    background: #b5d56a;
+}
+.edubin-icon-category-style-1 .edubin-icon-category .single-category .icon-category-title {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+.edubin-icon-category-style-1 .edubin-icon-category .single-category .icon-category-title:hover {
+    color: #eee;
+    transition: 0.3s ease-in-out;
+}
+.edubin-icon-category-style-1 button.slick-arrow, .edubin-carousel-style-3 button.slick-arrow {
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #557495;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    border: 0 none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    line-height: 28px;
+    text-align: center;
+}
+.edubin-icon-category-style-1 button.slick-arrow:hover {
+    background: var(--edubin-primary-color);
+    color: #07294d;
+}
+.edubin-icon-category-style-1 button.edubin-carosul-next {
+    left: auto;
+    right: -50px;
+}
+/* === Custom Events addon ====*/
+
+.edubin-custom-events {
+    align-items: center;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+}
+.edubin-custom-events .thumb {
+    flex-basis: 50%;
+    position: relative;
+}
+.edubin-custom-events .thumb a img {
+    width: 100%;
+}
+.edubin-custom-events .content {
+    flex-basis: 50%;
+    padding-left: 27px;
+}
+.edubin-custom-events .thumb .event-date {
+    background: #141414 none repeat scroll 0 0;
+    color: #fff;
+    padding: 8px 0;
+    position: absolute;
+    right: -13px;
+    text-align: center;
+    top: 0;
+    width: 60px;
+}
+.edubin-custom-events .thumb .event-date span {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.edubin-custom-events .content h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.edubin-custom-events .content ul.event-time {
+    display: flex;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.edubin-custom-events .content ul.event-time li {
+    color: #909090;
+    font-size: 14px;
+}
+.edubin-custom-events .content ul.event-time li i {
+    color: #56a4b1;
+    padding-right: 10px;
+}
+.edubin-custom-events .content p {
+    color: #727272;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.edubin-custom-events .content .event-btn a {
+    border-bottom: 1px solid #727272;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out 0s;
+}
+.edubin-custom-events .content ul.event-time li+li {
+    margin-left: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.edubin-custom-events .content ul.event-time li+li::before {
+    background: #9f9f9f none repeat scroll 0 0;
+    content: "";
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 28%;
+    width: 2px;
+}
+#edubin-slider .edubin-slider-background-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #21252900;
+    content: "";
+    z-index: 1;
+}
+#edubin-slider .carousel-item img {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.56);
+    filter: brightness(30%);
+    right: 0;
+    left: 0;
+    resize: both;
+    -webkit-animation: slideShow 10s ease-in infinite;
+    animation: slideShow 10s ease-in infinite;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+}
+#edubin-slider .carousel-item {
+    height: 100vh;
+}
+#edubin-slider .slider-conent-area {
+    overflow: hidden;
+    padding: 50px 0;
+}
+#edubin-slider .carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
+    padding: 0;
+    right: 0;
+    left: 0;
+}
+#edubin-slider .carousel-caption h2.edubin-slider-title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+#edubin-slider .carousel-caption h2.edubin-slider-title span {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52px;
+    display: inline-block;
+    color: var(--edubin-primary-color);
+}
+/* Content */
+
+#edubin-slider .carousel-caption .edubin-slider-content {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.60px;
+    margin-bottom: 30px;
+}
+/* Button */
+
+#edubin-slider .carousel-caption .edubin-slider-btn .rep-btn {
+    padding: 12px 32px;
+    margin: 7px;
+    border-radius: 3px;
+    background: var(--edubin-primary-color);
+    display: block;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+#edubin-slider .carousel-caption .edubin-slider-btn .rep-btn.left-btn {
+    background: var(--edubin-primary-color);
+    border: 2px solid var(--edubin-primary-color);
+    color: #07294d;
+    font-weight: 600;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+#edubin-slider .carousel-caption .edubin-slider-btn .rep-btn.left-btn:hover {
+    background: #07294d;
+    border: 2px solid #07294d;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+#edubin-slider .carousel-caption .edubin-slider-btn .rep-btn.right-btn {
+    border: 2px solid var(--edubin-primary-color);
+    color: #07294d;
+    font-weight: 600;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+#edubin-slider .carousel-caption .edubin-slider-btn .rep-btn.right-btn:hover {
+    background: #07294d;
+    border: 2px solid #07294d;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+/* Nav style 1*/
+
+#edubin-slider .carousel-control-prev-icon, #edubin-slider .carousel-control-next-icon {
+    background-image: none;
+}
+#edubin-slider .edubin-slider-nav-style1 {
+    position: absolute;
+    right: 1%;
+    text-align: right;
+    top: 50%;
+}
+#edubin-slider .edubin-slider-nav-style1 .carousel-control-prev-icon {
+    margin-bottom: 8px;
+}
+#edubin-slider .edubin-slider-nav-style1 .carousel-control-prev-icon, #edubin-slider .edubin-slider-nav-style1 .carousel-control-next-icon {
+    background: none;
+    border: 2px solid var(--edubin-primary-color);
+    color: var(--edubin-primary-color);
+    height: 58px;
+    width: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 100%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+#edubin-slider .edubin-slider-nav-style1 .carousel-control-prev-icon:hover, #edubin-slider .edubin-slider-nav-style1 .carousel-control-next-icon:hover {
+    background: var(--edubin-primary-color);
+    opacity: 1;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+/* Nav style 2 */
+
+#edubin-slider .edubin-slider-nav-style2 {
+    position: absolute;
+    right: 1%;
+    text-align: right;
+    top: 50%;
+}
+#edubin-slider .edubin-slider-nav-style2 .carousel-control-prev-icon {
+    margin-bottom: 8px;
+}
+#edubin-slider .edubin-slider-nav-style2 .carousel-control-prev-icon, #edubin-slider .edubin-slider-nav-style2 .carousel-control-next-icon {
+    background: none;
+    border: 2px solid var(--edubin-primary-color);
+    color: var(--edubin-primary-color);
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+#edubin-slider .edubin-slider-nav-style2 .carousel-control-prev-icon:hover, #edubin-slider .edubin-slider-nav-style2 .carousel-control-next-icon:hover {
+    background: var(--edubin-primary-color);
+    opacity: 1;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+/*Nav style 3*/
+
+#edubin-slider .edubin-slider-nav-style3 {
+    position: absolute;
+    right: 1%;
+    text-align: right;
+    top: 50%;
+}
+#edubin-slider .edubin-slider-nav-style3 .edubin-prev {
+    left: inherit;
+    right: 0;
+    top: -128px;
+    z-index: 1;
+    bottom: -90px;
+    opacity: 1;
+}
+#edubin-slider .edubin-slider-nav-style3 .edubin-next {
+    bottom: -90px;
+    opacity: 1;
+    z-index: 1;
+}
+#edubin-slider .edubin-slider-nav-style3 .carousel-control-prev-icon, #edubin-slider .edubin-slider-nav-style3 .carousel-control-next-icon {
+    background: var(--edubin-primary-color);
+    border: 3px solid var(--edubin-primary-color);
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 3px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    opacity: 1;
+}
+#edubin-slider .edubin-slider-nav-style3 .carousel-control-prev-icon {
+    margin-bottom: 10px;
+}
+#edubin-slider .edubin-slider-nav-style3 .carousel-control-prev-icon:hover, #edubin-slider .edubin-slider-nav-style3 .carousel-control-next-icon:hover {
+    background: transparent;
+    opacity: 1;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+/* Nav style 4*/
+
+#edubin-slider .edubin-slider-nav-style4 {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    bottom: 0;
+}
+#edubin-slider .edubin-slider-nav-style4 .edubin-prev {
+    left: inherit;
+    right: 60px;
+    top: 0;
+    position: absolute;
+}
+#edubin-slider .edubin-slider-nav-style4 .edubin-next {
+    bottom: -90px;
+    opacity: 1;
+    z-index: 1;
+}
+#edubin-slider .edubin-slider-nav-style4 .carousel-control-prev-icon, #edubin-slider .edubin-slider-nav-style4 .carousel-control-next-icon {
+    background: var(--edubin-primary-color);
+    border: 3px solid var(--edubin-primary-color);
+    color: #fff;
+    height: 52px;
+    width: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    opacity: 1;
+}
+#edubin-slider .edubin-slider-nav-style4 .carousel-control-prev-icon:hover, #edubin-slider .edubin-slider-nav-style4 .carousel-control-next-icon:hover {
+    background: transparent;
+    opacity: 1;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+/* Nav stye 5 */
+
+#edubin-slider .edubin-slider-nav-style5 .edubin-nav {
+    font-size: 34px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+#edubin-slider .edubin-slider-nav-style5 a.edubin-nav i {
+    font-size: 16px;
+    border: 2px solid #fff;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    line-height: 43px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+#edubin-slider .edubin-slider-nav-style5 a.edubin-nav i:hover {
+    background: var(--edubin-primary-color);
+    border-color: var(--edubin-primary-color);
+    color: #07294d;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+#edubin-slider .edubin-slider-nav-style5 .edubin-nav {
+    width: 10%;
+}
+#edubin-slider:hover .edubin-slider-nav-style5 .edubin-nav {
+    width: 12%;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    z-index: 0;
+}
+/* Nav mobile none */
+
+@media (max-width:575px) {
+    .nav-mobile-none {
+        display: none;
+    }
+}
+/* Dot */
+
+#edubin-slider .carousel-indicators li {
+    height: 14px;
+    width: 14px;
+    bottom: 10px;
+    margin: 3px;
+    border-radius: 100%;
+    max-width: 15px;
+}
+#edubin-slider .carousel-indicators li.active {
+    background: var(--edubin-primary-color);
+}
+/* Animation */
+
+#edubin-slider .carousel-item img.edubin-slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    object-fit: cover;
+}
+/* keyframes*/
+
+@keyframes slideShow {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+        -ms-transform: scale(1);
+    }
+    5% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.18);
+        -ms-transform: scale(1.18);
+    }
+    80% {
+        opacity: 1;
+        transform: scale(1.12);
+        -ms-transformm: scale(1.12);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        -ms-transformm: scale(1);
+    }
+}
+.edubin-slider-background-image {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: 1;
+}
+/*------------------------------------------- 
+---------- Slider zoom effect -------------
+--------------------------------------------*/
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+/*== Zoom effect */
+
+.edubin-slider-pro.zoomef .edubin-slider-background-image {
+    -webkit-animation: zoom 60s;
+    animation: zoom 60s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: 1;
+}
+/*== Fade and zoom effect */
+
+.edubin-slider-pro.carousel-fade.zoomef .edubin-slider-background-image {
+    -webkit-animation: zoom 60s;
+    animation: zoom 60s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: 1;
+}
+/*------------------------------------------- 
+---------- Slider zoom effect -------------
+--------------------------------------------*/
+
+@-webkit-keyframes zoomEf {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+@keyframes zoomEf {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+/*== Fade and zoom effect */
+
+.edubin-slider-pro.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+.edubin-slider-pro.carousel-fade .carousel-item.active, .edubin-slider-pro.carousel-fade .carousel-item-next.carousel-item-left, .edubin-slider-pro.carousel-fade .carousel-item-prev.carousel-item-right {
+    opacity: 1;
+}
+.edubin-slider-pro.carousel-fade .active.carousel-item-left, .edubin-slider-pro.carousel-fade .active.carousel-item-right {
+    opacity: 0;
+}
+.edubin-slider-pro.carousel-fade .carousel-item-next, .edubin-slider-pro.carousel-fade .carousel-item-prev, .edubin-slider-pro.carousel-fade .carousel-item.active, .edubin-slider-pro.carousel-fade .active.carousel-item-left, .edubin-slider-pro.carousel-fade .active.carousel-item-prev {
+    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
+}
+/*=== LearnPress course addon ====*/
+
+.edubin-single-course-1 {
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: none;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-single-course-1:hover {
+    box-shadow: none;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-single-course-1>.thum {
+    position: relative;
+}
+.edubin-single-course-1 .thum .image {
+    overflow: hidden;
+}
+.edubin-single-course-1 .thum .image img {
+    width: 100%;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-single-course-1:hover .thum .image img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.edubin-single-course-1 .thum .edubin-course-price-1 {
+    position: absolute;
+    right: 40px;
+    bottom: -29px;
+}
+.edubin-single-course-1 .thum .edubin-course-price-1 span {
+    font-size: 14px;
+    color: #07294d;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--edubin-primary-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edubin-tutor-courses-column-area .edubin-single-course-1 .course-price del {
+    margin-right: 2px;
+    font-weight: 400;
+}
+.edubin-single-course-1 .thum .edubin-course-price-2 span {
+    font-size: 14px;
+    color: #07294d;
+    font-weight: 600;
+    background-color: var(--edubin-primary-color);
+    text-align: center;
+    display: block;
+    padding: 8px 15px;
+    border-top-left-radius: 3px;
+}
+.edubin-single-course-1 .thum .edubin-course-price-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.edubin-single-course-1 .thum .edubin-course-price-3 span {
+    font-size: 14px;
+    color: #07294d;
+    font-weight: 600;
+    background-color: var(--edubin-primary-color);
+    text-align: center;
+    display: block;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+.edubin-single-course-1 .thum .edubin-course-price-3 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.edubin-single-course-1 .course-content {
+    padding-top: 28px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width:768px) {
+    .edubin-single-course-1 .course-content {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+@media (max-width:575px) {
+    .edubin-single-course-1 .course-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.edubin-single-course-1 .course-content>ul {
+    display: inline-block;
+}
+.edubin-single-course-1 .course-content ul li {
+    display: inline-block;
+    margin: 1px;
+}
+.edubin-course-cat>i {
+    font-size: 14px;
+    color: var(--edubin-primary-color);
+    padding-right: 1px;
+}
+.edubin-single-course-1 .course-content ul li>i {
+    font-size: 14px;
+    color: var(--edubin-primary-color);
+}
+.edubin-course-rate {
+    display: flex;
+    align-items: center;
+/*    color: #fff;*/
+}
+.edubin-single-course-1 .course-content span.course-reviews {
+    font-size: 14px;
+    color: #212529;
+    font-weight: 600;
+    position: relative;
+    /*    top: -5px;*/
+    margin-left: 8px;
+}
+
+.edubin-single-course-1 .course-content .course-title a {
+    color: #07294d;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-single-course-1 .course-content .course-title {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.edubin-single-course-1 .course-content .course-title a:hover {
+    color: var(--edubin-primary-color);
+}
+.edubin-single-course-1 .course-bottom {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.tab-pane.active#courses-list .edubin-single-course-1 .course-bottom {
+    margin-top: 20px;
+}
+.edubin-single-course-1 .course-bottom>.thum {
+    display: inline-block;
+}
+.edubin-single-course-1 .course-bottom>.thum img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.edubin-single-course-1 .course-bottom .name {
+    display: inline-block;
+    position: relative;
+    bottom: 13px;
+    text-transform: capitalize;
+}
+.edubin-single-course-1 .course-bottom .name a h6 {
+    font-size: 15px;
+    color: #24486e;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-single-course-1 .course-bottom .name a:hover h6 {
+    color: var(--edubin-primary-color);
+}
+.edubin-single-course-1 .course-bottom .admin {
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+}
+.post-type-archive-lp_course.learnpress .edubin-single-course-1 .course-bottom .admin {
+    margin-top: 10px;
+}
+.edubin-single-course-1 .course-bottom .admin ul {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.edubin-single-course-1 .course-bottom .admin ul li {
+    margin-right: 15px;
+    color: #8a8a8a;
+    font-size: 14px;
+}
+.edubin-single-course-1 .course-bottom .admin ul li span.enroll-users {
+    margin-left: 5px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #8a8a8a;
+}
+.edubin-single-course-1 .course-bottom .admin ul li:last-child {
+    margin-right: 0;
+}
+.edubin-single-course-1 .course-bottom .admin ul li i {
+    color: var(--edubin-primary-color);
+}
+.edubin-single-course-1 .course-bottom .admin ul li a {
+    font-size: 15px;
+    color: #8a8a8a;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-single-course-1 .course-bottom .admin ul li a:hover {
+    color: var(--edubin-primary-color);
+}
+.edubin-single-course-1 .course-bottom .admin ul li a span {
+    color: #8a8a8a;
+    margin-left: 4px;
+}
+.edubin-lp-courses-addons .slick-slide {
+    margin: 0 15px;
+}
+.edubin-lp-courses-addons .slick-list {
+    margin: 0 -15px;
+}
+/* Rating*/
+
+.edubin-single-course-1 .edubin-course-rate .star-rating {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-bottom: 0px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.edubin-single-course-1 ul.edubin-course-rate {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: -3px;
+}
+.edubin-single-course-1 ul.edubin-course-rate li {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+.edubin-single-course-1 .star-rating {
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    width: 95px;
+    font-family: "fontawesome";
+}
+.edubin-single-course-1 .star-rating:before {
+    content: "\f006\f006\f006\f006\f006";
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: var(--edubin-primary-color);
+    letter-spacing: 4px;
+}
+.edubin-single-course-1 .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+.edubin-single-course-1 .star-rating:before {
+    color: var(--edubin-primary-color);
+}
+.edubin-single-course-1 .star-rating span:before {
+    content: "\f005\f005\f005\f005\f005";
+    top: 0;
+    position: absolute;
+    left: 0;
+    letter-spacing: 4px;
+    color: #ecb101;
+}
+/* Nav style 1*/
+
+.edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.slick-arrow {
+    position: absolute;
+    background: transparent;
+    transform: translateY(-50%);
+    padding: 0;
+    top: -45px;
+    left: 92%;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 3px;
+    color: #000;
+    border: 2px solid #aaaaaa;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    .edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.slick-arrow {
+        left: 82%;
+    }
+}
+@media (max-width:575.98px) {
+    .edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.slick-arrow {
+        right: 50px;
+    }
+    .edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.slick-arrow {
+        left: 72%;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px) {
+    .edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.slick-arrow {
+        left: 87%;
+    }
+}
+.edubin-lp-courses-addons.edubin-nav-button-1 button.slick-arrow:hover {
+    border-color: var(--edubin-primary-color);
+    background-color: var(--edubin-primary-color);
+}
+.edubin-lp-courses-addons.edubin-nav-button-1 .edubin-carousel-activation button.edubin-carosul-next {
+    left: auto;
+    right: 0;
+}
+/* Nav style 2*/
+
+.edubin-lp-courses-addons.edubin-nav-button-2 .edubin-carousel-activation button.slick-arrow {
+    position: absolute;
+    background: transparent;
+    transform: translateY(-50%);
+    padding: 0;
+    top: 50%;
+    color: #868e96;
+    border: 2px solid #868e96;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    z-index: 1;
+    opacity: 0;
+    border-radius: 100px;
+    height: 42px;
+    width: 42px;
+}
+.edubin-lp-courses-addons.edubin-nav-button-2 .edubin-carousel-activation button.edubin-carosul-next {
+    left: auto;
+    right: -8px;
+}
+.edubin-lp-courses-addons.edubin-nav-button-2 .edubin-carousel-activation:hover button.slick-arrow {
+    opacity: 1;
+    margin-left: -25px;
+    margin-right: -20px;
+}
+/*=== Course addon ====*/
+
+.edubin-single-course-2 {
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.edubin-single-course-2>.thum {
+    position: relative;
+}
+.edubin-single-course-2>.thum .image>img {
+    border-radius: 3px;
+    width: 100%;
+}
+.edubin-single-course-2 .image img {
+    height: 250px;
+    object-fit: cover;
+}
+.edubin-single-course-2>.thum .edubin-course-price-4 {
+    position: absolute;
+    bottom: 38px;
+    right: 15px;
+    z-index: 5;
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    .edubin-single-course-2>.thum .edubin-course-price-4 {
+        bottom: 90px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    .edubin-single-course-2.ld-course>.thum .edubin-course-price-4 {
+        bottom: 42px;
+    }
+}
+.edubin-single-course-2>.thum .edubin-course-price-4 span {
+    font-size: 14px;
+    color: #07294d;
+    font-family: var(--edubin-heading-font-family);
+    font-weight: 700;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: var(--edubin-primary-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edubin-single-course-2>.thum .course-teacher {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.edubin-lp-courses-addons .ld_course_grid_video_embed {
+    height: 212px!important;
+}
+.edubin-lp-courses-addons .ld_course_grid_video_embed iframe {
+    height: 212px!important;
+}
+.edubin-lp-courses-addons .col-lg-3 .ld_course_grid_video_embed {
+    height: 157px!important;
+}
+.edubin-lp-courses-addons .col-lg-3 .ld_course_grid_video_embed iframe {
+    height: 157px!important;
+}
+.edubin-lp-courses-addons .col-lg-6 .ld_course_grid_video_embed {
+    height: 320px!important;
+}
+.edubin-lp-courses-addons .col-lg-6 .ld_course_grid_video_embed iframe {
+    height: 320px!important;
+}
+.edubin-single-course-2>.thum .course-teacher>.thum {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.edubin-single-course-2>.thum .course-teacher>.thum img {
+    border-radius: 50%;
+}
+.edubin-single-course-2>.thum .course-teacher .name {
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    bottom: 13px;
+}
+.edubin-single-course-2>.thum .course-teacher .name h6 {
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    margin: 0;
+    padding: 0;
+}
+.edubin-single-course-2>.thum .course-teacher .name h6 a {
+    color: #fff;
+}
+.edubin-single-course-2>.thum .course-teacher .name h6:hover {
+    color: var(--edubin-primary-color);
+}
+.edubin-single-course-2>.thum .course-teacher .review {
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    bottom: 13px;
+}
+.edubin-single-course-2>.thum .course-teacher .review ul li {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--edubin-primary-color);
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    .edubin-single-course-2>.thum .course-teacher .review ul li {
+        margin-top: 20px;
+    }
+}
+.edubin-single-course-2>.thum .course-teacher .review ul {
+    margin: 0;
+    padding: 0;
+}
+.edubin-single-course-2 .content {
+    padding: 20px;
+}
+.edubin-single-course-2 .content .course-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #23252a;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-single-course-2 .content .course-title:hover {
+    color: var(--edubin-primary-color);
+}
+/* Rating*/
+
+.edubin-single-course-2 .edubin-course-rate .star-rating {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+.edubin-single-course-2 ul.edubin-course-rate {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.edubin-single-course-2 ul.edubin-course-rate li {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+.edubin-single-course-2 .star-rating {
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    width: 95px;
+    font-family: "fontawesome";
+}
+.edubin-single-course-2 .star-rating:before {
+    content: "\f006\f006\f006\f006\f006";
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: var(--edubin-primary-color);
+    letter-spacing: 4px;
+}
+.edubin-single-course-2 .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+div>div>div>div.thum>div.course-teacher>div.edubin-course-rate>span {
+    color: #fff;
+    position: relative;
+    top: 0;
+    margin-left: 8px;
+}
+.edubin-single-course-2 .star-rating:before {
+    color: var(--edubin-primary-color);
+}
+.edubin-single-course-2 .star-rating span:before {
+    content: "\f005\f005\f005\f005\f005";
+    top: 0;
+    position: absolute;
+    left: 0;
+    letter-spacing: 4px;
+    color: #ecb101;
+}
+/*=== WooCommerce shop addon ====*/
+
+.woocommerce.woocommerce-addons-wrapper {
+    background: transparent;
+}
+.woocommerce.woocommerce-addons-wrapper ul.products.columns-3 li.product {
+    margin: 0 3.8% 2.992em 0;
+    width: 30.8%;
+}
+.woocommerce.woocommerce-addons-wrapper ul.products.columns-3 li.product:nth-child(3n+3) {
+    margin-right: 0;
+}
+.woocommerce.woocommerce-addons-wrapper ul.products.columns-4 li.product {
+    margin: 0 3.8% 2.992em 0;
+    width: 22%;
+}
+.woocommerce.woocommerce-addons-wrapper ul.products.columns-4 li.product:nth-child(4n+4) {
+    margin-right: 0;
+}
+.woocommerce.woocommerce-addons-wrapper ul.products li.product a {
+    text-align: center;
+}
+@media only screen and (max-width:768px) {
+    .woocommerce.woocommerce-addons-wrapper ul.products.columns-4 li.product {
+        width: 48%;
+        float: left;
+        clear: both;
+        margin: 0 0 0;
+    }
+}
+span.edubin-hide-addtocart-text {
+    display: none;
+}
+/*=== Course category addon  ====*/
+
+.edubin-course-category .single-items {
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.edubin-course-category.cat-hover-effect .single-items:hover {
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-transform: translateY(-5px) translate3d(0, -5px, 0);
+    transform: translateY(-5px) translate3d(0, -5px, 0);
+}
+.edubin-course-category .single-items .items-image {
+    position: relative;
+}
+.edubin-course-category .single-items .items-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.edubin-course-category .single-items .items-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 41, 77, 0.6);
+    border-radius: 3px;
+}
+.edubin-course-category .single-items .items-cont {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.edubin-course-category .single-items .items-cont .course-cat {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-course-category .single-items .items-cont .course-cat:hover {
+    color: var(--edubin-primary-color);
+}
+.edubin-course-category .single-items .items-cont .total-course {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+/*=== Counter addon ====*/
+
+.elementor-counter .elementor-counter-number-wrapper-no {
+    font-size: 69px;
+    font-weight: 600;
+}
+/*=== Countdown addon ====*/
+
+.edubin-countdown-style-1 .edubin-countbox {
+    text-align: center;
+}
+.edubin-countdown-style-1 .edubin-countbox .ht-count {
+    display: inline-block;
+    position: relative;
+    margin: 0 22px;
+    line-height: 1;
+}
+.edubin-countdown-style-1 .edubin-countbox .ht-count::before {
+    position: absolute;
+    content: ":";
+    right: -26px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5e5b60;
+    font-size: 55px;
+}
+.edubin-countdown-style-1 .edubin-countbox .ht-count:last-child::before {
+    display: none;
+}
+.edubin-countdown-style-1 .edubin-countbox span.ht-count {
+    padding: 28px 0px;
+    border: 1px solid #242424;
+    border-radius: 10px;
+    width: 139px;
+    text-align: center;
+}
+.edubin-countdown-style-1 .edubin-countbox span.time-count {
+    color: #242424;
+    font-size: 60px;
+    font-weight: 400;
+    display: block;
+    position: relative
+}
+.edubin-countdown-style-1 .edubin-countbox span span.count-inner p {
+    color: #242424;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.edubin-timer-separate-no .edubin-countbox span.time-count::before, .edubin-separate-no .edubin-countbox .ht-count::before {
+    display: none;
+}
+.edubin-hide-level .edubin-countbox .ht-count::before {
+    right: -26px;
+    top: 36%;
+}
+/*=== Countdown addon 2 ====*/
+
+.edubin-countdown-style-2 .edubin-countbox {
+    text-align: center;
+}
+.edubin-countdown-style-2 .edubin-countbox .ht-count {
+    display: inline-block;
+    position: relative;
+    margin: 0 22px;
+    line-height: 1;
+}
+.edubin-countdown-style-2 .edubin-countbox .ht-count::before {
+    position: absolute;
+    content: ":";
+    right: -26px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 55px;
+}
+.edubin-countdown-style-2 .edubin-countbox .ht-count:last-child::before {
+    display: none;
+}
+.edubin-countdown-style-2 .edubin-countbox span.ht-count {
+    padding: 28px 0px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+.edubin-countdown-style-2 .edubin-countbox span.time-count {
+    font-size: 72px;
+    color: #fff;
+    font-family: var(--edubin-heading-font-family);
+    font-weight: 600;
+    display: block;
+}
+.edubin-countdown-style-2 .edubin-countbox span span.count-inner p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+/*=== Course instructor addon ====*/
+
+.instructor-1 .instructor-1-single {
+    background-color: #fff;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 15px;
+}
+.instructor-1 .instructor-1-single .thum img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.instructor-1 .instructor-1-single .cont {
+    padding-left: 20px;
+}
+.instructor-1 .instructor-1-single .cont a h5 {
+    font-size: 18px;
+    color: #23252a;
+    margin-bottom: 4px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.instructor-1 .instructor-1-single .cont a:hover h5 {
+    color: var(--edubin-primary-color);
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.instructor-1 .instructor-1-single .cont p {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #8a8a8a;
+    font-weight: 500;
+}
+.instructor-1 .instructor-1-single .cont span {
+    font-size: 14px;
+    color: #07294d;
+    font-weight: 500;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.instructor-1 .instructor-1-single .cont span i {
+    margin-right: 5px;
+    color: var(--edubin-primary-color);
+}
+/*=== LP Course Search addon ====*/
+
+.edubin-courses-searching {
+    overflow: hidden;
+}
+.lp-course-form-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+.lp-course-form-wrapper input.lp-course-input {
+    border-radius: 0;
+}
+.lp-course-form-wrapper .lp-course-btn {
+    transition: all .8s ease;
+    border-radius: 0;
+}
+.lp-course-form-wrapper input[type="text"] {
+    font-weight: 500;
+    padding: 20px;
+    font-size: 16px;
+}
+/*=== LD Course Search addon ====*/
+
+.edubin-courses-searching {
+    overflow: hidden;
+}
+.ld-course-form-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+.ld-course-form-wrapper input.ld-course-input {
+    border-radius: 0;
+}
+.ld-course-form-wrapper .ld-course-btn {
+    transition: all .8s ease;
+    border-radius: 0;
+}
+.ld-course-form-wrapper input[type="text"] {
+    font-weight: 500;
+    padding: 20px;
+    font-size: 16px;
+}
+/*=== Tutor Course Search addon ====*/
+
+.edubin-courses-searching {
+    overflow: hidden;
+}
+.tutor-course-form-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+.tutor-course-form-wrapper input.tutor-course-input {
+    border-radius: 0;
+}
+.tutor-course-form-wrapper .tutor-course-btn {
+    transition: all .8s ease;
+    border-radius: 0;
+}
+.tutor-course-form-wrapper input[type="text"] {
+    font-weight: 500;
+    padding: 20px;
+    font-size: 16px;
+}
+/* ==== Video PopUp addon ===*/
+
+.YouTubePopUp-Wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 9999999999999;
+}
+.YouTubePopUp-animation {
+    opacity: 0;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: YouTubePopUp;
+    animation-name: YouTubePopUp;
+}
+@-webkit-keyframes YouTubePopUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes YouTubePopUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+body.logged-in .YouTubePopUp-Wrap {
+    /* For WordPress */
+    top: 32px;
+    z-index: 99998;
+}
+.YouTubePopUp-Content {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.YouTubePopUp-Content iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+    display: block !important;
+    height: 680px !important;
+    border: none !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.YouTubePopUp-Hide {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: YouTubePopUpHide;
+}
+@-webkit-keyframes YouTubePopUpHide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes YouTubePopUpHide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.YouTubePopUp-Close {
+    position: absolute;
+    top: 52px;
+    cursor: pointer;
+    right: 0px;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+    background: url(../images/close.png) no-repeat;
+    background-size: 24px 24px;
+    display: inline-block;
+}
+.YouTubePopUp-Close:hover {
+    opacity: 0.5;
+}
+@media (max-width:1200px) {
+    .YouTubePopUp-Content {
+        max-width: 950px;
+    }
+    .YouTubePopUp-Content iframe {
+        height: 500px !important;
+    }
+}
+@media (max-width:992px) {
+    .YouTubePopUp-Content {
+        max-width: 750px;
+    }
+    .YouTubePopUp-Content iframe {
+        height: 400px !important;
+    }
+}
+@media (max-width:768px) {
+    .YouTubePopUp-Content {
+        max-width: 500px;
+    }
+    .YouTubePopUp-Content iframe {
+        height: 362px !important;
+    }
+}
+@media (max-width:600px) {
+    .YouTubePopUp-Content {
+        max-width: 95%;
+    }
+    .YouTubePopUp-Content iframe {
+        height: 320px !important;
+    }
+    .YouTubePopUp-Close {
+        bottom: 362px;
+    }
+}
+@media (max-width:480px) {
+    .YouTubePopUp-Content {
+        max-width: 95%;
+    }
+    .YouTubePopUp-Content iframe {
+        height: 220px !important;
+    }
+    .YouTubePopUp-Close {
+        bottom: 262px;
+    }
+}
+/*=== End video popup library css ====*/
+
+.edubin-video-popup-wrapper {
+    position: relative;
+}
+/* Style 1 */
+
+.edubin-video-popup-wrapper .video i {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 24px;
+    background-color: var(--edubin-primary-color);
+    color: #07294d;
+    border-radius: 50%;
+}
+/* Style 2  play icon with text*/
+
+.edubin-video-popup-wrapper a.play-icon-text {
+    color: #ecb101;
+}
+/* Style 3 ripple effect */
+
+.edubin-video-popup-wrapper .play-btn {
+    width: 82px;
+    height: 82px;
+    background: radial-gradient(rgba(255, 188, 0, 0.94) 60%, #fac911 62%);
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+/* triangle */
+
+.edubin-video-popup-wrapper .play-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-40%) translateY(-50%);
+    transform: translateX(-40%) translateY(-50%);
+    transform-origin: center center;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 22px solid #fff;
+    z-index: 1;
+    -webkit-transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+/* pulse wave */
+
+.edubin-video-popup-wrapper .play-btn:before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate1 5s;
+    animation: pulsate1 5s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgb(250, 201, 17);
+    top: -25%;
+    left: -25%;
+    background: rgb(250, 201, 17);
+}
+@-webkit-keyframes pulsate1 {
+    0% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+        opacity: 1;
+        box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: none;
+    }
+}
+@keyframes pulsate1 {
+    0% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+        opacity: 1;
+        box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: none;
+    }
+}
+/*====== Ripple effect 4 =====*/
+
+.edubin-video-popup-wrapper .video-popup-4 {
+    position: relative;
+}
+.edubin-video-popup-wrapper .video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+.edubin-video-popup-wrapper .video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fdbd00;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+.edubin-video-popup-wrapper .video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fdbd00;
+    border-radius: 50%;
+    transition: all 200ms;
+}
+.edubin-video-popup-wrapper .video-play-button img {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.edubin-video-popup-wrapper .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #fff;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+/*====== Style 5 transform effect =====*/
+
+.edubin-video-popup-wrapper .video-popup-5 {
+    position: relative;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.edubin-video-popup-wrapper .stroke-dotted {
+    opacity: 0;
+    stroke-dasharray: 4, 5;
+    stroke-width: 1px;
+    transform-origin: 50% 50%;
+    animation: spin 4s infinite linear;
+    transition: opacity 1s ease, stroke-width 1s ease;
+}
+.edubin-video-popup-wrapper .stroke-solid {
+    stroke-dashoffset: 0;
+    stroke-dashArray: 300;
+    stroke-width: 4px;
+    transition: stroke-dashoffset 1s ease, opacity 1s ease;
+}
+.edubin-video-popup-wrapper .icon {
+    transform-origin: 50% 50%;
+    transition: transform 200ms ease-out;
+}
+.edubin-video-popup-wrapper #play:hover .stroke-dotted {
+    stroke-width: 4px;
+    opacity: 1;
+}
+.edubin-video-popup-wrapper #play:hover .stroke-solid {
+    opacity: 0;
+    stroke-dashoffset: 300;
+}
+.edubin-video-popup-wrapper #play:hover .icon {
+    transform: scale(1.05);
+}
+.edubin-video-popup-wrapper #play {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+/*====== Video popup round =====*/
+
+.edubin-video-popup-round {
+    position: relative;
+    border: 3px solid #ecb101;
+}
+.edubin-video-popup-round img {
+    display: block;
+    border-radius: 6px;
+    position: relative;
+}
+.edubin-video-popup-round a.icon-video {
+    position: absolute;
+    border-radius: 100%;
+    border: 7px solid #dcdcdc;
+    width: 75px;
+    height: 75px;
+    background: #FFF;
+    color: #ecb101;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    z-index: 12;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edubin-video-popup-round a.icon-video:hover {
+    background: #ecb101;
+    color: #fff !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.edubin-video-popup-round:hover:after {
+    background-color: #ecb101cc;
+}
+.edubin-video-popup-round:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    transition: .4s;
+    border-radius: 6px;
+}
+/*====== Video popup right =====*/
+
+.edubin-video-popup {
+    position: relative;
+    margin-top: 15px;
+}
+.edubin-video-popup img {
+    display: block;
+    border-radius: 6px;
+    position: relative;
+}
+.edubin-video-popup::before {
+    content: '';
+    border: 20px solid #ecb101;
+    background: none;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.edubin-video-popup a.icon-video {
+    position: absolute;
+    border-radius: 100%;
+    border: 7px solid #dcdcdc;
+    width: 75px;
+    height: 75px;
+    background: #FFF;
+    color: #ecb101;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    z-index: 12;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edubin-video-popup:hover:after {
+    background-color: #ecb101cc;
+}
+.edubin-video-popup:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    transition: .4s;
+    border-radius: 6px;
+}
+.edubin-video-popup a.icon-video:hover {
+    background: #ecb101;
+    color: #fff !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+/* ======Video left ======*/
+
+.edubin-video-popup-left {
+    position: relative;
+    margin-top: 25px;
+}
+.edubin-video-popup-left img {
+    display: block;
+    border-radius: 6px;
+    position: relative;
+}
+.edubin-video-popup-left::before {
+    content: '';
+    border: 30px solid #ecb101;
+    background: none;
+    position: absolute;
+    top: -15px;
+    right: -30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.edubin-video-popup-left::before {
+    content: '';
+    border: 30px solid #ecb101;
+    background: none;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.edubin-video-popup-left a.icon-video {
+    position: absolute;
+    border-radius: 100%;
+    border: 7px solid #dcdcdc;
+    width: 75px;
+    height: 75px;
+    background: #FFF;
+    color: #ecb101;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    z-index: 12;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edubin-video-popup-left a.icon-video:hover {
+    background: #ecb101;
+    color: #fff !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.edubin-video-popup-left:hover:after {
+    background-color: #ecb101cc;
+}
+.edubin-video-popup-left:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    transition: .4s;
+    border-radius: 6px;
+}
+/* ==== countdown === */
+
+.edubin-countdown-timer-widget .countdown-items {
+    overflow: hidden;
+}
+.edubin-countdown-timer-widget .countdown-items {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0px 20px;
+    border: 2px solid #333;
+}
+.edubin-countdown-timer-widget .countdown-items .ctw-digits {
+    display: block;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 35px;
+}
+.edubin-countdown-timer-widget .countdown-items .ctw-label {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+}
+.edubin-countdown-timer-widget .finished-message {
+    text-align: center;
+}
+/* media query css */
+
+@media (max-width:493px) {
+    .edubin-countdown-timer-widget .countdown-items {
+        width: 15%;
+    }
+    .edubin-countdown-timer-widget .countdown-items .ctw-digits {
+        font-size: 26px;
+    }
+}
+/**=== Edubin slider addon ==**/
+
+.edubin-slider {
+    position: relative;
+}
+.edubin-slider .slide {
+    position: relative;
+    padding: 130px 0px 240px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.edubin-slider .edubin-slider-background-overlay {
+    position: absolute;
+    content: '';
+    background: rgba(8, 41, 77, 0.53);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.edubin-slider .content-box {
+    position: relative;
+    width: 100%;
+}
+.edubin-slider .content-box .slider-title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 0;
+    margin-bottom: 25px;
+    opacity: 0;
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+.elementor-widget-edubin-slider-addons .edubin-slider .content-box .slider-title {
+    font-size: 60px;
+}
+.edubin-slider .active .slider-title {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    transition-delay: 1000ms;
+}
+.edubin-slider .content-box .edubin-slider-content {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0;
+    -webkit-transition: all 1700ms ease;
+    -moz-transition: all 1700ms ease;
+    -ms-transition: all 1700ms ease;
+    -o-transition: all 1700ms ease;
+    transition: all 1700ms ease;
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+    transform: translateX(20px);
+}
+.edubin-slider .active .edubin-slider-content {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    transition-delay: 1700ms;
+}
+.edubin-slider .content-box .button-box {
+    position: relative;
+    display: block;
+    opacity: 0;
+    -webkit-transition: all 2200ms ease;
+    -moz-transition: all 2200ms ease;
+    -ms-transition: all 2200ms ease;
+    -o-transition: all 2200ms ease;
+    transition: all 2200ms ease;
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    transform: translateY(20px);
+}
+.edubin-slider .active .button-box {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    transition-delay: 2200ms;
+}
+.edubin-slider .edubin-slider-btn .rep-btn {
+    padding: 12px 28px;
+    margin: 7px;
+    border-radius: 3px;
+    background: var(--edubin-primary-color);
+    display: block;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+.edubin-slider .edubin-slider-btn .rep-btn.left-btn {
+    background: var(--edubin-primary-color);
+    border: 2px solid var(--edubin-primary-color);
+    color: #07294d;
+    font-weight: 600;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+.edubin-slider .edubin-slider-btn .rep-btn.left-btn:hover {
+    background: #07294d;
+    border: 2px solid #07294d;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+.edubin-slider .edubin-slider-btn .rep-btn.right-btn {
+    border: 2px solid #fff;
+    color: #07294d;
+    font-weight: 600;
+    background: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+.edubin-slider .edubin-slider-btn .rep-btn.right-btn:hover {
+    background: #07294d;
+    border: 2px solid #07294d;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+/* === Slide nav ==== */
+
+.edubin-slider .owl-dots {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 52px;
+    display: none;
+}
+.edubin-slider .owl-dots .owl-dot span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.50);
+    cursor: pointer;
+    margin: 0px 3px;
+    transition: all 500ms ease;
+}
+.edubin-slider .owl-dots .owl-dot.active span, .edubin-slider .owl-dots .owl-dot:hover span {
+    background: #ffffff;
+    border: none;
+}
+.edubin-slider .owl-nav {
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    z-index: 1;
+    width: 100%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.edubin-slider:hover .owl-nav {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear
+}
+.edubin-slider .owl-theme .owl-controls .owl-nav [class*="owl-"] {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.10);
+}
+.edubin-slider .owl-nav .owl-prev {
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 500ms ease;
+    border: 2px solid #fff;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    line-height: 43px;
+}
+.edubin-slider:hover .owl-nav .owl-prev {
+    left: 35px;
+    transition: all 500ms ease;
+}
+.edubin-slider .owl-nav .owl-next {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 500ms ease;
+    border: 2px solid #fff;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    line-height: 43px;
+}
+.edubin-slider:hover .owl-nav .owl-next {
+    right: 35px;
+    transition: all 500ms ease;
+}
+.edubin-slider .owl-nav .owl-prev:hover, .edubin-slider .owl-nav .owl-next:hover {
+    background-color: var(--edubin-primary-color);
+    color: #192d66;
+    border-color: var(--edubin-primary-color);
+}
+@media (max-width:575.98px) {
+    .edubin-slider .slide {
+        padding: 50px 0px 50px 0px;
+    }
+    .edubin-slider .content-box .slider-title {
+        font-size: 40px;
+    }
+    .edubin-slider .edubin-slider-btn .rep-btn {
+        padding: 10px 20px;
+    }
+    .edubin-slider .owl-nav {
+        display: none;
+    }
+}
+/*== Section 1 addon ==*/
+
+.edubin-section-addon-1 {
+    position: relative;
+    display: block;
+    height: 600px;
+    width: 570px;
+}
+.edubin-section-addon-1 .front-image-1 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.edubin-section-addon-1 .front-image-1 img {
+    width: 465px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.edubin-section-addon-1 .front-image-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.edubin-section-addon-1 .front-image-2 img {
+    width: 262px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 0px 109px 0px rgba(0, 0, 0, 0.24);
+}
+/* ==== Services box addon ==== */
+
+.edubin-services-wrapper .slick-initialized .slick-slide {
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.edubin-services-wrapper .slick-initialized .slick-slide:nth-child(4n+1) .services-single-item {
+    background: #02b3e4;
+}
+.edubin-services-wrapper .slick-initialized .slick-slide:nth-child(4n+2) .services-single-item {
+    background: #a951ed;
+}
+.edubin-services-wrapper .slick-initialized .slick-slide:nth-child(4n+3) .services-single-item {
+    background: #ffae0c;
+}
+.edubin-services-wrapper .slick-initialized .slick-slide:nth-child(4n+3) .services-single-item {
+    background: #ff5483;
+}
+.edubin-custom-carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 120px;
+}
+.edubin-custom-carousel .services-single-wrap {
+    padding: 25px;
+    border-radius: 40px;
+}
+.edubin-custom-carousel .services-single-wrap:nth-child(4n+1) {
+    border: 1px dashed #02b3e4;
+}
+.edubin-custom-carousel .services-single-wrap:nth-child(4n+2) {
+    border: 1px dashed #a951ed;
+}
+.edubin-custom-carousel .services-single-wrap:nth-child(4n+3) {
+    border: 1px dashed #ffae0c;
+}
+.edubin-custom-carousel .services-single-wrap:nth-child(4n+4) {
+    border: 1px dashed #ff5483;
+}
+.edubin-custom-carousel .services-single-wrap {
+    top: 0;
+    transition: 0.35s;
+    position: relative;
+}
+.edubin-custom-carousel .services-single-wrap:hover {
+    top: -10px;
+    transition: 0.35s;
+    position: relative;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .edubin-custom-carousel {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .edubin-custom-carousel {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 575.98px) {
+    .edubin-custom-carousel {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.edubin-services-wrapper .services-single-wrap:nth-child(4n+1) .services-single-item {
+    background: #02b3e4;
+}
+.edubin-services-wrapper .services-single-wrap:nth-child(4n+2) .services-single-item {
+    background: #a951ed;
+}
+.edubin-services-wrapper .services-single-wrap:nth-child(4n+3) .services-single-item {
+    background: #ffae0c;
+}
+.edubin-services-wrapper .services-single-wrap:nth-child(4n+4) .services-single-item {
+    background: #ff5483;
+}
+.edubin-services-wrapper .services-single-item {
+    position: relative;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.35s;
+    top: 0;
+    padding-top: 60px;
+}
+.edubin-services-wrapper .services-single-wrap:hover .services-single-item {
+    top: -10px;
+    transition: 0.35s;
+}
+.edubin-services-wrapper .cat-icon-img {
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 100px;
+    width: 225px;
+    height: 225px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    position: absolute;
+    top: -140px;
+    left: 0;
+    right: 0;
+}
+.edubin-services-wrapper .cat-icon-img img {
+    border-radius: 100px;
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+}
+.edubin-services-wrapper .cat-title {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 12px;
+}
+.edubin-services-wrapper p {
+    color: #fff;
+    margin-bottom: 0;
+}
+.edubin-services-wrapper .edubin-cat-content {
+    padding: 10px 30px 35px;
+}
+.edubin-services-wrapper a:hover {
+    color: #fff;
+}
+.edubin-services-wrapper a {
+    color: #fff;
+}
+/* ==== Delimiter addon ==== */
+
+.delimiter {
+    position: relative;
+}
+/* ==== Login Join addon ==== */
+
+.login-join .login-join_wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: inherit;
+}
+.login-join .login-join_wrapper .join_link {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #08294D;
+    font-size: 13px;
+    padding: 16px 29px;
+    border-radius: 5px;
+    line-height: 1.1;
+}
+.login-join .login-join_wrapper .logout_link {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #08294D;
+    font-size: 13px;
+    padding: 16px 29px;
+    border-radius: 5px;
+    line-height: 1.1;
+}
+/*style 2*/
+
+.login-join ul {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.login-join ul li {
+    color: var(--edubin-content-color);
+    font-size: 15px;
+    display: inline-block;
+}
+.login-join li.top-seperator {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.login-join .login-register ul li a {
+    color: var(--edubin-content-color);
+    text-decoration: none;
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+}
+.login-join a {
+    color: var(--edubin-content-color);
+    font-size: 15px;
+}
+.login-join .edubin-custom-user-profile {
+    display: inline-block;
+}
+.login-join .login-register.logout {
+    display: inline-block;
+}
+/* Logo*/
+
+.edubin-logotype-container h1 {
+    margin: 0;
+    font-size: 40px;
+}
+/*Hero Section 2*/
+
+.edubin-hero-2 {
+    min-height: 830px;
+    display: block;
+    position: relative;
+    background: #ecf5f4;
+    z-index: 1;
+}
+.edubin-hero-2 .img-shape-2 {
+    position: absolute;
+    left: 4%;
+    top: 15%;
+    z-index: -1;
+}
+.edubin-hero-2.edubin-section-3 .img-shape-2 {
+    position: absolute;
+    left: 0;
+    top: initial;
+    bottom: 0;
+    z-index: -1;
+}
+.edubin-hero-2 .img-shape-3 {
+    position: absolute;
+    left: 32%;
+    bottom: 50px;
+    z-index: -1;
+}
+.edubin-hero-2.edubin-section-3 .img-shape-3 {
+    position: absolute;
+    left: initial;
+    bottom: 130px;
+    z-index: -1;
+    right: 40%;
+}
+.edubin-hero-2 .img-shape-4 {
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    z-index: -1;
+}
+.edubin-hero-2.edubin-section-3 .img-shape-4 {
+    position: absolute;
+    right: 18%;
+    top: 28%;
+    z-index: -1;
+}
+.edubin-hero-2 .hero-content {
+    top: 220px;
+    position: relative;
+}
+.hero-content .sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #9aa4af;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.edubin-hero-2.edubin-section-3 .hero-content .sub-title {
+    text-transform: initial;
+    font-weight: 400;
+}
+.hero-content .title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #29303b;
+    line-height: 66px;
+    margin-top: 15px;
+}
+.hero-content .title span {
+    position: relative;
+}
+.edubin-hero-2.edubin-section-3 .hero-content .title span:before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background: #0071dc;
+    width: 100%;
+    bottom: -3px;
+}
+.edubin-hero-2 .edubin-btn-3 {
+    margin-top: 15px;
+}
+.edubin-hero-2 .hero-images {
+    padding-top: 175px;
+    position: relative;
+    z-index: 1;
+}
+.edubin-hero-2.edubin-section-3 .hero-images {
+    padding-top: inherit;
+    bottom: 0;
+    position: relative;
+    top: inherit;
+}
+.edubin-hero-2 .hero-images .img-shape-1 {
+    position: absolute;
+    z-index: -1;
+    bottom: 138px;
+    right: 0;
+    padding-left: 20px;
+}
+.edubin-hero-2 .hero-images .img-man {
+    text-align: left;
+    position: relative;
+}
+@media (max-width: 1399px) {
+    .edubin-hero-2 .img-shape-4 {
+        top: 10%;
+    }
+}
+@media (max-width: 1199px) {
+    .edubin-hero-2 .hero-content .title {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .edubin-hero-2 .hero-images {
+        padding-top: 150px;
+    }
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        max-width: 420px;
+        bottom: 100px;
+        right: 0;
+    }
+}
+@media (max-width: 991px) {
+    .edubin-hero-2 .hero-images .img-man {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        right: 80px;
+    }
+    .edubin-hero-2 .img-shape-4 {
+        top: 26%;
+    }
+    .edubin-hero-2 .img-shape-2 {
+        top: 47%;
+    }
+    .edubin-hero-2 .img-shape-3 {
+        left: 6%;
+        bottom: 17px;
+    }
+    .edubin-hero-2 .img-shape-3 img {
+        width: 110px;
+    }
+    .edubin-hero-2 .hero-content {
+        top: 60px;
+    }
+}
+@media (max-width: 767px) {
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        right: 50px;
+        bottom: 65px;
+    }
+    .edubin-hero-2 .hero-images .img-shape-1 img {
+        width: 450px;
+    }
+    .edubin-hero-2 .hero-images .img-man img {
+        width: 400px;
+    }
+    .edubin-hero-2 .img-shape-4 {
+        top: 35%;
+    }
+}
+@media (max-width: 575px) {
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        right: 60px;
+        bottom: 90px;
+    }
+    .edubin-hero-2 .img-shape-2 {
+        top: 54%;
+        left: -23%;
+    }
+    .edubin-hero-2 .img-shape-4 {
+        top: 48%;
+    }
+    .edubin-hero-2 .img-shape-3 {
+        left: 2%;
+        bottom: 5px;
+    }
+    .edubin-hero-2 .img-shape-3 img {
+        width: 95px;
+    }
+}
+.front-image-content {
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 28px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 62px 0px rgb(0 0 0 / 23%);
+}
+.front-image-content .hero-content-heading {
+    font-size: 20px;
+}
+.front-image-content .hero-content-heading span {
+    color: var(--edubin-primary-color);
+}
+.front-image-content p {
+    color: #ababab;
+    margin-bottom: 0;
+}
+.front-image-content .image-icon {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: var(--edubin-primary-color);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 575px) {
+    .front-image-content {
+        padding-left: 40px;
+        max-width: 245px
+    }
+    .front-image-content .image-icon {
+        left: -25px
+    }
+    .front-image-content .image-icon {
+        width: 51px;
+        height: 51px;
+        line-height: 60px;
+        font-size: 24px
+    }
+}
+/* Edubin Hero 4*/
+
+.edubin-hero-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 70%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.edubin-hero-4 .shape-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-35%, -3%);
+    z-index: -1;
+}
+.edubin-hero-4 .shape-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-31%, -24%);
+    z-index: -1;
+}
+.edubin-hero-4 .shape-3 {
+    position: absolute;
+    bottom: 140px;
+    left: -10px;
+    z-index: -1;
+    -webkit-animation: round 7s linear infinite;
+    animation: round 7s linear infinite;
+}
+.edubin-hero-4 .shape-5 {
+    position: absolute;
+    bottom: 48%;
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #ff9071;
+    border-radius: 50%;
+    -webkit-animation: zoom-in 5s linear infinite;
+    animation: zoom-in 5s linear infinite;
+    z-index: -1;
+}
+.edubin-hero-4 .shape-6 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(74%, 32%);
+    z-index: -1;
+}
+.edubin-hero-4 .shape-7 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(52%, 70%);
+    z-index: -2;
+}
+.edubin-hero-4 .hero-content {
+    max-width: 600px;
+    padding-top: 120px;
+    position: relative;
+}
+.edubin-hero-4 .hero-content .shape-4 {
+    position: absolute;
+    bottom: -95px;
+    left: 15px;
+    z-index: -1;
+    -webkit-animation: bounce-animate 5s infinite linear;
+    animation: bounce-animate 5s infinite linear;
+}
+.edubin-hero-4 .hero-content .sign img {
+    margin: 0;
+    margin-bottom: 25px;
+}
+.edubin-hero-4 .title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-top: 15px;
+}
+.edubin-hero-4 .title span {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.edubin-hero-4 .description {
+    margin-top: 20px;
+}
+/*End widgets-css*/
+
+.edubin-course-top.switch-layout-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#lp-archive-courses .switch-layout-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+.switch-layout-container {
+    background: #f5f5f5;
+    padding: 10px 14px;
+    margin-bottom: 50px;
+    min-height: 54px
+}
+.switch-layout-container .edubin-course-order {
+    margin-left: auto;
+    margin-right: 20px
+}
+.switch-layout-container .edubin-course-order select {
+    height: 34px;
+    color: #999;
+    font-size: 13px;
+    padding: 0 8px;
+}
+.switch-layout-container.has_desc {
+    margin-bottom: 15px
+}
+.switch-layout-container .switch-layout {
+    float: left
+}
+.switch-layout-container .switch-layout a {
+    font-size: 18px;
+    display: inline-block;
+    line-height: 34px;
+    margin-right: 5px;
+    color: #ccc
+}
+.switch-layout-container .course-index {
+    display: inline-block;
+    line-height: 34px;
+    font-size: 13px;
+    color: #999;
+    margin-left: 15px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+.switch-layout-container .courses-searching {
+    float: right;
+    position: relative;
+    max-width: calc(100% - 70px);
+    max-width: -moz-calc(100% - 70px)
+}
+.switch-layout-container .courses-searching ul {
+    margin: 0;
+    padding-left: 0;
+    right: 0;
+    z-index: 2;
+    line-height: 35px;
+    background: #fff;
+    border: none;
+    margin-top: 10px;
+    min-width: 465px;
+    position: absolute;
+    margin-right: -10px;
+    padding: 20px 20px;
+    box-shadow: 0 3px 6px rgb(128 128 128 / 27%);
+    -webkit-box-shadow: 0 3px 6px rgb(128 128 128 / 27%);
+    -moz-box-shadow: 0 3px 6px rgb(128 128 128 / 27%);
+    max-height: 350px;
+    overflow: overlay;
+}
+.switch-layout-container .courses-searching ul li {
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.switch-layout-container .courses-searching ul li:last-child {
+    border-bottom: 0;
+}
+.switch-layout-container .courses-searching ul li img {
+    width: 40px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 3px;
+    box-shadow: 0 20px 50px rgb(0 0 0 / 5%);
+}
+.switch-layout-container .courses-searching ul li a {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    color: var(--edubin-heading-color);
+    font-size: 14px
+}
+.switch-layout-container .courses-searching ul li a:hover {
+    color: var(--edubin-primary-color);
+}
+.switch-layout-container .courses-searching ul li.ob-selected a {
+    color: var(--edubin-primary-color);
+}
+.switch-layout-container .courses-searching ul li:last-child {
+    margin-bottom: 10px
+}
+.switch-layout-container .courses-searching form {
+    border: 0;
+    background: #fff;
+    width: 270px;
+    position: relative;
+    line-height: 34px;
+    max-width: 100%
+}
+.switch-layout-container .courses-searching form input[type=text] {
+    font-size: 13px;
+    color: #999;
+    line-height: 20px;
+    padding: 6px 0 6px 10px;
+    border-radius: 0;
+    width: 100%;
+    height: 34px;
+    border: 1px solid #e5e5e5;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+.switch-layout-container .courses-searching form input[type=text]:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+.switch-layout-container .courses-searching form button[type=submit] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 10;
+    background: 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    width: 30px;
+    padding: 0;
+    line-height: 34px
+}
+.switch-layout-container .courses-searching form button[type=submit] i {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 34px
+}
+@media only screen and (max-width:992px) {
+    .edubin-course-top .filter__top {
+        padding: 5px 0;
+    }
+}
+@media only screen and (max-width:698px) {
+    .switch-layout-container .courses-searching {
+        width: 100%;
+        max-width: 100%;
+    }
+    .switch-layout-container .courses-searching form {
+        width: 100%;
+        max-width: 100%;
+    }
+    .switch-layout-container .edubin-course-order {
+        margin-right: 0;
+        width: 100%;
+    }
+    form.edubin-course-filter-form {
+        width: 100%;
+    }
+    .switch-layout-container .edubin-course-order select {
+        width: 100%;
+    }
+}
+/*
+* Search addon Style
+*/
+
+.edubin-search-box-wrap input:focus {
+    outline: none;
+}
+.edubin-search-box-wrap .btn-search {
+    background: transparent;
+    padding: 0;
+}
+.edubin-search-box-wrap svg {
+    width: 20px;
+    margin-top: 8px;
+}
+/* Search Style 01 */
+
+.edubin-search-sty-wraple-1 {
+    position: relative;
+}
+.edubin-search-sty-wraple-1 input {
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 22px !important;
+    transition: all .3s ease-in-out;
+    height: 45px;
+    color: #999999;
+    font-size: 14px;
+    padding: 0 78px 0 20px !important;
+}
+.edubin-search-sty-wraple-1 input:focus {
+    width: 100%;
+    border: 1px solid hotpink;
+}
+.edubin-search-sty-wraple-1 input:focus~button {
+    width: 36px;
+}
+.edubin-search-sty-wraple-1 input:focus~button.btn-search {
+    background: var(--edubin-secondary-color);
+    color: #fff;
+    border-radius: 20px;
+}
+.edubin-search-sty-wraple-1 input:focus~button.btn-reset {
+    right: -22px;
+}
+.edubin-search-sty-wraple-1 button {
+    transition: all .3s ease-in-out;
+    border: none;
+    height: 36px;
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    width: 70px;
+    transform: translateY(-50%);
+    padding: 0;
+}
+.edubin-search-sty-wraple-1 button.btn-search {
+    background: var(--edubin-secondary-color);
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+/* Search Style 03 */
+
+.edubin-search-sty-wraple-3 {
+    position: relative;
+}
+.edubin-search-sty-wraple-3 input {
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    height: 45px;
+    color: #999999;
+    font-size: 14px;
+    padding: 0 78px 0 20px;
+}
+.edubin-search-sty-wraple-3 input:focus {
+    width: 100%;
+    border: 1px solid hotpink;
+}
+.edubin-search-sty-wraple-3 input:focus~button {
+    width: 36px;
+}
+.edubin-search-sty-wraple-3 input:focus~button.btn-search {
+    background: var(--edubin-secondary-color);
+    color: #fff;
+    border-radius: 20px;
+}
+.edubin-search-sty-wraple-3 input:focus~button.btn-reset {
+    right: -22px;
+}
+.edubin-search-sty-wraple-3 button {
+    transition: all .3s ease-in-out;
+    border: none;
+    height: 36px;
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    width: 70px;
+    transform: translateY(-50%);
+    padding: 0;
+}
+.edubin-search-sty-wraple-3 button.btn-search {
+    transition: all .3s ease-in-out;
+    border: none;
+    height: 36px;
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    width: 50px;
+    transform: translateY(-50%);
+    padding: 0;
+    color: var(--edubin-secondary-color);
+    transition: all .3s ease-in-out;
+}
+/*=== Teacher addon ====*/
+
+.edubin-single-teacher {
+    position: relative;
+}
+.edubin-single-teacher .image {
+    border-radius: 3px;
+    overflow: hidden;
+}
+.edubin-single-teacher .image img {
+    width: 100%;
+}
+.edubin-single-teacher .image img {
+    height: 305px;
+    object-fit: cover;
+}
+.edubin-single-teacher .teacher-content-area {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 0;
+    height: 75px;
+    overflow: hidden;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.edubin-single-teacher .teacher-content {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 0;
+}
+.edubin-single-teacher:hover .teacher-content {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    bottom: 10px;
+}
+.edubin-single-teacher .teacher-content a {
+    display: block;
+}
+.edubin-single-teacher .teacher-content a .teacher-name {
+    color: var(--edubin-heading-color);
+    font-size: 18px;
+    font-weight: 700!important;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.edubin-single-teacher .teacher-content .teacher-name {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.edubin-single-teacher .teacher-content a:hover .teacher-name {
+    color: var(--edubin-primary-color);
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.edubin-single-teacher .teacher-content .teacher-degree {
+    display: block;
+    margin-bottom: 0;
+}
+.edubin-single-teacher .teacher-content span {
+    font-size: 15px;
+    color: #8a8a8a;
+    font-weight: 500;
+}
+.edubin-single-teacher .teacher-content .techer-social {
+    padding-top: 5px;
+}
+.edubin-single-teacher .techer-social a.social-link {
+    color: #07294d;
+    padding: 0 5px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.edubin-single-teacher .techer-social a.social-link:hover {
+    color: var(--edubin-primary-color);
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.edubin-single-teacher .teacher-content a {
+    display: inline-block;
+}
+.edubin-single-teacher.active-social .teacher-content {
+    bottom: -25px;
+}
+.edubin-single-teacher.active-social:hover .teacher-content-area {
+    height: 110px;
+}
+.edubin-single-teacher.active-social:hover .teacher-content {
+    bottom: 10px;
+}
+
+/*=== Latest blog post addon ====*/
+
+.edubin-latest-news .single-news .news-thum img {
+    width: 100%;
+    border-radius: 3px;
+}
+.edubin-latest-news .news-thum.thum-list {
+    position: relative;
+}
+.edubin-latest-news .news-thum.thum-list.overlay-layout-3>a:before {
+    position: absolute;
+    background: linear-gradient(0deg, #07294d 0%, transparent 62%);
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+}
+.edubin-latest-news .news-thum.thum-list img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+.edubin-latest-news .news-thum.thum-single {
+    position: relative;
+    margin-bottom: 20px;
+}
+.edubin-latest-news .news-thum.thum-single.overlay-layout-3>a:before {
+    position: absolute;
+    background: linear-gradient(0deg, #07294d 0%, transparent 62%);
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+}
+.edubin-latest-news .news-thum.thum-single img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+.edubin-latest-news .edubin-blog-date {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    background: var(--edubin-primary-color);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+.edubin-latest-news .edubin-blog-date p {
+    color: #07294d;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.edubin-latest-news .edubin-blog-date p span {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #07294d
+}
+.edubin-latest-news .edubin-news-meta {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    padding: 0 40px;
+    font-size: 14px;
+}
+.edubin-latest-news .edubin-news-meta ul li i {
+    padding-right: 5px;
+    color: var(--edubin-primary-color);
+}
+.edubin-latest-news .news-cont>ul>li>i {
+    padding-right: 5px;
+    color: var(--edubin-primary-color);
+}
+.edubin-latest-news .edubin-news-meta ul li+li {
+    margin-left: 10px;
+}
+.edubin-latest-news .edubin-news-meta ul li {
+    display: inline-block;
+}
+.edubin-latest-news .edubin-news-meta ul li a {
+    color: #fff;
+}
+.edubin-latest-news .single-news .news-cont ul {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.edubin-latest-news .single-news .news-cont ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.edubin-latest-news .single-news .news-cont ul li:last-child {
+    margin-right: 0;
+}
+.edubin-latest-news .single-news .news-cont ul li a {
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.edubin-latest-news .single-news .news-cont ul li a i {
+    color: var(--edubin-primary-color);
+    margin-right: 6px;
+    font-size: 14px;
+}
+.edubin-latest-news .single-news .news-cont ul li a span {
+    color: #07294d;
+    text-transform: lowercase;
+}
+.edubin-latest-news .single-news .news-cont ul li a:hover {
+    color: var(--edubin-primary-color);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.edubin-latest-news .single-news .news-cont a {
+    display: block;
+}
+.edubin-latest-news .single-news.news-big .news-cont a .news-title {
+    font-size: 30px;
+    color: #07294d;
+    padding-bottom: 20px;
+    padding-top: 0;
+    margin-bottom: 0;
+    line-height: 34px;
+    font-weight: 700;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-latest-news .single-news .news-cont a:hover .news-title {
+    color: var(--edubin-primary-color);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.edubin-latest-news .single-news.news-list .news-cont .news-title {
+    font-size: 22px;
+    line-height: 28px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.edubin-latest-news .news-list .news-cont ul li a {
+    font-size: 14px;
+}
+.edubin-latest-news .news-list .news-cont .content {
+    font-size: 16px;
+}
+.edubin-latest-news .single-news.news-list {
+    margin: 0 0 25px 0px;
+    overflow: hidden;
+}
+.edubin-latest-news .single-news.news-list:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+.edubin-latest-news .single-news .news-cont a .news-title.news-list-title {
+    margin-bottom: 15px;
+}
+.edubin-latest-news .single-news .blog-list-img {
+    float: left;
+    width: 175px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+@media (max-width:768px) {
+    .edubin-latest-news .single-news.news-list:first-child {
+        padding-top: 20px;
+    }
+    .edubin-latest-news .single-news.news-list {
+        padding: 15px 0;
+    }
+}
+@media (max-width:576px) {
+    .edubin-latest-news .single-news.news-list {
+        border-left: none;
+        border-top: none;
+        padding: 0;
+    }
+    .edubin-latest-news .news-thum.thum-single img {
+        height: 320px;
+    }
+    .edubin-latest-news .news-thum.thum-list img {
+        height: 320px;
+        margin-bottom: 20px;
+    }
+    .edubin-latest-news .single-news.news-big .news-cont a .news-title {
+        font-size: 24px;
+    }
+    .edubin-latest-news .single-news .blog-list-img {
+        width: 100%;
+    }
+}
+/* Layout 1 */
+
+.edubin-latest-news.layout-1 .single-news {
+    margin-bottom: 40px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.edubin-latest-news.layout-1 .single-news:last-child {
+    margin-bottom: 0;
+}
+.edubin-latest-news.layout-1 .news-thum {
+    height: 210px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.edubin-latest-news.layout-1 .news-thum img {
+    height: 210px;
+    transition: all 0.5s ease;
+    object-fit: cover;
+}
+@media only screen and (max-width:768px) {
+    .edubin-latest-news.layout-1 .news-thum {
+        max-height: 410px;
+    }
+    .edubin-latest-news.layout-1 .news-thum img {
+        height: 410px;
+    }
+}
+@media only screen and (max-width:576px) {
+    .edubin-latest-news.layout-1 .news-thum {
+        max-height: 210px;
+    }
+    .edubin-latest-news.layout-1 .news-thum img {
+        height: 210px;
+    }
+}
+.edubin-latest-news.layout-1 .single-news:hover .news-thum img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.edubin-latest-news.layout-1 .news-title {
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+.edubin-latest-news.layout-1 .single-news .news-cont ul {
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+.edubin-latest-news.layout-1 .single-news .news-cont ul li a i {
+    color: var(--edubin-primary-color);
+}
+.edubin-latest-news.layout-1 .single-news .news-cont ul li a {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    margin-right: 20px;
+}
+.edubin-latest-news.layout-1 .single-news .news-cont ul li i {
+    margin-right: 8px;
+    color: var(--edubin-primary-color);
+}
+/* Layout 5 */
+
+.edubin-latest-news.layout-5 .single-news {
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+    transition: all 0.5s ease;
+}
+.edubin-latest-news.layout-5 .single-news:last-child {
+    margin-bottom: 30px;
+}
+.edubin-latest-news.layout-5 .news-thum {
+  /*  height: 210px;*/
+    overflow: hidden;
+}
+.edubin-latest-news.layout-5 .news-thum img {
+/*    height: 210px;*/
+    transition: all 0.5s ease;
+    object-fit: cover;
+}
+.edubin-latest-news.layout-5 .single-news:hover .news-thum img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.edubin-latest-news.layout-5 .news-cont {
+    padding: 30px 30px 0;
+}
+.edubin-latest-news.layout-5 .news-title {
+    padding-top: 0;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+.edubin-latest-news.layout-5 .single-news .news-cont ul {
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+.edubin-latest-news.layout-5 .single-news .news-cont ul li a i {
+    color: var(--edubin-primary-color);
+}
+.edubin-latest-news.layout-5 .single-news .news-cont ul li a {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    margin-right: 10px;
+}
+.edubin-latest-news.layout-5 .single-news .news-cont ul li i {
+    margin-right: 8px;
+    color: var(--edubin-primary-color);
+}
+.edubin-latest-news.layout-5 .news-cont p {
+    /*    margin-bottom: 0;*/
+}
+.edubin-latest-news .edubin-blog-readmore {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+/* Layout 6 */
+
+.edubin-no-gutters {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row.edubin-latest-news.layout-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.layout-6 .single-news {
+    margin-bottom: 40px;
+}
+.layout-6 .single-news .news-cont a .news-title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #07294d;
+}
+.layout-6 .single-news .news-cont ul li a {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    color: #8a8a8a;
+}
+.layout-6 .single-news .news-cont ul {
+    padding-bottom: 12px;
+    padding-left: 0;
+}
+.layout-6 .news-thum {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.layout-6 .news-cont {
+    padding-right: 30px;
+}
+.layout-6 .single-news .news-thum img {
+    height: 320px;
+    object-fit: cover;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.layout-6 .single-news:hover .news-thum a img {
+    transform: scale(1.1);
+}
+/*=== Testimonial addon ====*/
+
+.edubin-testi-1 .edubin-testi-single {
+    position: relative;
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-thum {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-109%);
+    transform: translateY(-109%);
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-thum img {
+    border-radius: 3px;
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-thum .quote {
+    position: absolute;
+    right: -22px;
+    top: -22px;
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-thum .quote i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: var(--edubin-primary-color);
+    border-radius: 50%;
+    color: #07294d;
+    font-size: 18px;
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-cont {
+    padding-left: 140px;
+    padding-right: 32px;
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-cont p {
+    color: #fff;
+    padding-bottom: 5px;
+    padding-right: 30px;
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-cont .name {
+    color: #fff;
+    margin: 0;
+    padding: 0 30px 4px 0;
+    font-size: 18px;
+    font-weight: 700!important;
+    margin: 0px;
+}
+.edubin-testi-1 .edubin-testi-single .testimonial-cont .degree {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.edubin-testi-1 .slick-list {
+    padding-top: 35px;
+}
+@media (max-width: 767.98px) {
+    .edubin-testi-1 .edubin-testi-single .testimonial-thum {
+        position: relative;
+        left: 0;
+        top: 0;
+        -webkit-transform: translateY(-9%);
+        transform: translateY(-9%);
+    }
+    .edubin-testi-1 .edubin-testi-single .testimonial-cont {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/*
+* Testimonial Style
+*/
+
+.edubin-testi-1 .slick-arrow {
+    z-index: 1;
+}
+.edubin-testi-1 .slick-prev, .edubin-testi-1 .slick-next {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #7d7d7d;
+    cursor: pointer;
+    display: block;
+    font-size: 24px;
+    height: auto;
+    line-height: 1;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: auto;
+}
+.edubin-testi-1 .slick-dots {
+    list-style: none;
+}
+.edubin-testi-1 .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #e3e3e3;
+    border-radius: 100%;
+}
+.edubin-testi-1 .slick-dots li.slick-active button {
+    background: var(--edubin-primary-color);
+}
+.edubin-testi-1 .slick-dots li button:before {
+    display: none;
+}
+.edubin-testi-1 .slick-dots {
+    bottom: -30px;
+}
+.edubin-testi-1 .slick-dots li {
+    margin: 0 7px;
+    width: 12px;
+    height: 12px;
+}
+.edubin-testi-1 .slick-prev::before, .edubin-testi-1 .slick-next::before {
+    display: none;
+}
+.edubin-testi-1 .slick-prev:hover, .edubin-testi-1 .slick-prev:focus, .edubin-testi-1 .slick-next:hover, .edubin-testi-1 .slick-next:focus {
+    color: #ccc;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+/*Testimonial style 2*/
+
+.edubin-testi-2-area {
+    background-color: #07294d;
+    padding: 60px;
+    border-radius: 3px;
+    position: relative;
+}
+.edubin-testi-2-area .testi-heading .heading {
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 0;
+    margin: 0;
+}
+.edubin-testi-2-area .edubin-testi-bg-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.edubin-testi-2-area .edubin-testi-bg-image img {
+    float: right;
+}
+.edubin-testi-2 .testi-single {
+    position: relative;
+    z-index: 5;
+}
+.edubin-testi-2 .testi-single img {
+    padding-bottom: 20px;
+    margin-left: 0;
+    max-width: 80px;
+}
+.edubin-testi-2 .testi-single .content {
+    color: #fff;
+    padding-bottom: 20px;
+    padding-right: 135px;
+    margin-bottom: 0;
+}
+.edubin-testi-2 .testi-single .name {
+    color: #fff;
+    font-size: 18px;
+    padding: 0;
+    font-weight: 700!important;
+    margin-bottom: 5px;
+}
+.edubin-testi-2 .testi-single .degree {
+    font-size: 15px;
+    color: #fff;
+}
+/*
+* Testimonial Style
+*/
+
+.edubin-testi-2 .slick-arrow {
+    z-index: 1;
+}
+.edubin-testi-2 .slick-prev, .edubin-testi-2 .slick-next {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #7d7d7d;
+    cursor: pointer;
+    display: block;
+    font-size: 24px;
+    height: auto;
+    line-height: 1;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: auto;
+}
+.edubin-testi-2 .slick-dots {
+    list-style: none;
+    z-index: 1;
+}
+.edubin-testi-2 .slick-list {
+    z-index: 2;
+}
+.edubin-testi-2 .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #e3e3e3;
+    border-radius: 100%;
+}
+.edubin-testi-2 .slick-dots li.slick-active button {
+    background: var(--edubin-primary-color);
+}
+.edubin-testi-2 .slick-dots li button:before {
+    display: none;
+}
+.edubin-testi-2 .slick-dots {
+    bottom: -30px;
+}
+.edubin-testi-2 .slick-dots li {
+    margin: 0 7px;
+    width: 12px;
+    height: 12px;
+}
+.edubin-testi-2 .slick-prev::before, .edubin-testi-2 .slick-next::before {
+    display: none;
+}
+.edubin-testi-2 .slick-prev:hover, .edubin-testi-2 .slick-prev:focus, .edubin-testi-2 .slick-next:hover, .edubin-testi-2 .slick-next:focus {
+    color: #ccc;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+/*Testimonial 3*/
+
+.edubin-testi-3 .slick-arrow {
+    z-index: 1;
+}
+.edubin-testi-3 .slick-prev, .edubin-testi-3 .slick-next {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #7d7d7d;
+    cursor: pointer;
+    display: block;
+    font-size: 24px;
+    height: auto;
+    line-height: 1;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: auto;
+}
+.edubin-testi-3 .slick-dots {
+    list-style: none;
+}
+.edubin-testi-3 .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #e3e3e3;
+    border-radius: 100%;
+}
+.edubin-testi-3 .slick-dots li.slick-active button {
+    background: var(--edubin-primary-color);
+}
+.edubin-testi-3 .slick-dots li button:before {
+    display: none;
+}
+.edubin-testi-3 .slick-dots {
+    bottom: -70px;
+}
+.edubin-testi-3 .slick-dots li {
+    margin: 0 7px;
+    width: 12px;
+    height: 12px;
+}
+.edubin-testi-3 .slick-prev::before, .edubin-testi-3 .slick-next::before {
+    display: none;
+}
+.edubin-testi-3 .slick-prev:hover, .edubin-testi-3 .slick-prev:focus, .edubin-testi-3 .slick-next:hover, .edubin-testi-3 .slick-next:focus {
+    color: #ccc;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.edubin-testi-3 .testi-heading {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.edubin-testi-3 .testimonial-cont {
+    color: #fff;
+    padding: 40px;
+    margin: 0 35px 35px 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+.edubin-testi-3 .testimonial-cont {
+    color: #fff;
+    padding: 40px;
+    margin: 0 35px 35px 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+.edubin-testi-single.slick-slide>div:nth-last-child {
+    margin-right: 0;
+}
+.edubin-testi-3 .testimonial-cont p {
+    margin-bottom: 0;
+}
+.edubin-testi-3 .testimonial-cont:after {
+    content: '';
+    border: 15px solid transparent;
+    position: absolute;
+    left: 40px;
+    bottom: -30px;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-top: 15px solid rgba(255, 255, 255, 0.1);
+}
+.edubin-testi-3 .testimonial-thum {
+    float: left;
+    padding-left: 20px;
+}
+.edubin-testi-3 .testimonal-image img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.edubin-testi-3 .testimonal-image {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+}
+.edubin-testi-3 .testi-name-degree {
+    float: left;
+    margin-top: 12px;
+}
+.edubin-testi-3 .name {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.edubin-testi-3 .degree {
+    color: #ddd;
+    float: left;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+/*Testimonial 4*/
+
+.edubin-testi-4 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.edubin-testi-4 .edubin-testi-single {
+    margin-bottom: 10px;
+}
+.edubin-testi-4 .edubin-testi-single {
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.27);
+    padding: 50px
+}
+.edubin-testi-4 .slick-slide {
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.edubin-testi-4 .testi-icon-wrap {
+    margin-bottom: 10px;
+}
+.edubin-testi-4 .testi-thum-degree-wrap {
+    display: flex;
+    align-items: center;
+}
+.edubin-testi-4 .testi-img {
+    float: left;
+    display: inline-block;
+}
+.edubin-testi-4 .testi-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin: 0;
+}
+.edubin-testi-4 .testi-name-degree {
+    display: inline-block;
+    float: left;
+    margin-left: 18px;
+}
+.edubin-testi-4 .name {
+    margin-bottom: 0;
+    color: #29303b
+}
+.edubin-testi-4 .degree {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.edubin-testi-4 .testi-content p {
+    color: #29303b;
+}
+.edubin-testi-6 .edubin-testi-single.layout-6 {
+    display: flex !important;
+    align-items: center;
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-thum {
+    position: relative;
+    padding: 65px;
+    padding-left: 0;
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-thum .testimonial-shape::before {
+    content: "";
+    background: var(--edubin-primary-color);
+    width: 200px;
+    height: 415px;
+    position: absolute;
+    bottom: 35px;
+    right: 30px;
+    overflow: hidden;
+    z-index: -1;
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-cont {
+    flex: 1;
+    padding-left: 40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .edubin-testi-6 .edubin-testi-single .testimonial-cont {
+        padding-left: 20px;
+    }
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-cont i {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background: #ff4612;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-cont p {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 25px;
+    color: var(--edubin-content-color);
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-cont .testi-name-degree {
+    margin-top: 35px;
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-cont .degree {
+    margin-top: 5px;
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-cont .testi-name-degree .name {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    display: block;
+    color: var(--edubin-content-color);
+    margin-bottom: 0;
+}
+.edubin-testi-6 .edubin-testi-single .testimonial-cont .testi-name-degree .degree {
+    font-size: 16px;
+    line-height: 28px;
+    display: block;
+    color: var(--edubin-content-color);
+}
+@media only screen and (max-width: 767px) {
+    .edubin-testi-6 .edubin-testi-single {
+        flex-direction: column;
+    }
+    .edubin-testi-6 .edubin-testi-single .testimonial-thum {
+        padding: 0px;
+    }
+    .edubin-testi-6 .edubin-testi-single .testimonial-thum .testimonial-shape::before {
+        display: none;
+    }
+    .edubin-testi-6 .edubin-testi-single .testimonial-cont {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+}
+/* === Custom Icon adddon ==== */
+
+.elementor-widget-edubin-custom-icon .icon-shape-wrap {
+    background: var(--edubin-primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 58px;
+    left: 25px;
+}
+/* === CTA adddon ==== */
+
+.edubin-cta-1 {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.edubin-cta-1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, #ffffff00 38%, #000 100%);
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+.edubin-cta-1 .cta-content {
+    display: flex;
+    align-items: center;
+    padding: 350px 30px 45px 30px;
+}
+.edubin-cta-1 .cta-content .cta-icon i {
+    width: 55px;
+    height: 55px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    background: var(--edubin-primary-color);
+    color: #fff;
+    margin-right: 10px;
+}
+.edubin-cta-1 .cta-content p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.edubin-cta-1 .cta-content .number {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+}

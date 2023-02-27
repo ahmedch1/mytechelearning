@@ -1,0 +1,3760 @@
+# Copyright (C) 2022 edubin-core
+# This file is distributed under the same license as the edubin-core package.
+msgid ""
+msgstr ""
+"Project-Id-Version: edubin-core\n"
+"Report-Msgid-Bugs-To: https://www.raistheme.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: RaisTheme <help.raistheme@gmail.com>\n"
+"Language-Team: RaisTheme <https://www.raistheme.com/>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/helper-function.php:42
+msgid "Do not Saved Templates."
+msgstr ""
+
+#: includes/helper-function.php:44
+msgid "Select Template"
+msgstr ""
+
+#: includes/helper-function.php:62
+msgid "No sidebars were found"
+msgstr ""
+
+#: includes/helper-function.php:64
+msgid "Select Sidebar"
+msgstr ""
+
+#: includes/helper-function.php:119
+msgid "H1"
+msgstr ""
+
+#: includes/helper-function.php:120
+msgid "H2"
+msgstr ""
+
+#: includes/helper-function.php:121
+msgid "H3"
+msgstr ""
+
+#: includes/helper-function.php:122
+msgid "H4"
+msgstr ""
+
+#: includes/helper-function.php:123
+msgid "H5"
+msgstr ""
+
+#: includes/helper-function.php:124
+msgid "H6"
+msgstr ""
+
+#: includes/helper-function.php:125
+msgid "p"
+msgstr ""
+
+#: includes/helper-function.php:126
+msgid "div"
+msgstr ""
+
+#: includes/helper-function.php:127
+msgid "span"
+msgstr ""
+
+#: includes/helper-function.php:147
+msgid "No contact form found"
+msgstr ""
+
+#: includes/helper-function.php:159, includes/helper-function.php:176, includes/helper-function.php:193, includes/widgets/events.php:118, includes/widgets/latest_post.php:143, includes/widgets/ld_courses_carousel.php:143, includes/widgets/ld_groups_courses_carousel.php:142, includes/widgets/lp_courses_carousel.php:142, includes/widgets/tutor_courses_carousel.php:183, includes/widgets/woo_product.php:113
+msgid "None"
+msgstr ""
+
+#: includes/helper-function.php:212, includes/widgets/wpforms.php:53
+msgid "Select Form"
+msgstr ""
+
+#: includes/helper-function.php:222
+msgid "Form Not Found!"
+msgstr ""
+
+#: includes/helper-function.php:256
+msgid "Invalid username or password!"
+msgstr ""
+
+#: includes/helper-function.php:258
+msgid "Login successfully, Redirecting..."
+msgstr ""
+
+#: includes/helper-function.php:562, includes/helper-function.php:625, includes/helper-function.php:670
+msgctxt "taxonomy general name"
+msgid "Course Language"
+msgstr ""
+
+#: includes/helper-function.php:563, includes/helper-function.php:626, includes/helper-function.php:671
+msgctxt "taxonomy singular name"
+msgid "Language"
+msgstr ""
+
+#: includes/helper-function.php:564, includes/helper-function.php:627, includes/helper-function.php:672
+msgid "Search Languages"
+msgstr ""
+
+#: includes/helper-function.php:565, includes/helper-function.php:628, includes/helper-function.php:673
+msgid "Popular Languages"
+msgstr ""
+
+#: includes/helper-function.php:566, includes/helper-function.php:629, includes/helper-function.php:674
+msgid "All Languages"
+msgstr ""
+
+#: includes/helper-function.php:569, includes/helper-function.php:632, includes/helper-function.php:677
+msgid "Edit Language"
+msgstr ""
+
+#: includes/helper-function.php:570, includes/helper-function.php:633, includes/helper-function.php:678
+msgid "Update Language"
+msgstr ""
+
+#: includes/helper-function.php:571, includes/helper-function.php:634, includes/helper-function.php:679
+msgid "Add New Language"
+msgstr ""
+
+#: includes/helper-function.php:572, includes/helper-function.php:635, includes/helper-function.php:680
+msgid "New Language Name"
+msgstr ""
+
+#: includes/helper-function.php:573, includes/helper-function.php:636, includes/helper-function.php:681
+msgid "Separate languages with commas"
+msgstr ""
+
+#: includes/helper-function.php:574, includes/helper-function.php:637, includes/helper-function.php:682
+msgid "Add or remove languages"
+msgstr ""
+
+#: includes/helper-function.php:575, includes/helper-function.php:638, includes/helper-function.php:683
+msgid "Choose from the most used languages"
+msgstr ""
+
+#: includes/helper-function.php:576, includes/helper-function.php:639, includes/helper-function.php:684
+msgid "No languages found."
+msgstr ""
+
+#: includes/helper-function.php:577, includes/helper-function.php:640, includes/helper-function.php:685
+msgid "Course Languages"
+msgstr ""
+
+#: includes/helper-function.php:578, includes/helper-function.php:641, includes/helper-function.php:686
+msgid "Back to Languages"
+msgstr ""
+
+#: includes/helper-function.php:604, includes/helper-function.php:605, includes/helper-function.php:712, includes/helper-function.php:713, includes/widgets/course_filter_ld.php:381, includes/widgets/course_filter_tutor.php:380, includes/widgets/course_filter.php:367
+msgid "Languages"
+msgstr ""
+
+#: includes/metabox.php:12
+msgid "Page Options"
+msgstr ""
+
+#: includes/metabox.php:20
+msgid "Page Header"
+msgstr ""
+
+#: includes/metabox.php:25, includes/widgets/slider_pro.php:649
+msgid "Enable"
+msgstr ""
+
+#: includes/metabox.php:26, includes/widgets/slider_pro.php:650
+msgid "Disable"
+msgstr ""
+
+#: includes/metabox.php:31
+msgid "Header Type"
+msgstr ""
+
+#: includes/metabox.php:36
+msgid "Default Theme Header"
+msgstr ""
+
+#: includes/metabox.php:37
+msgid "Elementor Header"
+msgstr ""
+
+#: includes/metabox.php:42
+msgid "Select Header"
+msgstr ""
+
+#: includes/metabox.php:49
+msgid "Footer Type"
+msgstr ""
+
+#: includes/metabox.php:54
+msgid "Default Theme Footer"
+msgstr ""
+
+#: includes/metabox.php:55
+msgid "Elementor Footer"
+msgstr ""
+
+#: includes/metabox.php:60
+msgid "Select Footer"
+msgstr ""
+
+#: includes/metabox.php:68
+msgid "Page Background"
+msgstr ""
+
+#: includes/metabox.php:75
+msgid "Header background Image"
+msgstr ""
+
+#: includes/metabox.php:94
+msgid "Course Intro Video"
+msgstr ""
+
+#: includes/metabox.php:135
+msgid "Add Icon"
+msgstr ""
+
+#: includes/metabox.php:136
+msgid "Add your font awesome icon class. Find all icon here: https://fontawesome.com/v4.7.0/icons/"
+msgstr ""
+
+#: includes/metabox.php:141, includes/widgets/edubin_contact_form_seven.php:686, includes/widgets/wpforms.php:328
+msgid "Label"
+msgstr ""
+
+#: includes/metabox.php:142
+msgid "Add your custom course feature label"
+msgstr ""
+
+#: includes/metabox.php:147
+msgid "Value"
+msgstr ""
+
+#: includes/metabox.php:148
+msgid "Add your custom course feature label value"
+msgstr ""
+
+#: includes/metabox.php:161
+msgid "Location Maps"
+msgstr ""
+
+#: includes/metabox.php:169
+msgid "Google Maps HTML Code"
+msgstr ""
+
+#: includes/metabox.php:183
+msgid "Course Features"
+msgstr ""
+
+#: includes/metabox.php:191
+msgid "Custom Views Number"
+msgstr ""
+
+#: includes/metabox.php:192
+msgid "Add your course custom views number"
+msgstr ""
+
+#: includes/widgets/countdown.php:34
+msgid "Countdown"
+msgstr ""
+
+#: includes/widgets/countdown.php:40
+msgid "Due Date"
+msgstr ""
+
+#: includes/widgets/countdown.php:43
+msgid "Date set according to your timezone: %s."
+msgstr ""
+
+#: includes/widgets/countdown.php:50, includes/widgets/countdown.php:156, includes/widgets/countdown.php:158, includes/widgets/countdown.php:159
+msgid "Days"
+msgstr ""
+
+#: includes/widgets/countdown.php:52, includes/widgets/countdown.php:63, includes/widgets/countdown.php:74, includes/widgets/countdown.php:85, includes/widgets/course_category_custom.php:124, includes/widgets/course_category_custom.php:135, includes/widgets/course_category.php:118, includes/widgets/cta.php:62, includes/widgets/edubin_contact_form_seven.php:60, includes/widgets/edubin_contact_form_seven.php:80, includes/widgets/edubin_slider.php:265, includes/widgets/edubin_slider.php:302, includes/widgets/events.php:257, includes/widgets/events.php:268, includes/widgets/events.php:279, includes/widgets/events.php:290, includes/widgets/slider_pro.php:275, includes/widgets/slider_pro.php:312, includes/widgets/slider_pro.php:699, includes/widgets/wpforms.php:67, includes/widgets/wpforms.php:79
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/countdown.php:53, includes/widgets/countdown.php:64, includes/widgets/countdown.php:75, includes/widgets/countdown.php:86, includes/widgets/course_category_custom.php:125, includes/widgets/course_category_custom.php:136, includes/widgets/course_category.php:119, includes/widgets/cta.php:63, includes/widgets/edubin_contact_form_seven.php:61, includes/widgets/edubin_contact_form_seven.php:81, includes/widgets/edubin_slider.php:266, includes/widgets/edubin_slider.php:303, includes/widgets/events.php:258, includes/widgets/events.php:269, includes/widgets/events.php:280, includes/widgets/events.php:291, includes/widgets/slider_pro.php:276, includes/widgets/slider_pro.php:313, includes/widgets/slider_pro.php:700, includes/widgets/wpforms.php:68, includes/widgets/wpforms.php:80
+msgid "Hide"
+msgstr ""
+
+#: includes/widgets/countdown.php:61, includes/widgets/countdown.php:169, includes/widgets/countdown.php:171, includes/widgets/countdown.php:172
+msgid "Hours"
+msgstr ""
+
+#: includes/widgets/countdown.php:72, includes/widgets/countdown.php:182, includes/widgets/countdown.php:184, includes/widgets/countdown.php:185
+msgid "Minutes"
+msgstr ""
+
+#: includes/widgets/countdown.php:83, includes/widgets/countdown.php:195, includes/widgets/countdown.php:197, includes/widgets/countdown.php:198
+msgid "Seconds"
+msgstr ""
+
+#: includes/widgets/countdown.php:96
+msgid "Countdown Expire"
+msgstr ""
+
+#: includes/widgets/countdown.php:102
+msgid "Expire Type"
+msgstr ""
+
+#: includes/widgets/countdown.php:105
+msgid "Select whether you want to set a message or a redirect link after expire countdown"
+msgstr ""
+
+#: includes/widgets/countdown.php:107, includes/widgets/countdown.php:437
+msgid "Message"
+msgstr ""
+
+#: includes/widgets/countdown.php:108
+msgid "Redirect to Link"
+msgstr ""
+
+#: includes/widgets/countdown.php:116
+msgid "Expire Message"
+msgstr ""
+
+#: includes/widgets/countdown.php:118
+msgid "Sorry you are late!"
+msgstr ""
+
+#: includes/widgets/countdown.php:127
+msgid "Redirect On"
+msgstr ""
+
+#: includes/widgets/countdown.php:139
+msgid "Change Labels Text"
+msgstr ""
+
+#: includes/widgets/countdown.php:145
+msgid "Change Labels"
+msgstr ""
+
+#: includes/widgets/countdown.php:147, includes/widgets/course_filter_ld.php:676, includes/widgets/course_filter_tutor.php:738, includes/widgets/course_filter.php:606, includes/widgets/edubin_slider.php:623, includes/widgets/edubin_slider.php:634, includes/widgets/edubin_slider.php:645, includes/widgets/edubin_testimonial.php:331, includes/widgets/events.php:363, includes/widgets/image_carousel.php:242, includes/widgets/latest_post.php:497, includes/widgets/ld_courses_carousel.php:309, includes/widgets/ld_courses_carousel.php:750, includes/widgets/ld_groups_courses_carousel.php:296, includes/widgets/ld_groups_courses_carousel.php:741, includes/widgets/lp_courses_carousel.php:292, includes/widgets/lp_courses_carousel.php:660, includes/widgets/services_box.php:260, includes/widgets/tutor_courses_carousel.php:340, includes/widgets/tutor_courses_carousel.php:836, includes/widgets/woo_product.php:250
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets/countdown.php:148, includes/widgets/course_filter_ld.php:675, includes/widgets/course_filter_tutor.php:737, includes/widgets/course_filter.php:605, includes/widgets/edubin_slider.php:622, includes/widgets/edubin_slider.php:633, includes/widgets/edubin_slider.php:644, includes/widgets/edubin_testimonial.php:330, includes/widgets/events.php:362, includes/widgets/image_carousel.php:241, includes/widgets/latest_post.php:496, includes/widgets/ld_courses_carousel.php:308, includes/widgets/ld_courses_carousel.php:749, includes/widgets/ld_groups_courses_carousel.php:295, includes/widgets/ld_groups_courses_carousel.php:740, includes/widgets/lp_courses_carousel.php:291, includes/widgets/lp_courses_carousel.php:659, includes/widgets/services_box.php:259, includes/widgets/tutor_courses_carousel.php:339, includes/widgets/tutor_courses_carousel.php:835, includes/widgets/woo_product.php:249
+msgid "No"
+msgstr ""
+
+#: includes/widgets/countdown.php:211
+msgid "Box"
+msgstr ""
+
+#: includes/widgets/countdown.php:218, includes/widgets/counter.php:114, includes/widgets/course_filter_ld.php:630, includes/widgets/course_filter_tutor.php:582, includes/widgets/course_filter_tutor.php:692, includes/widgets/course_filter.php:560, includes/widgets/course_filter.php:982, includes/widgets/custom_icon.php:509, includes/widgets/delimiter.php:69, includes/widgets/edubin_contact_form_seven.php:242, includes/widgets/edubin_contact_form_seven.php:354, includes/widgets/edubin_section_title.php:376, includes/widgets/edubin_testimonial.php:739, includes/widgets/edubin_testimonial.php:820, includes/widgets/edubin_testimonial.php:901, includes/widgets/events.php:317, includes/widgets/footer_menu.php:153, includes/widgets/footer_menu.php:181, includes/widgets/header_menu.php:146, includes/widgets/header_menu.php:174, includes/widgets/icon_text.php:141, includes/widgets/join_login_logout.php:131, includes/widgets/latest_post.php:451, includes/widgets/latest_post.php:605, includes/widgets/ld_courses_carousel.php:704, includes/widgets/ld_groups_courses_carousel.php:695, includes/widgets/logo.php:84, includes/widgets/logo.php:113, includes/widgets/lp_courses_carousel.php:614, includes/widgets/lp_courses_carousel.php:1151, includes/widgets/search.php:123, includes/widgets/tutor_courses_carousel.php:680, includes/widgets/tutor_courses_carousel.php:790, includes/widgets/video_popup.php:148, includes/widgets/woo_cart.php:56
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/countdown.php:222, includes/widgets/counter.php:119, includes/widgets/course_filter_ld.php:288, includes/widgets/course_filter_ld.php:634, includes/widgets/course_filter_tutor.php:287, includes/widgets/course_filter_tutor.php:586, includes/widgets/course_filter_tutor.php:696, includes/widgets/course_filter.php:274, includes/widgets/course_filter.php:564, includes/widgets/course_filter.php:986, includes/widgets/custom_icon.php:168, includes/widgets/custom_icon.php:513, includes/widgets/delimiter.php:74, includes/widgets/edubin_contact_form_seven.php:246, includes/widgets/edubin_contact_form_seven.php:358, includes/widgets/edubin_section_title.php:380, includes/widgets/edubin_slider.php:177, includes/widgets/edubin_testimonial.php:743, includes/widgets/edubin_testimonial.php:824, includes/widgets/edubin_testimonial.php:905, includes/widgets/edubin_title.php:91, includes/widgets/edubin_title.php:118, includes/widgets/events.php:321, includes/widgets/footer_menu.php:159, includes/widgets/footer_menu.php:187, includes/widgets/header_menu.php:152, includes/widgets/header_menu.php:180, includes/widgets/icon_text.php:146, includes/widgets/join_login_logout.php:137, includes/widgets/latest_post.php:455, includes/widgets/latest_post.php:609, includes/widgets/ld_courses_carousel.php:708, includes/widgets/ld_groups_courses_carousel.php:699, includes/widgets/logo.php:90, includes/widgets/logo.php:119, includes/widgets/lp_courses_carousel.php:618, includes/widgets/lp_courses_carousel.php:1155, includes/widgets/search.php:127, includes/widgets/slider_pro.php:209, includes/widgets/tutor_courses_carousel.php:684, includes/widgets/tutor_courses_carousel.php:794, includes/widgets/video_popup.php:152, includes/widgets/woo_cart.php:62
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/countdown.php:226, includes/widgets/counter.php:123, includes/widgets/course_filter_ld.php:638, includes/widgets/course_filter_tutor.php:590, includes/widgets/course_filter_tutor.php:700, includes/widgets/course_filter.php:568, includes/widgets/course_filter.php:990, includes/widgets/custom_icon.php:517, includes/widgets/delimiter.php:78, includes/widgets/edubin_contact_form_seven.php:250, includes/widgets/edubin_contact_form_seven.php:362, includes/widgets/edubin_section_title.php:384, includes/widgets/edubin_slider.php:181, includes/widgets/edubin_testimonial.php:747, includes/widgets/edubin_testimonial.php:828, includes/widgets/edubin_testimonial.php:909, includes/widgets/edubin_title.php:95, includes/widgets/edubin_title.php:122, includes/widgets/events.php:325, includes/widgets/footer_menu.php:163, includes/widgets/footer_menu.php:191, includes/widgets/header_menu.php:156, includes/widgets/header_menu.php:184, includes/widgets/icon_text.php:150, includes/widgets/join_login_logout.php:141, includes/widgets/latest_post.php:459, includes/widgets/latest_post.php:613, includes/widgets/ld_courses_carousel.php:712, includes/widgets/ld_groups_courses_carousel.php:703, includes/widgets/logo.php:94, includes/widgets/logo.php:123, includes/widgets/lp_courses_carousel.php:622, includes/widgets/lp_courses_carousel.php:1159, includes/widgets/search.php:131, includes/widgets/slider_pro.php:213, includes/widgets/tutor_courses_carousel.php:688, includes/widgets/tutor_courses_carousel.php:798, includes/widgets/video_popup.php:156, includes/widgets/woo_cart.php:66
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/countdown.php:230, includes/widgets/counter.php:127, includes/widgets/course_filter_ld.php:289, includes/widgets/course_filter_ld.php:642, includes/widgets/course_filter_tutor.php:288, includes/widgets/course_filter_tutor.php:594, includes/widgets/course_filter_tutor.php:704, includes/widgets/course_filter.php:275, includes/widgets/course_filter.php:572, includes/widgets/course_filter.php:994, includes/widgets/custom_icon.php:176, includes/widgets/custom_icon.php:521, includes/widgets/delimiter.php:82, includes/widgets/edubin_contact_form_seven.php:254, includes/widgets/edubin_contact_form_seven.php:366, includes/widgets/edubin_section_title.php:388, includes/widgets/edubin_slider.php:185, includes/widgets/edubin_testimonial.php:751, includes/widgets/edubin_testimonial.php:832, includes/widgets/edubin_testimonial.php:913, includes/widgets/edubin_title.php:99, includes/widgets/edubin_title.php:126, includes/widgets/events.php:329, includes/widgets/footer_menu.php:167, includes/widgets/footer_menu.php:195, includes/widgets/header_menu.php:160, includes/widgets/header_menu.php:188, includes/widgets/icon_text.php:154, includes/widgets/join_login_logout.php:145, includes/widgets/latest_post.php:463, includes/widgets/latest_post.php:617, includes/widgets/ld_courses_carousel.php:716, includes/widgets/ld_groups_courses_carousel.php:707, includes/widgets/logo.php:98, includes/widgets/logo.php:127, includes/widgets/lp_courses_carousel.php:626, includes/widgets/lp_courses_carousel.php:1163, includes/widgets/search.php:135, includes/widgets/slider_pro.php:217, includes/widgets/tutor_courses_carousel.php:692, includes/widgets/tutor_courses_carousel.php:802, includes/widgets/video_popup.php:160, includes/widgets/woo_cart.php:70
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/countdown.php:244, includes/widgets/countdown.php:364, includes/widgets/countdown.php:404, includes/widgets/course_filter_ld.php:1110, includes/widgets/course_filter_ld.php:1177, includes/widgets/edubin_contact_form_seven.php:421, includes/widgets/edubin_contact_form_seven.php:590, includes/widgets/edubin_contact_form_seven.php:694, includes/widgets/edubin_contact_form_seven.php:855, includes/widgets/edubin_contact_form_seven.php:943, includes/widgets/edubin_cuctom_event.php:365, includes/widgets/edubin_slider.php:793, includes/widgets/edubin_slider.php:838, includes/widgets/edubin_slider.php:973, includes/widgets/edubin_slider.php:1004, includes/widgets/edubin_testimonial.php:717, includes/widgets/edubin_testimonial.php:1014, includes/widgets/image_carousel.php:112, includes/widgets/latest_post.php:958, includes/widgets/ld_courses_carousel.php:1211, includes/widgets/ld_courses_carousel.php:1278, includes/widgets/ld_groups_courses_carousel.php:1199, includes/widgets/ld_groups_courses_carousel.php:1266, includes/widgets/section_2.php:341, includes/widgets/section_2.php:386, includes/widgets/section_2.php:470, includes/widgets/section_3.php:403, includes/widgets/section_3.php:448, includes/widgets/section_3.php:532, includes/widgets/section_4.php:532, includes/widgets/section_4.php:579, includes/widgets/services_box.php:124, includes/widgets/services_box.php:583, includes/widgets/services_box.php:657, includes/widgets/slider_pro.php:681, includes/widgets/slider_pro.php:768, includes/widgets/slider_pro.php:813, includes/widgets/slider_pro.php:948, includes/widgets/slider_pro.php:979, includes/widgets/wpforms.php:429, includes/widgets/wpforms.php:542, includes/widgets/wpforms.php:701, includes/widgets/wpforms.php:790
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/countdown.php:255, includes/widgets/custom_icon.php:352, includes/widgets/edubin_testimonial.php:99, includes/widgets/edubin_testimonial.php:1061, includes/widgets/icon_text.php:318
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/countdown.php:274
+msgid "Box Gap"
+msgstr ""
+
+#: includes/widgets/countdown.php:297
+msgid "Digit Gap"
+msgstr ""
+
+#: includes/widgets/countdown.php:317
+msgid "Label Gap"
+msgstr ""
+
+#: includes/widgets/countdown.php:344, includes/widgets/course_category_custom.php:154, includes/widgets/course_filter_ld.php:1144, includes/widgets/course_filter_ld.php:1198, includes/widgets/custom_icon.php:418, includes/widgets/edubin_contact_form_seven.php:232, includes/widgets/edubin_contact_form_seven.php:343, includes/widgets/edubin_contact_form_seven.php:504, includes/widgets/edubin_contact_form_seven.php:645, includes/widgets/edubin_contact_form_seven.php:736, includes/widgets/edubin_contact_form_seven.php:901, includes/widgets/edubin_cuctom_event.php:456, includes/widgets/edubin_section_title.php:517, includes/widgets/edubin_section_title.php:631, includes/widgets/edubin_section_title.php:763, includes/widgets/edubin_slider.php:878, includes/widgets/edubin_slider.php:1044, includes/widgets/edubin_testimonial.php:669, includes/widgets/edubin_testimonial.php:1086, includes/widgets/edubin_title.php:488, includes/widgets/image_carousel.php:612, includes/widgets/image_carousel.php:731, includes/widgets/image_carousel.php:790, includes/widgets/image_carousel.php:884, includes/widgets/join_login_logout.php:302, includes/widgets/latest_post.php:1030, includes/widgets/ld_courses_carousel.php:1016, includes/widgets/ld_courses_carousel.php:1068, includes/widgets/ld_courses_carousel.php:1245, includes/widgets/ld_courses_carousel.php:1299, includes/widgets/ld_groups_courses_carousel.php:1004, includes/widgets/ld_groups_courses_carousel.php:1056, includes/widgets/ld_groups_courses_carousel.php:1233, includes/widgets/ld_groups_courses_carousel.php:1287, includes/widgets/ld_search.php:110, includes/widgets/lp_courses_carousel.php:989, includes/widgets/lp_courses_carousel.php:1041, includes/widgets/lp_search.php:110, includes/widgets/search.php:320, includes/widgets/search.php:448, includes/widgets/search.php:500, includes/widgets/section_2.php:426, includes/widgets/section_3.php:488, includes/widgets/section_4.php:620, includes/widgets/services_box.php:502, includes/widgets/services_box.php:602, includes/widgets/services_box.php:677, includes/widgets/slider_pro.php:853, includes/widgets/slider_pro.php:1019, includes/widgets/tutor_courses_carousel.php:1414, includes/widgets/tutor_courses_carousel.php:1466, includes/widgets/tutor_search.php:109, includes/widgets/woo_product.php:672, includes/widgets/woo_product.php:724, includes/widgets/wpforms.php:243, includes/widgets/wpforms.php:313, includes/widgets/wpforms.php:380, includes/widgets/wpforms.php:519, includes/widgets/wpforms.php:630, includes/widgets/wpforms.php:748
+msgid "Border Radius"
+msgstr ""
+
+#: includes/widgets/countdown.php:357
+msgid "Digits"
+msgstr ""
+
+#: includes/widgets/countdown.php:375, includes/widgets/countdown.php:415, includes/widgets/countdown.php:444, includes/widgets/course_category_custom.php:293, includes/widgets/course_category.php:178, includes/widgets/course_filter_ld.php:907, includes/widgets/course_filter_ld.php:955, includes/widgets/course_filter_ld.php:1088, includes/widgets/course_filter_ld.php:1166, includes/widgets/course_filter_tutor.php:770, includes/widgets/course_filter_tutor.php:839, includes/widgets/course_filter.php:1092, includes/widgets/course_filter.php:1159, includes/widgets/course_instractor.php:210, includes/widgets/course_instractor.php:259, includes/widgets/course_instractor.php:295, includes/widgets/course_instractor.php:343, includes/widgets/course_instractor.php:369, includes/widgets/custom_icon.php:579, includes/widgets/custom_icon.php:630, includes/widgets/edubin_contact_form_seven.php:174, includes/widgets/edubin_contact_form_seven.php:286, includes/widgets/edubin_cuctom_event.php:157, includes/widgets/edubin_cuctom_event.php:215, includes/widgets/edubin_cuctom_event.php:245, includes/widgets/edubin_cuctom_event.php:305, includes/widgets/edubin_cuctom_event.php:353, includes/widgets/edubin_cuctom_event.php:424, includes/widgets/edubin_cuctom_event.php:477, includes/widgets/edubin_section_title.php:485, includes/widgets/edubin_section_title.php:599, includes/widgets/edubin_section_title.php:712, includes/widgets/edubin_slider.php:146, includes/widgets/edubin_testimonial.php:606, includes/widgets/edubin_testimonial.php:768, includes/widgets/edubin_testimonial.php:849, includes/widgets/edubin_testimonial.php:935, includes/widgets/edubin_testimonial.php:1131, includes/widgets/edubin_testimonial.php:1205, includes/widgets/edubin_testimonial.php:1228, includes/widgets/events.php:534, includes/widgets/icon_text.php:232, includes/widgets/icon_text.php:267, includes/widgets/icon_text.php:301, includes/widgets/icon_text.php:378, includes/widgets/icon_text.php:397, includes/widgets/image_carousel.php:514, includes/widgets/image_carousel.php:554, includes/widgets/image_carousel.php:700, includes/widgets/join_login_logout.php:204, includes/widgets/join_login_logout.php:225, includes/widgets/join_login_logout.php:266, includes/widgets/join_login_logout.php:320, includes/widgets/join_login_logout.php:411, includes/widgets/join_login_logout.php:431, includes/widgets/join_login_logout.php:459, includes/widgets/latest_post.php:948, includes/widgets/ld_courses_carousel.php:779, includes/widgets/ld_courses_carousel.php:827, includes/widgets/ld_courses_carousel.php:1037, includes/widgets/ld_courses_carousel.php:1189, includes/widgets/ld_courses_carousel.php:1267, includes/widgets/ld_groups_courses_carousel.php:769, includes/widgets/ld_groups_courses_carousel.php:817, includes/widgets/ld_groups_courses_carousel.php:1025, includes/widgets/ld_groups_courses_carousel.php:1177, includes/widgets/ld_groups_courses_carousel.php:1255, includes/widgets/lp_courses_carousel.php:692, includes/widgets/lp_courses_carousel.php:741, includes/widgets/lp_courses_carousel.php:1010, includes/widgets/search.php:352, includes/widgets/search.php:469, includes/widgets/search.php:536, includes/widgets/search.php:557, includes/widgets/section_4.php:443, includes/widgets/services_box.php:549, includes/widgets/services_box.php:645, includes/widgets/slider_pro.php:178, includes/widgets/tutor_courses_carousel.php:868, includes/widgets/tutor_courses_carousel.php:937, includes/widgets/tutor_courses_carousel.php:1435, includes/widgets/woo_product.php:449, includes/widgets/woo_product.php:493, includes/widgets/woo_product.php:519, includes/widgets/woo_product.php:693, includes/widgets/wpforms.php:198, includes/widgets/wpforms.php:268, includes/widgets/wpforms.php:348, includes/widgets/wpforms.php:441, includes/widgets/wpforms.php:554, includes/widgets/wpforms.php:689, includes/widgets/wpforms.php:778
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/countdown.php:397
+msgid "Labels"
+msgstr ""
+
+#: includes/widgets/counter.php:36
+msgid "Counter"
+msgstr ""
+
+#: includes/widgets/counter.php:43
+msgid "Starting Number"
+msgstr ""
+
+#: includes/widgets/counter.php:55
+msgid "Ending Number"
+msgstr ""
+
+#: includes/widgets/counter.php:67
+msgid "Number Prefix"
+msgstr ""
+
+#: includes/widgets/counter.php:80
+msgid "Number Suffix"
+msgstr ""
+
+#: includes/widgets/counter.php:86
+msgid "Plus"
+msgstr ""
+
+#: includes/widgets/counter.php:92, includes/widgets/counter.php:180, includes/widgets/course_category_custom.php:245, includes/widgets/course_filter_ld.php:890, includes/widgets/course_filter_tutor.php:750, includes/widgets/custom_icon.php:553, includes/widgets/edubin_contact_form_seven.php:154, includes/widgets/edubin_cuctom_event.php:39, includes/widgets/edubin_cuctom_event.php:137, includes/widgets/edubin_section_title.php:53, includes/widgets/edubin_section_title.php:477, includes/widgets/edubin_slider.php:681, includes/widgets/edubin_title.php:241, includes/widgets/events.php:122, includes/widgets/events.php:229, includes/widgets/events.php:450, includes/widgets/footer_menu.php:222, includes/widgets/image_carousel.php:69, includes/widgets/latest_post.php:147, includes/widgets/latest_post.php:240, includes/widgets/latest_post.php:246, includes/widgets/latest_post.php:529, includes/widgets/ld_courses_carousel.php:147, includes/widgets/ld_courses_carousel.php:762, includes/widgets/ld_groups_courses_carousel.php:146, includes/widgets/ld_groups_courses_carousel.php:752, includes/widgets/lp_courses_carousel.php:146, includes/widgets/lp_courses_carousel.php:672, includes/widgets/section_4.php:56, includes/widgets/section_4.php:367, includes/widgets/slider_pro.php:375, includes/widgets/tutor_courses_carousel.php:187, includes/widgets/tutor_courses_carousel.php:848, includes/widgets/woo_product.php:117, includes/widgets/woo_product.php:429, includes/widgets/wpforms.php:64, includes/widgets/wpforms.php:187
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/counter.php:98, includes/widgets/counter.php:99
+msgid "Cool Number"
+msgstr ""
+
+#: includes/widgets/counter.php:106, includes/widgets/custom_icon.php:87
+msgid "View"
+msgstr ""
+
+#: includes/widgets/counter.php:143
+msgid "Number"
+msgstr ""
+
+#: includes/widgets/counter.php:151, includes/widgets/counter.php:188, includes/widgets/course_filter_ld.php:994, includes/widgets/course_filter_tutor.php:1192, includes/widgets/edubin_contact_form_seven.php:449, includes/widgets/edubin_contact_form_seven.php:612, includes/widgets/edubin_contact_form_seven.php:705, includes/widgets/edubin_contact_form_seven.php:844, includes/widgets/edubin_contact_form_seven.php:932, includes/widgets/edubin_slider.php:781, includes/widgets/edubin_slider.php:827, includes/widgets/edubin_slider.php:961, includes/widgets/edubin_slider.php:993, includes/widgets/edubin_title.php:295, includes/widgets/edubin_title.php:337, includes/widgets/edubin_title.php:370, includes/widgets/footer_menu.php:307, includes/widgets/footer_menu.php:339, includes/widgets/header_menu.php:245, includes/widgets/header_menu.php:289, includes/widgets/header_menu.php:309, includes/widgets/header_menu.php:365, includes/widgets/header_menu.php:397, includes/widgets/header_menu.php:417, includes/widgets/latest_post.php:681, includes/widgets/latest_post.php:777, includes/widgets/latest_post.php:837, includes/widgets/latest_post.php:889, includes/widgets/ld_courses_carousel.php:868, includes/widgets/ld_groups_courses_carousel.php:856, includes/widgets/logo.php:152, includes/widgets/search.php:191, includes/widgets/section_2.php:329, includes/widgets/section_2.php:375, includes/widgets/section_3.php:391, includes/widgets/section_3.php:437, includes/widgets/section_3.php:543, includes/widgets/section_4.php:520, includes/widgets/section_4.php:567, includes/widgets/slider_pro.php:756, includes/widgets/slider_pro.php:802, includes/widgets/slider_pro.php:936, includes/widgets/slider_pro.php:968, includes/widgets/tutor_courses_carousel.php:1088, includes/widgets/woo_cart.php:159
+msgid "Text Color"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:15
+msgid "Custom Category"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:40, includes/widgets/cta.php:41, includes/widgets/cta.php:60, includes/widgets/custom_icon.php:501, includes/widgets/edubin_slider.php:167, includes/widgets/edubin_slider.php:728, includes/widgets/latest_post.php:318, includes/widgets/latest_post.php:324, includes/widgets/latest_post.php:829, includes/widgets/ld_search.php:37, includes/widgets/lp_search.php:37, includes/widgets/section_1.php:38, includes/widgets/section_2.php:40, includes/widgets/section_3.php:40, includes/widgets/section_4.php:50, includes/widgets/services_box.php:48, includes/widgets/services_box.php:101, includes/widgets/slider_pro.php:199, includes/widgets/slider_pro.php:469, includes/widgets/tutor_search.php:37
+msgid "Content"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:58
+msgid "Image/Icon"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:70, includes/widgets/course_category.php:81
+msgid "Image Size"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:78
+msgid "Course Category"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:80
+msgid "Technology"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:87, includes/widgets/course_category_custom.php:311, includes/widgets/course_instractor.php:66, includes/widgets/course_instractor.php:362
+msgid "Total Course"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:89
+msgid "15"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:96, includes/widgets/course_category_custom.php:98, includes/widgets/course_filter_ld.php:40, includes/widgets/course_instractor.php:39, includes/widgets/ld_courses_carousel.php:40, includes/widgets/ld_groups_courses_carousel.php:40, includes/widgets/lp_courses_carousel.php:40, includes/widgets/tutor_courses_carousel.php:43
+msgid "Courses"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:106
+msgid "Category Link"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:111, includes/widgets/course_instractor.php:92, includes/widgets/course_instractor.php:108, includes/widgets/custom_icon.php:155, includes/widgets/edubin_cuctom_event.php:118, includes/widgets/edubin_section_title.php:163, includes/widgets/edubin_section_title.php:221, includes/widgets/edubin_slider.php:286, includes/widgets/edubin_slider.php:323, includes/widgets/edubin_title.php:143, includes/widgets/icon_text.php:89, includes/widgets/image_carousel.php:102, includes/widgets/join_login_logout.php:67, includes/widgets/join_login_logout.php:86, includes/widgets/join_login_logout.php:105, includes/widgets/join_login_logout.php:124, includes/widgets/section_2.php:97, includes/widgets/section_3.php:96, includes/widgets/section_4.php:216, includes/widgets/services_box.php:114, includes/widgets/slider_pro.php:296, includes/widgets/slider_pro.php:333
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:121, includes/widgets/course_category.php:115
+msgid "Total Courses"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:132
+msgid "Hover Effect"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:146, includes/widgets/course_category.php:129, includes/widgets/course_filter_ld.php:47, includes/widgets/course_filter_ld.php:1216, includes/widgets/course_filter_tutor.php:575, includes/widgets/course_filter.php:47, includes/widgets/course_instractor.php:123, includes/widgets/cta.php:95, includes/widgets/edubin_contact_form_seven.php:101, includes/widgets/edubin_testimonial.php:47, includes/widgets/edubin_testimonial.php:540, includes/widgets/events.php:46, includes/widgets/footer_menu.php:215, includes/widgets/icon_text.php:179, includes/widgets/image_carousel.php:55, includes/widgets/image_carousel.php:449, includes/widgets/join_login_logout.php:164, includes/widgets/latest_post.php:44, includes/widgets/ld_courses_carousel.php:47, includes/widgets/ld_courses_carousel.php:1317, includes/widgets/ld_groups_courses_carousel.php:47, includes/widgets/ld_groups_courses_carousel.php:1305, includes/widgets/ld_search.php:66, includes/widgets/lp_courses_carousel.php:47, includes/widgets/lp_courses_carousel.php:1144, includes/widgets/lp_search.php:66, includes/widgets/search.php:42, includes/widgets/search.php:116, includes/widgets/section_4.php:228, includes/widgets/services_box.php:467, includes/widgets/tutor_courses_carousel.php:673, includes/widgets/tutor_search.php:65, includes/widgets/video_popup.php:46, includes/widgets/wpforms.php:91
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:166, includes/widgets/course_category.php:98, includes/widgets/edubin_contact_form_seven.php:395, includes/widgets/edubin_contact_form_seven.php:570, includes/widgets/edubin_contact_form_seven.php:794, includes/widgets/edubin_slider.php:379, includes/widgets/edubin_testimonial.php:641, includes/widgets/footer_menu.php:130, includes/widgets/header_menu.php:123, includes/widgets/icon_text.php:214, includes/widgets/image_carousel.php:623, includes/widgets/image_carousel.php:801, includes/widgets/ld_search.php:74, includes/widgets/lp_search.php:74, includes/widgets/search.php:259, includes/widgets/search.php:410, includes/widgets/slider_pro.php:566, includes/widgets/tutor_search.php:73, includes/widgets/wpforms.php:464, includes/widgets/wpforms.php:577, includes/widgets/wpforms.php:662
+msgid "Height"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:183, includes/widgets/course_category.php:194, includes/widgets/edubin_testimonial.php:1288, includes/widgets/ld_courses_carousel.php:1149, includes/widgets/ld_groups_courses_carousel.php:1137, includes/widgets/lp_courses_carousel.php:1122, includes/widgets/services_box.php:751, includes/widgets/tutor_courses_carousel.php:1547, includes/widgets/woo_product.php:790
+msgid "Space Between"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:200, includes/widgets/edubin_slider.php:402, includes/widgets/section_4.php:345, includes/widgets/slider_pro.php:589
+msgid "Content Position"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:254, includes/widgets/course_category.php:139, includes/widgets/course_filter_ld.php:807, includes/widgets/course_filter_ld.php:900, includes/widgets/course_filter_ld.php:1081, includes/widgets/course_filter_ld.php:1225, includes/widgets/course_filter_tutor.php:612, includes/widgets/course_filter_tutor.php:763, includes/widgets/course_filter_tutor.php:1018, includes/widgets/course_filter_tutor.php:1230, includes/widgets/course_filter_tutor.php:1295, includes/widgets/course_filter_tutor.php:1398, includes/widgets/course_filter.php:737, includes/widgets/course_filter.php:1017, includes/widgets/course_filter.php:1085, includes/widgets/course_instractor.php:132, includes/widgets/course_instractor.php:203, includes/widgets/course_instractor.php:288, includes/widgets/custom_icon.php:240, includes/widgets/edubin_contact_form_seven.php:787, includes/widgets/edubin_cuctom_event.php:150, includes/widgets/edubin_cuctom_event.php:417, includes/widgets/edubin_slider.php:774, includes/widgets/edubin_slider.php:954, includes/widgets/edubin_slider.php:1091, includes/widgets/edubin_testimonial.php:994, includes/widgets/edubin_testimonial.php:1199, includes/widgets/events.php:459, includes/widgets/footer_menu.php:301, includes/widgets/header_menu.php:239, includes/widgets/header_menu.php:359, includes/widgets/image_carousel.php:459, includes/widgets/image_carousel.php:547, includes/widgets/image_carousel.php:764, includes/widgets/latest_post.php:539, includes/widgets/latest_post.php:941, includes/widgets/ld_courses_carousel.php:772, includes/widgets/ld_courses_carousel.php:959, includes/widgets/ld_courses_carousel.php:1182, includes/widgets/ld_courses_carousel.php:1326, includes/widgets/ld_groups_courses_carousel.php:762, includes/widgets/ld_groups_courses_carousel.php:947, includes/widgets/ld_groups_courses_carousel.php:1170, includes/widgets/ld_groups_courses_carousel.php:1314, includes/widgets/lp_courses_carousel.php:685, includes/widgets/lp_courses_carousel.php:932, includes/widgets/lp_courses_carousel.php:1186, includes/widgets/search.php:345, includes/widgets/search.php:529, includes/widgets/section_2.php:322, includes/widgets/section_3.php:384, includes/widgets/section_4.php:513, includes/widgets/services_box.php:542, includes/widgets/services_box.php:710, includes/widgets/slider_pro.php:749, includes/widgets/slider_pro.php:929, includes/widgets/teachers.php:297, includes/widgets/tutor_courses_carousel.php:710, includes/widgets/tutor_courses_carousel.php:861, includes/widgets/tutor_courses_carousel.php:1126, includes/widgets/tutor_courses_carousel.php:1191, includes/widgets/tutor_courses_carousel.php:1294, includes/widgets/tutor_courses_carousel.php:1357, includes/widgets/woo_cart.php:154, includes/widgets/woo_product.php:442, includes/widgets/woo_product.php:615, includes/widgets/woo_product.php:821, includes/widgets/wpforms.php:111, includes/widgets/wpforms.php:655
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:261, includes/widgets/course_category.php:146, includes/widgets/course_filter_tutor.php:1305, includes/widgets/image_carousel.php:482, includes/widgets/tutor_courses_carousel.php:1201
+msgid "Category Color"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:274, includes/widgets/course_category.php:159, includes/widgets/course_filter_tutor.php:1131, includes/widgets/course_filter_tutor.php:1278, includes/widgets/image_carousel.php:495, includes/widgets/tutor_courses_carousel.php:1027, includes/widgets/tutor_courses_carousel.php:1174
+msgid "Category Typography"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:287, includes/widgets/course_category.php:172, includes/widgets/course_filter_ld.php:864, includes/widgets/course_filter_ld.php:949, includes/widgets/course_filter_ld.php:1159, includes/widgets/course_filter_ld.php:1242, includes/widgets/course_filter_tutor.php:629, includes/widgets/course_filter_tutor.php:833, includes/widgets/course_filter_tutor.php:1075, includes/widgets/course_filter_tutor.php:1253, includes/widgets/course_filter_tutor.php:1322, includes/widgets/course_filter_tutor.php:1419, includes/widgets/course_filter.php:794, includes/widgets/course_filter.php:1034, includes/widgets/course_filter.php:1153, includes/widgets/course_instractor.php:149, includes/widgets/course_instractor.php:253, includes/widgets/course_instractor.php:337, includes/widgets/custom_icon.php:281, includes/widgets/edubin_contact_form_seven.php:925, includes/widgets/edubin_cuctom_event.php:208, includes/widgets/edubin_cuctom_event.php:470, includes/widgets/edubin_slider.php:820, includes/widgets/edubin_slider.php:986, includes/widgets/edubin_slider.php:1132, includes/widgets/edubin_testimonial.php:1124, includes/widgets/events.php:480, includes/widgets/footer_menu.php:333, includes/widgets/header_menu.php:283, includes/widgets/header_menu.php:391, includes/widgets/icon_text.php:295, includes/widgets/icon_text.php:391, includes/widgets/image_carousel.php:508, includes/widgets/image_carousel.php:693, includes/widgets/join_login_logout.php:219, includes/widgets/join_login_logout.php:314, includes/widgets/join_login_logout.php:425, includes/widgets/latest_post.php:559, includes/widgets/latest_post.php:978, includes/widgets/ld_courses_carousel.php:821, includes/widgets/ld_courses_carousel.php:1030, includes/widgets/ld_courses_carousel.php:1260, includes/widgets/ld_courses_carousel.php:1343, includes/widgets/ld_groups_courses_carousel.php:811, includes/widgets/ld_groups_courses_carousel.php:1018, includes/widgets/ld_groups_courses_carousel.php:1248, includes/widgets/ld_groups_courses_carousel.php:1331, includes/widgets/lp_courses_carousel.php:735, includes/widgets/lp_courses_carousel.php:1003, includes/widgets/lp_courses_carousel.php:1203, includes/widgets/search.php:462, includes/widgets/search.php:550, includes/widgets/section_2.php:368, includes/widgets/section_3.php:430, includes/widgets/section_4.php:560, includes/widgets/services_box.php:638, includes/widgets/slider_pro.php:795, includes/widgets/slider_pro.php:961, includes/widgets/teachers.php:317, includes/widgets/tutor_courses_carousel.php:727, includes/widgets/tutor_courses_carousel.php:931, includes/widgets/tutor_courses_carousel.php:1149, includes/widgets/tutor_courses_carousel.php:1218, includes/widgets/tutor_courses_carousel.php:1315, includes/widgets/tutor_courses_carousel.php:1428, includes/widgets/woo_cart.php:173, includes/widgets/woo_product.php:487, includes/widgets/woo_product.php:686, includes/widgets/woo_product.php:838, includes/widgets/wpforms.php:128, includes/widgets/wpforms.php:771
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:319, includes/widgets/course_category.php:228
+msgid "Total Courses Color"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:332, includes/widgets/course_category.php:242
+msgid "Total Courses Typography"
+msgstr ""
+
+#: includes/widgets/course_category_custom.php:400
+msgid " Courses"
+msgstr ""
+
+#: includes/widgets/course_category.php:15
+msgid "Category (LearnPress)"
+msgstr ""
+
+#: includes/widgets/course_category.php:52, includes/widgets/course_instractor.php:76, includes/widgets/edubin_cuctom_event.php:48, includes/widgets/edubin_section_title.php:93, includes/widgets/edubin_section_title.php:107, includes/widgets/edubin_testimonial.php:74, includes/widgets/edubin_testimonial.php:148, includes/widgets/edubin_testimonial.php:634, includes/widgets/events.php:190, includes/widgets/image_carousel.php:78, includes/widgets/ld_groups_courses_carousel.php:192, includes/widgets/section_3.php:242, includes/widgets/video_popup.php:117
+msgid "Image"
+msgstr ""
+
+#: includes/widgets/course_category.php:59
+msgid "Course Category ID"
+msgstr ""
+
+#: includes/widgets/course_category.php:69
+msgid "Choose Background Image"
+msgstr ""
+
+#: includes/widgets/course_category.php:211
+msgid "Top Space"
+msgstr ""
+
+#: includes/widgets/course_category.php:297
+msgid "$course_count. Courses"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:15
+msgid "Course Filter (LearnDash)"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:51, includes/widgets/course_filter_tutor.php:45, includes/widgets/course_filter.php:51, includes/widgets/edubin_section_title.php:41, includes/widgets/edubin_testimonial.php:51, includes/widgets/events.php:50, includes/widgets/image_carousel.php:59, includes/widgets/latest_post.php:48, includes/widgets/ld_courses_carousel.php:51, includes/widgets/ld_courses_carousel.php:256, includes/widgets/ld_groups_courses_carousel.php:51, includes/widgets/ld_groups_courses_carousel.php:243, includes/widgets/lp_courses_carousel.php:51, includes/widgets/lp_courses_carousel.php:239, includes/widgets/search.php:46, includes/widgets/services_box.php:207, includes/widgets/slider_pro.php:661, includes/widgets/tutor_courses_carousel.php:53, includes/widgets/tutor_courses_carousel.php:287, includes/widgets/video_popup.php:50, includes/widgets/woo_product.php:197
+msgid "Style 1"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:52, includes/widgets/course_filter_tutor.php:46, includes/widgets/course_filter.php:52, includes/widgets/edubin_section_title.php:42, includes/widgets/edubin_testimonial.php:52, includes/widgets/events.php:51, includes/widgets/latest_post.php:49, includes/widgets/ld_courses_carousel.php:52, includes/widgets/ld_courses_carousel.php:257, includes/widgets/ld_groups_courses_carousel.php:52, includes/widgets/ld_groups_courses_carousel.php:244, includes/widgets/lp_courses_carousel.php:52, includes/widgets/lp_courses_carousel.php:240, includes/widgets/search.php:47, includes/widgets/services_box.php:208, includes/widgets/slider_pro.php:662, includes/widgets/tutor_courses_carousel.php:54, includes/widgets/tutor_courses_carousel.php:288, includes/widgets/video_popup.php:51, includes/widgets/woo_product.php:198
+msgid "Style 2"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:53, includes/widgets/course_filter_tutor.php:47, includes/widgets/course_filter.php:53, includes/widgets/edubin_section_title.php:43, includes/widgets/edubin_testimonial.php:53, includes/widgets/latest_post.php:50, includes/widgets/ld_courses_carousel.php:53, includes/widgets/ld_groups_courses_carousel.php:53, includes/widgets/lp_courses_carousel.php:53, includes/widgets/search.php:48, includes/widgets/slider_pro.php:663, includes/widgets/tutor_courses_carousel.php:55, includes/widgets/video_popup.php:52
+msgid "Style 3"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:54, includes/widgets/course_filter_tutor.php:48, includes/widgets/course_filter.php:54, includes/widgets/edubin_section_title.php:44, includes/widgets/edubin_testimonial.php:54, includes/widgets/latest_post.php:51, includes/widgets/ld_courses_carousel.php:54, includes/widgets/ld_groups_courses_carousel.php:54, includes/widgets/lp_courses_carousel.php:54, includes/widgets/slider_pro.php:664, includes/widgets/tutor_courses_carousel.php:56, includes/widgets/video_popup.php:53
+msgid "Style 4"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:55, includes/widgets/course_filter.php:55, includes/widgets/edubin_section_title.php:45, includes/widgets/edubin_testimonial.php:55, includes/widgets/latest_post.php:52, includes/widgets/ld_courses_carousel.php:55, includes/widgets/ld_groups_courses_carousel.php:55, includes/widgets/lp_courses_carousel.php:55, includes/widgets/slider_pro.php:665, includes/widgets/tutor_courses_carousel.php:57, includes/widgets/video_popup.php:54
+msgid "Style 5"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:56, includes/widgets/latest_post.php:53, includes/widgets/ld_courses_carousel.php:56, includes/widgets/video_popup.php:55
+msgid "Style 6"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:63, includes/widgets/course_filter_tutor.php:55, includes/widgets/course_filter.php:62, includes/widgets/events.php:70, includes/widgets/ld_courses_carousel.php:63, includes/widgets/ld_courses_carousel.php:82, includes/widgets/ld_groups_courses_carousel.php:62, includes/widgets/ld_groups_courses_carousel.php:81, includes/widgets/lp_courses_carousel.php:62, includes/widgets/lp_courses_carousel.php:81, includes/widgets/teachers.php:46, includes/widgets/tutor_courses_carousel.php:74, includes/widgets/tutor_courses_carousel.php:93, includes/widgets/woo_product.php:44, includes/widgets/woo_product.php:60
+msgid "Items Column"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:67, includes/widgets/course_filter_tutor.php:59, includes/widgets/course_filter.php:66, includes/widgets/events.php:74, includes/widgets/ld_courses_carousel.php:67, includes/widgets/ld_groups_courses_carousel.php:66, includes/widgets/lp_courses_carousel.php:66, includes/widgets/teachers.php:54, includes/widgets/tutor_courses_carousel.php:78
+msgid "6 Column"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:68, includes/widgets/course_filter_tutor.php:60, includes/widgets/course_filter.php:67, includes/widgets/events.php:75, includes/widgets/ld_courses_carousel.php:68, includes/widgets/ld_groups_courses_carousel.php:67, includes/widgets/lp_courses_carousel.php:67, includes/widgets/teachers.php:53, includes/widgets/tutor_courses_carousel.php:79, includes/widgets/woo_product.php:48
+msgid "4 Column"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:69, includes/widgets/course_filter_tutor.php:61, includes/widgets/course_filter.php:68, includes/widgets/events.php:76, includes/widgets/ld_courses_carousel.php:69, includes/widgets/ld_groups_courses_carousel.php:68, includes/widgets/lp_courses_carousel.php:68, includes/widgets/teachers.php:52, includes/widgets/tutor_courses_carousel.php:80, includes/widgets/woo_product.php:49
+msgid "3 Column"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:70, includes/widgets/course_filter_tutor.php:62, includes/widgets/course_filter.php:69, includes/widgets/events.php:77, includes/widgets/ld_courses_carousel.php:70, includes/widgets/ld_groups_courses_carousel.php:69, includes/widgets/lp_courses_carousel.php:69, includes/widgets/teachers.php:51, includes/widgets/tutor_courses_carousel.php:81
+msgid "2 Column"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:71, includes/widgets/course_filter_tutor.php:63, includes/widgets/course_filter.php:70, includes/widgets/events.php:78, includes/widgets/ld_courses_carousel.php:71, includes/widgets/ld_groups_courses_carousel.php:70, includes/widgets/lp_courses_carousel.php:70, includes/widgets/teachers.php:50, includes/widgets/tutor_courses_carousel.php:82
+msgid "1 Column"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:78, includes/widgets/course_filter_tutor.php:71, includes/widgets/course_filter.php:78, includes/widgets/ld_courses_carousel.php:96, includes/widgets/ld_groups_courses_carousel.php:95, includes/widgets/lp_courses_carousel.php:95, includes/widgets/tutor_courses_carousel.php:107
+msgid "Number of Course"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:86, includes/widgets/course_filter_tutor.php:100, includes/widgets/course_filter.php:86, includes/widgets/latest_post.php:256, includes/widgets/ld_courses_carousel.php:170, includes/widgets/ld_groups_courses_carousel.php:169, includes/widgets/lp_courses_carousel.php:169, includes/widgets/tutor_courses_carousel.php:218, includes/widgets/woo_product.php:149
+msgid "Title Length"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:96, includes/widgets/ld_courses_carousel.php:180, includes/widgets/ld_groups_courses_carousel.php:179
+msgid "Custom Closed Button URL"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:109, includes/widgets/ld_courses_carousel.php:193
+msgid "Image & Video"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:123, includes/widgets/ld_courses_carousel.php:207, includes/widgets/ld_groups_courses_carousel.php:206
+msgid "Custom Placeholder Image"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:131, includes/widgets/ld_courses_carousel.php:215
+msgid "Intro Video"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:144, includes/widgets/course_filter_ld.php:150, includes/widgets/course_filter_ld.php:687, includes/widgets/course_filter_tutor.php:143, includes/widgets/course_filter_tutor.php:149, includes/widgets/course_filter_tutor.php:898, includes/widgets/course_filter.php:130, includes/widgets/course_filter.php:136, includes/widgets/course_filter.php:617
+msgid "Filter Top"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:159, includes/widgets/course_filter_tutor.php:158, includes/widgets/course_filter.php:145, includes/widgets/search.php:19, includes/widgets/search.php:35, includes/widgets/search.php:71, includes/widgets/search.php:72, includes/widgets/search.php:101, includes/widgets/search.php:102, includes/widgets/search.php:584
+msgid "Search"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:168, includes/widgets/course_filter_tutor.php:167, includes/widgets/course_filter.php:154
+msgid "Search Placeholder"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:177, includes/widgets/course_filter_tutor.php:176, includes/widgets/course_filter.php:163
+msgid "Ajax Search Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:186, includes/widgets/course_filter_tutor.php:185, includes/widgets/course_filter.php:172
+msgid "Order by"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:195, includes/widgets/course_filter_tutor.php:194, includes/widgets/course_filter.php:181
+msgid "Newly Published"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:204, includes/widgets/course_filter_tutor.php:203, includes/widgets/course_filter.php:190
+msgid "Oldest Published"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:213, includes/widgets/course_filter_tutor.php:212, includes/widgets/course_filter.php:199
+msgid "Course Title (A-Z)"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:222, includes/widgets/course_filter_tutor.php:221, includes/widgets/course_filter.php:208
+msgid "Course Title (Z-A)"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:231, includes/widgets/course_filter_tutor.php:230, includes/widgets/course_filter.php:217
+msgid "Showing Results"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:240, includes/widgets/course_filter_tutor.php:239, includes/widgets/course_filter.php:226
+msgid "Showing"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:249, includes/widgets/course_filter_tutor.php:248, includes/widgets/course_filter.php:235
+msgid "results"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:258, includes/widgets/course_filter_tutor.php:257, includes/widgets/course_filter.php:244
+msgid "Grid/List"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:269, includes/widgets/course_filter_ld.php:708, includes/widgets/course_filter_tutor.php:268, includes/widgets/course_filter_tutor.php:919, includes/widgets/course_filter.php:255, includes/widgets/course_filter.php:638
+msgid "Filter Sidebar"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:275, includes/widgets/course_filter_tutor.php:274, includes/widgets/course_filter.php:261
+msgid "Filter"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:284, includes/widgets/course_filter_tutor.php:283, includes/widgets/course_filter.php:270
+msgid "Filter Position"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:296, includes/widgets/course_filter_ld.php:479, includes/widgets/course_filter_tutor.php:295, includes/widgets/course_filter_tutor.php:444, includes/widgets/course_filter.php:282, includes/widgets/course_filter.php:491, includes/widgets/course_instractor.php:278, includes/widgets/ld_courses_carousel.php:553, includes/widgets/ld_groups_courses_carousel.php:570, includes/widgets/lp_courses_carousel.php:545, includes/widgets/tutor_courses_carousel.php:120, includes/widgets/tutor_courses_carousel.php:532
+msgid "Category"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:306, includes/widgets/course_filter_tutor.php:305, includes/widgets/course_filter.php:292
+msgid "Category Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:315, includes/widgets/course_filter_tutor.php:314, includes/widgets/course_filter.php:301
+msgid "Category Count"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:325, includes/widgets/course_filter_tutor.php:324, includes/widgets/course_filter.php:311, includes/widgets/tutor_courses_carousel.php:121
+msgid "Tag"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:335, includes/widgets/course_filter_tutor.php:334, includes/widgets/course_filter.php:321
+msgid "Tag Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:344, includes/widgets/course_filter_tutor.php:343, includes/widgets/course_filter.php:330
+msgid "Tag Count"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:353, includes/widgets/course_filter_tutor.php:352, includes/widgets/course_filter.php:339
+msgid "Instructor"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:363, includes/widgets/course_filter_tutor.php:362, includes/widgets/course_filter.php:349
+msgid "Instructor Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:372, includes/widgets/course_filter_tutor.php:371, includes/widgets/course_filter.php:358
+msgid "Instructor Count"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:391, includes/widgets/course_filter_tutor.php:390, includes/widgets/course_filter.php:377
+msgid "Languages Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:400, includes/widgets/course_filter_tutor.php:399, includes/widgets/course_filter.php:386
+msgid "Languages Count"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:413, includes/widgets/course_filter_ld.php:976, includes/widgets/course_filter_tutor.php:429, includes/widgets/course_filter_tutor.php:1100, includes/widgets/course_filter.php:416, includes/widgets/course_filter.php:819, includes/widgets/tutor_courses_carousel.php:517
+msgid "Course Meta"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:419, includes/widgets/course_filter_tutor.php:481, includes/widgets/ld_courses_carousel.php:493, includes/widgets/ld_groups_courses_carousel.php:480, includes/widgets/ld_groups_courses_carousel.php:1636, includes/widgets/templates/ld_course_layout_1_2_3.php:69, includes/widgets/templates/ld_course_layout_6.php:256, includes/widgets/templates/ld_filter_list.php:52, includes/widgets/templates/lp_filter_list.php:55, includes/widgets/templates/tutor_course_layout_2.php:61, includes/widgets/templates/tutor_course_layout_3.php:77, includes/widgets/templates/tutor_filter_list.php:91, includes/widgets/tutor_courses_carousel.php:569
+msgid "Lessons"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:431, includes/widgets/course_filter_tutor.php:490, includes/widgets/ld_courses_carousel.php:505, includes/widgets/ld_groups_courses_carousel.php:492, includes/widgets/tutor_courses_carousel.php:578
+msgid "Lessons Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:443, includes/widgets/ld_courses_carousel.php:517, includes/widgets/ld_groups_courses_carousel.php:504, includes/widgets/ld_groups_courses_carousel.php:1649, includes/widgets/templates/ld_course_layout_1_2_3.php:82, includes/widgets/templates/ld_course_layout_6.php:269, includes/widgets/templates/ld_filter_list.php:65
+msgid "Topics"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:455, includes/widgets/ld_courses_carousel.php:529, includes/widgets/ld_groups_courses_carousel.php:516
+msgid "Topics Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:467, includes/widgets/ld_courses_carousel.php:541, includes/widgets/ld_groups_courses_carousel.php:528
+msgid "Views"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:488, includes/widgets/ld_courses_carousel.php:562, includes/widgets/ld_groups_courses_carousel.php:552
+msgid "Created by Avatar"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:497, includes/widgets/ld_courses_carousel.php:571, includes/widgets/ld_groups_courses_carousel.php:561
+msgid "Created by Name"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:506, includes/widgets/course_filter.php:527, includes/widgets/ld_courses_carousel.php:580, includes/widgets/ld_groups_courses_carousel.php:540, includes/widgets/lp_courses_carousel.php:581
+msgid "Comments"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:518, includes/widgets/ld_courses_carousel.php:592, includes/widgets/ld_groups_courses_carousel.php:582
+msgid "Batch Timing"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:527, includes/widgets/ld_courses_carousel.php:601, includes/widgets/ld_groups_courses_carousel.php:591
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:542, includes/widgets/course_filter_ld.php:1069, includes/widgets/edubin_contact_form_seven.php:777, includes/widgets/edubin_cuctom_event.php:404, includes/widgets/edubin_slider.php:253, includes/widgets/ld_courses_carousel.php:616, includes/widgets/ld_courses_carousel.php:1170, includes/widgets/ld_groups_courses_carousel.php:606, includes/widgets/ld_groups_courses_carousel.php:1158, includes/widgets/section_2.php:64, includes/widgets/section_2.php:70, includes/widgets/section_2.php:301, includes/widgets/section_3.php:64, includes/widgets/section_3.php:70, includes/widgets/section_3.php:363, includes/widgets/section_4.php:183, includes/widgets/section_4.php:190, includes/widgets/section_4.php:472, includes/widgets/slider_pro.php:263, includes/widgets/wpforms.php:645
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:548, includes/widgets/ld_courses_carousel.php:622, includes/widgets/ld_groups_courses_carousel.php:612
+msgid "See More Button"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:557, includes/widgets/ld_courses_carousel.php:631, includes/widgets/ld_groups_courses_carousel.php:621
+msgid "See More - Custom Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:568, includes/widgets/course_filter_ld.php:575, includes/widgets/course_filter_tutor.php:563, includes/widgets/course_filter.php:422, includes/widgets/ld_courses_carousel.php:642, includes/widgets/ld_courses_carousel.php:649, includes/widgets/ld_groups_courses_carousel.php:632, includes/widgets/ld_groups_courses_carousel.php:639, includes/widgets/lp_courses_carousel.php:476, includes/widgets/tutor_courses_carousel.php:660
+msgid "Price"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:584, includes/widgets/ld_courses_carousel.php:658, includes/widgets/ld_groups_courses_carousel.php:648
+msgid "Free - Custom Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:592, includes/widgets/ld_courses_carousel.php:666, includes/widgets/ld_groups_courses_carousel.php:656
+msgid "Enrolled - Custom Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:601, includes/widgets/ld_courses_carousel.php:675, includes/widgets/ld_groups_courses_carousel.php:665
+msgid "Completed - Custom Text"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:614, includes/widgets/course_filter_ld.php:621, includes/widgets/course_filter_tutor.php:676, includes/widgets/course_filter_tutor.php:683, includes/widgets/course_filter.php:544, includes/widgets/course_filter.php:551, includes/widgets/events.php:301, includes/widgets/events.php:308, includes/widgets/image_carousel.php:749, includes/widgets/latest_post.php:432, includes/widgets/latest_post.php:442, includes/widgets/ld_courses_carousel.php:688, includes/widgets/ld_courses_carousel.php:695, includes/widgets/ld_groups_courses_carousel.php:679, includes/widgets/ld_groups_courses_carousel.php:686, includes/widgets/lp_courses_carousel.php:598, includes/widgets/lp_courses_carousel.php:605, includes/widgets/tutor_courses_carousel.php:774, includes/widgets/tutor_courses_carousel.php:781
+msgid "Pagination"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:656, includes/widgets/course_filter_tutor.php:718, includes/widgets/course_filter.php:586, includes/widgets/events.php:343, includes/widgets/latest_post.php:477, includes/widgets/ld_courses_carousel.php:730, includes/widgets/ld_groups_courses_carousel.php:721, includes/widgets/lp_courses_carousel.php:640, includes/widgets/tutor_courses_carousel.php:816
+msgid "End Size"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:664, includes/widgets/course_filter_tutor.php:726, includes/widgets/course_filter.php:594, includes/widgets/events.php:351, includes/widgets/latest_post.php:485, includes/widgets/ld_courses_carousel.php:738, includes/widgets/ld_groups_courses_carousel.php:729, includes/widgets/lp_courses_carousel.php:648, includes/widgets/tutor_courses_carousel.php:824
+msgid "Mid Size"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:673, includes/widgets/course_filter_tutor.php:735, includes/widgets/course_filter.php:603, includes/widgets/events.php:360, includes/widgets/latest_post.php:494, includes/widgets/ld_courses_carousel.php:747, includes/widgets/ld_groups_courses_carousel.php:738, includes/widgets/lp_courses_carousel.php:657, includes/widgets/tutor_courses_carousel.php:833
+msgid "Show All"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:694, includes/widgets/course_filter_ld.php:1261, includes/widgets/course_filter_tutor.php:905, includes/widgets/course_filter.php:624, includes/widgets/course_filter.php:1053, includes/widgets/course_instractor.php:168, includes/widgets/cta.php:104, includes/widgets/cta.php:123, includes/widgets/edubin_section_title.php:343, includes/widgets/edubin_section_title.php:576, includes/widgets/edubin_section_title.php:689, includes/widgets/edubin_section_title.php:789, includes/widgets/edubin_slider.php:53, includes/widgets/edubin_slider.php:1119, includes/widgets/edubin_slider.php:1160, includes/widgets/edubin_testimonial.php:547, includes/widgets/events.php:415, includes/widgets/image_carousel.php:594, includes/widgets/image_carousel.php:713, includes/widgets/image_carousel.php:772, includes/widgets/image_carousel.php:866, includes/widgets/join_login_logout.php:281, includes/widgets/join_login_logout.php:335, includes/widgets/ld_courses_carousel.php:996, includes/widgets/ld_courses_carousel.php:1050, includes/widgets/ld_courses_carousel.php:1362, includes/widgets/ld_groups_courses_carousel.php:984, includes/widgets/ld_groups_courses_carousel.php:1038, includes/widgets/ld_groups_courses_carousel.php:1350, includes/widgets/lp_courses_carousel.php:969, includes/widgets/lp_courses_carousel.php:1023, includes/widgets/lp_courses_carousel.php:1222, includes/widgets/search.php:225, includes/widgets/search.php:376, includes/widgets/search.php:481, includes/widgets/section_3.php:648, includes/widgets/section_3.php:657, includes/widgets/section_4.php:237, includes/widgets/slider_pro.php:51, includes/widgets/tutor_courses_carousel.php:1394, includes/widgets/tutor_courses_carousel.php:1448, includes/widgets/video_popup.php:203, includes/widgets/woo_product.php:652, includes/widgets/woo_product.php:706, includes/widgets/woo_product.php:857, includes/widgets/wpforms.php:336
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:716, includes/widgets/course_filter_tutor.php:927, includes/widgets/course_filter.php:646
+msgid "Heading Color"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:727, includes/widgets/course_filter_tutor.php:938, includes/widgets/course_filter.php:657
+msgid "Heading Border"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:740, includes/widgets/course_filter_tutor.php:951, includes/widgets/course_filter.php:670
+msgid "Heading Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:750, includes/widgets/course_filter_tutor.php:961, includes/widgets/course_filter.php:680
+msgid "Sidebar Background"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:761, includes/widgets/course_filter_tutor.php:972, includes/widgets/course_filter.php:691
+msgid "Widget Fixed Height"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:762, includes/widgets/course_filter_tutor.php:119, includes/widgets/course_filter_tutor.php:810, includes/widgets/course_filter_tutor.php:973, includes/widgets/course_filter.php:106, includes/widgets/course_filter.php:692, includes/widgets/course_filter.php:1118, includes/widgets/events.php:208, includes/widgets/lp_courses_carousel.php:188, includes/widgets/section_1.php:108, includes/widgets/section_1.php:126, includes/widgets/section_1.php:144, includes/widgets/section_1.php:162, includes/widgets/section_1.php:179, includes/widgets/section_1.php:197, includes/widgets/section_2.php:494, includes/widgets/section_2.php:511, includes/widgets/section_2.php:528, includes/widgets/section_2.php:546, includes/widgets/section_2.php:565, includes/widgets/section_2.php:582, includes/widgets/section_2.php:599, includes/widgets/section_3.php:608, includes/widgets/section_3.php:627, includes/widgets/section_3.php:689, includes/widgets/section_3.php:707, includes/widgets/section_3.php:725, includes/widgets/section_3.php:743, includes/widgets/section_3.php:761, includes/widgets/section_3.php:780, includes/widgets/section_3.php:800, includes/widgets/section_3.php:818, includes/widgets/section_3.php:837, includes/widgets/section_3.php:857, includes/widgets/section_3.php:876, includes/widgets/section_3.php:896, includes/widgets/section_3.php:915, includes/widgets/tutor_courses_carousel.php:237, includes/widgets/tutor_courses_carousel.php:908
+msgid "Keep blank value for the default"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:781, includes/widgets/course_filter_tutor.php:992, includes/widgets/course_filter.php:711
+msgid "Widget Padding"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:792, includes/widgets/course_filter_tutor.php:1003, includes/widgets/course_filter.php:722
+msgid "Widget Margin"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:814, includes/widgets/course_filter_tutor.php:1025, includes/widgets/course_filter.php:744
+msgid "Level Color"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:827, includes/widgets/course_filter_tutor.php:1038, includes/widgets/course_filter_tutor.php:1109, includes/widgets/course_filter.php:757, includes/widgets/tutor_courses_carousel.php:1005
+msgid "Level Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:839, includes/widgets/course_filter_tutor.php:1050, includes/widgets/course_filter.php:769
+msgid "Count Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:850, includes/widgets/course_filter_tutor.php:1061, includes/widgets/course_filter.php:780
+msgid "Level Padding"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:870, includes/widgets/course_filter_tutor.php:1081, includes/widgets/course_filter.php:800
+msgid "Level Hover Color"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:922, includes/widgets/course_filter_tutor.php:785, includes/widgets/course_filter.php:1107, includes/widgets/course_instractor.php:223, includes/widgets/course_instractor.php:308, includes/widgets/course_instractor.php:381, includes/widgets/edubin_slider.php:689, includes/widgets/latest_post.php:583, includes/widgets/latest_post.php:649, includes/widgets/latest_post.php:728, includes/widgets/latest_post.php:805, includes/widgets/latest_post.php:851, includes/widgets/latest_post.php:903, includes/widgets/latest_post.php:1019, includes/widgets/ld_courses_carousel.php:794, includes/widgets/ld_groups_courses_carousel.php:784, includes/widgets/lp_courses_carousel.php:708, includes/widgets/section_2.php:233, includes/widgets/section_2.php:275, includes/widgets/section_3.php:293, includes/widgets/section_3.php:337, includes/widgets/section_4.php:433, includes/widgets/tutor_courses_carousel.php:883, includes/widgets/woo_product.php:462
+msgid "Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:933, includes/widgets/course_filter_ld.php:1121, includes/widgets/course_filter_tutor.php:796, includes/widgets/course_filter_tutor.php:884, includes/widgets/course_filter.php:1137, includes/widgets/course_instractor.php:179, includes/widgets/custom_icon.php:369, includes/widgets/edubin_contact_form_seven.php:109, includes/widgets/edubin_contact_form_seven.php:197, includes/widgets/edubin_contact_form_seven.php:309, includes/widgets/edubin_contact_form_seven.php:522, includes/widgets/edubin_contact_form_seven.php:657, includes/widgets/edubin_contact_form_seven.php:748, includes/widgets/edubin_contact_form_seven.php:866, includes/widgets/edubin_cuctom_event.php:180, includes/widgets/edubin_cuctom_event.php:268, includes/widgets/edubin_section_title.php:364, includes/widgets/edubin_section_title.php:540, includes/widgets/edubin_section_title.php:654, includes/widgets/edubin_section_title.php:775, includes/widgets/edubin_slider.php:898, includes/widgets/edubin_slider.php:1064, includes/widgets/edubin_testimonial.php:563, includes/widgets/edubin_testimonial.php:794, includes/widgets/edubin_testimonial.php:874, includes/widgets/edubin_testimonial.php:960, includes/widgets/edubin_testimonial.php:1107, includes/widgets/edubin_title.php:457, includes/widgets/events.php:428, includes/widgets/header_menu.php:463, includes/widgets/image_carousel.php:677, includes/widgets/join_login_logout.php:360, includes/widgets/latest_post.php:593, includes/widgets/latest_post.php:659, includes/widgets/latest_post.php:752, includes/widgets/latest_post.php:815, includes/widgets/latest_post.php:861, includes/widgets/latest_post.php:913, includes/widgets/latest_post.php:1040, includes/widgets/ld_courses_carousel.php:805, includes/widgets/ld_courses_carousel.php:1222, includes/widgets/ld_groups_courses_carousel.php:795, includes/widgets/ld_groups_courses_carousel.php:1210, includes/widgets/lp_courses_carousel.php:719, includes/widgets/search.php:167, includes/widgets/search.php:247, includes/widgets/search.php:398, includes/widgets/section_2.php:446, includes/widgets/section_2.php:481, includes/widgets/section_3.php:508, includes/widgets/section_3.php:595, includes/widgets/section_3.php:676, includes/widgets/section_4.php:301, includes/widgets/section_4.php:408, includes/widgets/section_4.php:454, includes/widgets/section_4.php:647, includes/widgets/services_box.php:513, includes/widgets/slider_pro.php:873, includes/widgets/slider_pro.php:1039, includes/widgets/tutor_courses_carousel.php:894, includes/widgets/tutor_courses_carousel.php:982, includes/widgets/woo_product.php:473, includes/widgets/wpforms.php:147, includes/widgets/wpforms.php:221, includes/widgets/wpforms.php:291, includes/widgets/wpforms.php:392, includes/widgets/wpforms.php:483, includes/widgets/wpforms.php:596, includes/widgets/wpforms.php:713
+msgid "Padding"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:983, includes/widgets/course_filter_tutor.php:1179, includes/widgets/course_filter.php:826, includes/widgets/course_instractor.php:391, includes/widgets/edubin_testimonial.php:704, includes/widgets/edubin_testimonial.php:1001, includes/widgets/events.php:556, includes/widgets/footer_menu.php:320, includes/widgets/header_menu.php:258, includes/widgets/header_menu.php:378, includes/widgets/header_menu.php:430, includes/widgets/latest_post.php:708, includes/widgets/latest_post.php:789, includes/widgets/ld_courses_carousel.php:856, includes/widgets/ld_courses_carousel.php:966, includes/widgets/ld_groups_courses_carousel.php:845, includes/widgets/ld_groups_courses_carousel.php:954, includes/widgets/lp_courses_carousel.php:770, includes/widgets/lp_courses_carousel.php:939, includes/widgets/slider_pro.php:672, includes/widgets/tutor_courses_carousel.php:1075, includes/widgets/tutor_courses_carousel.php:1364, includes/widgets/video_popup.php:185, includes/widgets/woo_cart.php:101, includes/widgets/woo_product.php:622
+msgid "Icon Color"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:1012, includes/widgets/ld_courses_carousel.php:886, includes/widgets/ld_groups_courses_carousel.php:874
+msgid "Created by Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:1023, includes/widgets/course_filter_tutor.php:1348, includes/widgets/course_filter.php:886, includes/widgets/ld_courses_carousel.php:897, includes/widgets/ld_groups_courses_carousel.php:885, includes/widgets/lp_courses_carousel.php:829, includes/widgets/tutor_courses_carousel.php:1244, includes/widgets/woo_product.php:537
+msgid "Price Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:1033, includes/widgets/course_filter_tutor.php:1359, includes/widgets/course_filter.php:896, includes/widgets/events.php:568, includes/widgets/ld_courses_carousel.php:907, includes/widgets/ld_groups_courses_carousel.php:895, includes/widgets/lp_courses_carousel.php:839, includes/widgets/tutor_courses_carousel.php:1255, includes/widgets/woo_product.php:547
+msgid "Price Color"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:1048, includes/widgets/course_filter.php:911, includes/widgets/events.php:579, includes/widgets/ld_courses_carousel.php:922, includes/widgets/ld_groups_courses_carousel.php:910, includes/widgets/lp_courses_carousel.php:854, includes/widgets/woo_product.php:560
+msgid "Price Background"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:1135, includes/widgets/course_filter_ld.php:1189, includes/widgets/edubin_contact_form_seven.php:224, includes/widgets/edubin_contact_form_seven.php:335, includes/widgets/edubin_contact_form_seven.php:496, includes/widgets/edubin_contact_form_seven.php:637, includes/widgets/edubin_contact_form_seven.php:728, includes/widgets/edubin_contact_form_seven.php:893, includes/widgets/edubin_contact_form_seven.php:955, includes/widgets/edubin_cuctom_event.php:448, includes/widgets/edubin_cuctom_event.php:490, includes/widgets/edubin_section_title.php:408, includes/widgets/edubin_section_title.php:509, includes/widgets/edubin_section_title.php:623, includes/widgets/edubin_section_title.php:754, includes/widgets/edubin_slider.php:1108, includes/widgets/edubin_slider.php:1149, includes/widgets/edubin_testimonial.php:661, includes/widgets/image_carousel.php:604, includes/widgets/image_carousel.php:723, includes/widgets/image_carousel.php:782, includes/widgets/image_carousel.php:876, includes/widgets/latest_post.php:969, includes/widgets/latest_post.php:1006, includes/widgets/ld_courses_carousel.php:1008, includes/widgets/ld_courses_carousel.php:1060, includes/widgets/ld_courses_carousel.php:1236, includes/widgets/ld_courses_carousel.php:1290, includes/widgets/ld_groups_courses_carousel.php:996, includes/widgets/ld_groups_courses_carousel.php:1048, includes/widgets/ld_groups_courses_carousel.php:1224, includes/widgets/ld_groups_courses_carousel.php:1278, includes/widgets/lp_courses_carousel.php:981, includes/widgets/lp_courses_carousel.php:1033, includes/widgets/search.php:311, includes/widgets/search.php:439, includes/widgets/search.php:491, includes/widgets/services_box.php:594, includes/widgets/services_box.php:669, includes/widgets/tutor_courses_carousel.php:1406, includes/widgets/tutor_courses_carousel.php:1458, includes/widgets/woo_product.php:664, includes/widgets/woo_product.php:716, includes/widgets/wpforms.php:235, includes/widgets/wpforms.php:305, includes/widgets/wpforms.php:372, includes/widgets/wpforms.php:511, includes/widgets/wpforms.php:622, includes/widgets/wpforms.php:740, includes/widgets/wpforms.php:803
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/course_filter_ld.php:1248, includes/widgets/course_filter_tutor.php:635, includes/widgets/course_filter.php:1040, includes/widgets/course_instractor.php:155, includes/widgets/ld_courses_carousel.php:1349, includes/widgets/ld_groups_courses_carousel.php:1337, includes/widgets/lp_courses_carousel.php:1209, includes/widgets/tutor_courses_carousel.php:733, includes/widgets/woo_product.php:844, includes/widgets/wpforms.php:134
+msgid "Box Shadow Hover"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:17
+msgid "Course Filter (Tutor)"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:35, includes/widgets/course_filter.php:40
+msgid "Course Query"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:41, includes/widgets/latest_post.php:511, includes/widgets/section_1.php:89, includes/widgets/section_2.php:462, includes/widgets/tutor_courses_carousel.php:49
+msgid "Styles"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:81, includes/widgets/course_filter_tutor.php:83, includes/widgets/ld_courses_carousel.php:1513, includes/widgets/ld_courses_carousel.php:1524, includes/widgets/ld_groups_courses_carousel.php:1502, includes/widgets/ld_groups_courses_carousel.php:1513, includes/widgets/ld_groups_courses_carousel.php:1815, includes/widgets/ld_groups_courses_carousel.php:1854, includes/widgets/templates/ld_course_layout_5.php:70, includes/widgets/templates/ld_course_layout_5.php:108, includes/widgets/templates/ld_course_layout_6.php:56, includes/widgets/templates/ld_course_layout_6.php:94, includes/widgets/templates/ld_filter_grid.php:42, includes/widgets/templates/ld_filter_grid.php:53, includes/widgets/tutor_courses_carousel.php:199, includes/widgets/tutor_courses_carousel.php:201
+msgid "Free"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:91, includes/widgets/course_filter_tutor.php:93, includes/widgets/tutor_courses_carousel.php:209, includes/widgets/tutor_courses_carousel.php:211
+msgid "Get Enrolled"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:118, includes/widgets/course_filter.php:105, includes/widgets/events.php:207, includes/widgets/latest_post.php:169, includes/widgets/lp_courses_carousel.php:187, includes/widgets/teachers.php:423, includes/widgets/tutor_courses_carousel.php:236
+msgid "Image Height"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:408, includes/widgets/course_filter.php:395
+msgid "Level"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:418, includes/widgets/course_filter.php:405
+msgid "Level Text"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:435, includes/widgets/tutor_courses_carousel.php:523
+msgid "Difficulty Level"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:453, includes/widgets/tutor_courses_carousel.php:541
+msgid "Wishlist"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:462, includes/widgets/course_filter.php:443, includes/widgets/lp_courses_carousel.php:497, includes/widgets/lp_courses_carousel.php:1403, includes/widgets/lp_courses_carousel.php:1520, includes/widgets/templates/lp_filter_grid.php:68, includes/widgets/templates/lp_filter_grid.php:185, includes/widgets/tutor_courses_carousel.php:550
+msgid "Review"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:472, includes/widgets/course_filter.php:479, includes/widgets/lp_courses_carousel.php:533, includes/widgets/tutor_courses_carousel.php:560
+msgid "Enroll"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:499, includes/widgets/tutor_courses_carousel.php:587
+msgid "Lessons Text List Item"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:508, includes/widgets/tutor_courses_carousel.php:596
+msgid "Duration"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:517, includes/widgets/tutor_courses_carousel.php:605
+msgid "Duration Text"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:526, includes/widgets/tutor_courses_carousel.php:623
+msgid "Author Avatar"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:535, includes/widgets/tutor_courses_carousel.php:632
+msgid "Author Name"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:545, includes/widgets/course_filter_tutor.php:860, includes/widgets/tutor_courses_carousel.php:642, includes/widgets/tutor_courses_carousel.php:958
+msgid "Excerpt"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:554
+msgid "Excerpt List Items"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:648, includes/widgets/teachers.php:483, includes/widgets/tutor_courses_carousel.php:746
+msgid "Content Background"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:662, includes/widgets/tutor_courses_carousel.php:760
+msgid "Footer Background"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:809, includes/widgets/tutor_courses_carousel.php:907
+msgid "Title Section Height"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:873, includes/widgets/tutor_courses_carousel.php:971
+msgid "Excerpt Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1119, includes/widgets/tutor_courses_carousel.php:1015
+msgid "Level Background"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1141, includes/widgets/tutor_courses_carousel.php:1037
+msgid "Category Background"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1153, includes/widgets/tutor_courses_carousel.php:1049
+msgid "Wishlist Icon Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1166, includes/widgets/tutor_courses_carousel.php:1062
+msgid "Wishlist Background Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1204, includes/widgets/tutor_courses_carousel.php:1100
+msgid "Secondary Text Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1217, includes/widgets/tutor_courses_carousel.php:1113
+msgid "Author Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1237, includes/widgets/tutor_courses_carousel.php:1133
+msgid "Author Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1259, includes/widgets/tutor_courses_carousel.php:1155
+msgid "Author Hover Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1331, includes/widgets/tutor_courses_carousel.php:1227
+msgid "Category Hover Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1371, includes/widgets/tutor_courses_carousel.php:1267
+msgid "Enroll Icon Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1384, includes/widgets/tutor_courses_carousel.php:1280
+msgid "Enroll Typography"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1405, includes/widgets/tutor_courses_carousel.php:1301
+msgid "Enroll text Color"
+msgstr ""
+
+#: includes/widgets/course_filter_tutor.php:1425, includes/widgets/tutor_courses_carousel.php:1321
+msgid "Enroll Text Hover Color"
+msgstr ""
+
+#: includes/widgets/course_filter.php:15
+msgid "Course Filter (LearnPress)"
+msgstr ""
+
+#: includes/widgets/course_filter.php:431, includes/widgets/lp_courses_carousel.php:485
+msgid "Show Price .00"
+msgstr ""
+
+#: includes/widgets/course_filter.php:452, includes/widgets/lp_courses_carousel.php:506
+msgid "Review Text"
+msgstr ""
+
+#: includes/widgets/course_filter.php:461, includes/widgets/lp_courses_carousel.php:515
+msgid "Instructor Image"
+msgstr ""
+
+#: includes/widgets/course_filter.php:470, includes/widgets/lp_courses_carousel.php:524
+msgid "Instructor Name"
+msgstr ""
+
+#: includes/widgets/course_filter.php:503, includes/widgets/ld_groups_courses_carousel.php:1636, includes/widgets/lp_courses_carousel.php:557, includes/widgets/templates/ld_course_layout_1_2_3.php:69, includes/widgets/templates/ld_course_layout_6.php:256, includes/widgets/templates/ld_filter_list.php:52, includes/widgets/templates/lp_filter_list.php:55, includes/widgets/templates/tutor_course_layout_2.php:61, includes/widgets/templates/tutor_course_layout_3.php:77, includes/widgets/templates/tutor_filter_list.php:91
+msgid "Lesson"
+msgstr ""
+
+#: includes/widgets/course_filter.php:515, includes/widgets/lp_courses_carousel.php:569, includes/widgets/templates/lp_filter_list.php:64
+msgid "Quiz"
+msgstr ""
+
+#: includes/widgets/course_filter.php:842, includes/widgets/lp_courses_carousel.php:786
+msgid "Meta Text Color"
+msgstr ""
+
+#: includes/widgets/course_filter.php:861, includes/widgets/lp_courses_carousel.php:804
+msgid "Instructor Typography"
+msgstr ""
+
+#: includes/widgets/course_filter.php:871, includes/widgets/lp_courses_carousel.php:814
+msgid "Instructor Color"
+msgstr ""
+
+#: includes/widgets/course_filter.php:925, includes/widgets/lp_courses_carousel.php:868
+msgid "Price Background Size"
+msgstr ""
+
+#: includes/widgets/course_filter.php:945, includes/widgets/lp_courses_carousel.php:888, includes/widgets/woo_product.php:575
+msgid "Review Typography"
+msgstr ""
+
+#: includes/widgets/course_filter.php:955, includes/widgets/lp_courses_carousel.php:898, includes/widgets/woo_product.php:585
+msgid "Review Color"
+msgstr ""
+
+#: includes/widgets/course_filter.php:975
+msgid "Course Style"
+msgstr ""
+
+#: includes/widgets/course_filter.php:998, includes/widgets/custom_icon.php:525, includes/widgets/edubin_contact_form_seven.php:258, includes/widgets/edubin_contact_form_seven.php:370, includes/widgets/edubin_section_title.php:392, includes/widgets/edubin_testimonial.php:917, includes/widgets/lp_courses_carousel.php:1167, includes/widgets/search.php:139
+msgid "Justified"
+msgstr ""
+
+#: includes/widgets/course_filter.php:1072
+msgid "Course Title"
+msgstr ""
+
+#: includes/widgets/course_filter.php:1117
+msgid "Fixed Title Height"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:15
+msgid "Course Instructor"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:46, includes/widgets/course_instractor.php:193, includes/widgets/edubin_testimonial.php:137, includes/widgets/edubin_testimonial.php:732, includes/widgets/events.php:121, includes/widgets/latest_post.php:146, includes/widgets/ld_courses_carousel.php:146, includes/widgets/ld_groups_courses_carousel.php:145, includes/widgets/lp_courses_carousel.php:145, includes/widgets/teachers.php:82, includes/widgets/teachers.php:287, includes/widgets/tutor_courses_carousel.php:186, includes/widgets/woo_product.php:116
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:48
+msgid "Hellen Mark"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:56
+msgid "Skill"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:58
+msgid "Java Expert"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:68
+msgid "10 Courses"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:87
+msgid "Profile Link"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:103
+msgid "Expert Category Link"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:234
+msgid "Name Space"
+msgstr ""
+
+#: includes/widgets/course_instractor.php:319
+msgid "Category Space"
+msgstr ""
+
+#: includes/widgets/cta.php:23
+msgid "Call To Action"
+msgstr ""
+
+#: includes/widgets/cta.php:49, includes/widgets/custom_icon.php:47, includes/widgets/custom_icon.php:71, includes/widgets/custom_icon.php:220, includes/widgets/edubin_section_title.php:97, includes/widgets/edubin_section_title.php:133, includes/widgets/edubin_slider.php:1098, includes/widgets/edubin_slider.php:1138, includes/widgets/icon_text.php:71, includes/widgets/icon_text.php:252, includes/widgets/search.php:87, includes/widgets/section_3.php:233, includes/widgets/teachers.php:391
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/cta.php:71
+msgid "Text 1"
+msgstr ""
+
+#: includes/widgets/cta.php:73
+msgid "321 325 5678"
+msgstr ""
+
+#: includes/widgets/cta.php:74, includes/widgets/cta.php:85
+msgid "Type your text here"
+msgstr ""
+
+#: includes/widgets/cta.php:82
+msgid "Text 2"
+msgstr ""
+
+#: includes/widgets/cta.php:84
+msgid "Call For Any Query"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:20
+msgid "Custom Icon"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:37
+msgid "Icon Box"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:43, includes/widgets/edubin_section_title.php:89
+msgid "Icon Type"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:48
+msgid "Image Icon"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:90
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:91
+msgid "Stacked"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:92
+msgid "Framed"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:102, includes/widgets/custom_icon.php:432
+msgid "Shape"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:105
+msgid "Circle"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:106
+msgid "Square"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:120
+msgid "Title & Description"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:125
+msgid "This is the heading"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:126, includes/widgets/edubin_section_title.php:55, includes/widgets/edubin_section_title.php:57
+msgid "Enter your title"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:139
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: includes/widgets/custom_icon.php:140
+msgid "Enter your description"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:150, includes/widgets/edubin_section_title.php:158, includes/widgets/edubin_section_title.php:216, includes/widgets/icon_text.php:85, includes/widgets/image_carousel.php:97, includes/widgets/section_2.php:92, includes/widgets/section_3.php:91, includes/widgets/section_4.php:211, includes/widgets/video_popup.php:89, includes/widgets/video_popup.php:103
+msgid "Link"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:163
+msgid "Icon Position"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:172, includes/widgets/custom_icon.php:541, includes/widgets/edubin_section_title.php:201
+msgid "Top"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:198
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:247, includes/widgets/custom_icon.php:288
+msgid "Primary Color"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:263, includes/widgets/custom_icon.php:301
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:317
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:329, includes/widgets/custom_icon.php:562, includes/widgets/edubin_slider.php:365
+msgid "Spacing"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:389, includes/widgets/edubin_section_title.php:302
+msgid "Rotate"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:404
+msgid "Border Width"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:440
+msgid "Shape Color"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:451
+msgid "Shape Size"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:467
+msgid "Position X"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:483
+msgid "Position Y"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:538
+msgid "Vertical Alignment"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:542
+msgid "Middle"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:543, includes/widgets/edubin_section_title.php:205
+msgid "Bottom"
+msgstr ""
+
+#: includes/widgets/custom_icon.php:621, includes/widgets/edubin_contact_form_seven.php:77, includes/widgets/edubin_contact_form_seven.php:275, includes/widgets/edubin_cuctom_event.php:234, includes/widgets/edubin_slider.php:232, includes/widgets/section_4.php:66, includes/widgets/section_4.php:424, includes/widgets/slider_pro.php:243, includes/widgets/wpforms.php:76, includes/widgets/wpforms.php:257
+msgid "Description"
+msgstr ""
+
+#: includes/widgets/delimiter.php:18
+msgid "Delimiter"
+msgstr ""
+
+#: includes/widgets/delimiter.php:35, includes/widgets/edubin_title.php:34, includes/widgets/footer_menu.php:47, includes/widgets/header_menu.php:47, includes/widgets/icon_text.php:39, includes/widgets/logo.php:38, includes/widgets/woo_cart.php:38, includes/widgets/woo_cart.php:90, includes/widgets/woo_cart.php:142
+msgid "General"
+msgstr ""
+
+#: includes/widgets/delimiter.php:41
+msgid "Delimiter Height"
+msgstr ""
+
+#: includes/widgets/delimiter.php:55
+msgid "Delimiter Width"
+msgstr ""
+
+#: includes/widgets/delimiter.php:59
+msgid "Values in pixels"
+msgstr ""
+
+#: includes/widgets/delimiter.php:105, includes/widgets/edubin_contact_form_seven.php:122, includes/widgets/edubin_contact_form_seven.php:210, includes/widgets/edubin_contact_form_seven.php:321, includes/widgets/edubin_contact_form_seven.php:541, includes/widgets/edubin_contact_form_seven.php:670, includes/widgets/edubin_contact_form_seven.php:761, includes/widgets/edubin_contact_form_seven.php:879, includes/widgets/edubin_cuctom_event.php:193, includes/widgets/edubin_cuctom_event.php:281, includes/widgets/edubin_cuctom_event.php:328, includes/widgets/edubin_cuctom_event.php:388, includes/widgets/edubin_section_title.php:352, includes/widgets/edubin_section_title.php:528, includes/widgets/edubin_section_title.php:642, includes/widgets/edubin_testimonial.php:578, includes/widgets/edubin_title.php:477, includes/widgets/join_login_logout.php:371, includes/widgets/latest_post.php:1052, includes/widgets/search.php:154, includes/widgets/search.php:234, includes/widgets/search.php:385, includes/widgets/wpforms.php:405, includes/widgets/wpforms.php:497, includes/widgets/wpforms.php:609, includes/widgets/wpforms.php:726
+msgid "Margin"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:21
+msgid "Contact form 7"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:42, includes/widgets/edubin_contact_form_seven.php:49
+msgid "Contact Form"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:57, includes/widgets/edubin_testimonial.php:62, includes/widgets/edubin_testimonial.php:595, includes/widgets/events.php:382, includes/widgets/section_2.php:54, includes/widgets/section_2.php:225, includes/widgets/section_3.php:46, includes/widgets/section_3.php:285
+msgid "Heading"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:68
+msgid "Heading Text"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:88
+msgid "Description Text"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:135
+msgid "Form Background"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:144, includes/widgets/edubin_contact_form_seven.php:914, includes/widgets/edubin_section_title.php:745, includes/widgets/wpforms.php:760
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:165
+msgid "Heading Background"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:388, includes/widgets/search.php:183, includes/widgets/wpforms.php:421
+msgid "Input"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:466, includes/widgets/edubin_contact_form_seven.php:623, includes/widgets/search.php:202
+msgid "Placeholder Color"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:563, includes/widgets/wpforms.php:534
+msgid "Textarea"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:812, includes/widgets/footer_menu.php:91, includes/widgets/header_menu.php:83, includes/widgets/image_carousel.php:650, includes/widgets/image_carousel.php:828, includes/widgets/search.php:286
+msgid "Width"
+msgstr ""
+
+#: includes/widgets/edubin_contact_form_seven.php:995
+msgid "Please Select contact form."
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:15
+msgid "Custom Event"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:32
+msgid "Event"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:41
+msgid "Event Title."
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:65, includes/widgets/events.php:276
+msgid "Event Time"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:73
+msgid "Custom Date"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:75
+msgid "05"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:82
+msgid "Custom Month"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:84
+msgid "Jan"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:90
+msgid "Event Location"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:92
+msgid "Location."
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:99
+msgid "Event description"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:107
+msgid "Event Button text"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:109
+msgid "Read More."
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:116
+msgid "Event Button Link"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:297
+msgid "Time / Location"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:345, includes/widgets/events.php:120, includes/widgets/latest_post.php:145, includes/widgets/latest_post.php:306, includes/widgets/ld_courses_carousel.php:145, includes/widgets/ld_groups_courses_carousel.php:144, includes/widgets/lp_courses_carousel.php:144, includes/widgets/tutor_courses_carousel.php:185, includes/widgets/woo_product.php:115
+msgid "Date"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:551
+msgid "$settings[event_title]"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:561
+msgid "$settings[event_location]"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:568
+msgid "$settings[event_description]"
+msgstr ""
+
+#: includes/widgets/edubin_cuctom_event.php:573
+msgid "$settings[event_button]"
+msgstr ""
+
+#: includes/widgets/edubin_revolution_slider.php:13, includes/widgets/edubin_revolution_slider.php:47
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/widgets/edubin_revolution_slider.php:28, includes/widgets/edubin_revolution_slider.php:54
+msgid "Select Slider"
+msgstr ""
+
+#: includes/widgets/edubin_revolution_slider.php:37
+msgid "No Slider Found."
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:15, includes/widgets/edubin_section_title.php:30
+msgid "Section Title"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:37
+msgid "Title Style"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:56
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:64
+msgid "Sub Title"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:66, includes/widgets/edubin_section_title.php:68
+msgid "Enter your sub title"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:75
+msgid "Advance Title"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:77, includes/widgets/edubin_section_title.php:79
+msgid "Enter your advance title"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:148
+msgid "Title Setting"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:174, includes/widgets/edubin_section_title.php:232, includes/widgets/edubin_title.php:257
+msgid "HTML Tag"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:187
+msgid "Sub Title Setting"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:197, includes/widgets/edubin_testimonial.php:1266, includes/widgets/ld_courses_carousel.php:978, includes/widgets/ld_courses_carousel.php:1126, includes/widgets/ld_groups_courses_carousel.php:966, includes/widgets/ld_groups_courses_carousel.php:1114, includes/widgets/lp_courses_carousel.php:951, includes/widgets/lp_courses_carousel.php:1099, includes/widgets/tutor_courses_carousel.php:1376, includes/widgets/tutor_courses_carousel.php:1524, includes/widgets/woo_product.php:634, includes/widgets/woo_product.php:767
+msgid "Position"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:246
+msgid "Advance Title Setting"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:256
+msgid "X Offset"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:279
+msgid "Y Offset"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:334
+msgid "Section style"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:416
+msgid "Before And After Border Color"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:432
+msgid "Title Separator Color"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:448
+msgid "Separator Specing"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:466
+msgid "Title style"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:553, includes/widgets/edubin_section_title.php:666, includes/widgets/footer_menu.php:99, includes/widgets/header_menu.php:92
+msgid "Display"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:557, includes/widgets/edubin_section_title.php:670, includes/widgets/footer_menu.php:103, includes/widgets/header_menu.php:96
+msgid "Block"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:561, includes/widgets/edubin_section_title.php:674
+msgid "Inline block"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:588
+msgid "Sub Title style"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:701
+msgid "Advance Title style"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:736
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/widgets/edubin_section_title.php:799
+msgid "Opacity"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:15
+msgid "Edubin Advanced Slider"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:39, includes/widgets/slider_pro.php:37
+msgid "Slides"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:58, includes/widgets/slider_pro.php:56
+msgid "Choose Image"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:76
+msgctxt "Background Control"
+msgid "Background Size"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:80, includes/widgets/slider_pro.php:71
+msgctxt "Background Control"
+msgid "Cover"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:81, includes/widgets/slider_pro.php:72
+msgctxt "Background Control"
+msgid "Contain"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:82, includes/widgets/slider_pro.php:73
+msgctxt "Background Control"
+msgid "Auto"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:102
+msgctxt "Background Position"
+msgid "Position"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:106, includes/widgets/slider_pro.php:97
+msgctxt "Background Position"
+msgid "left top"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:107, includes/widgets/slider_pro.php:98
+msgctxt "Background Position"
+msgid "left center"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:108, includes/widgets/slider_pro.php:99
+msgctxt "Background Position"
+msgid "left bottom"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:109, includes/widgets/slider_pro.php:100
+msgctxt "Background Position"
+msgid "right top"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:110, includes/widgets/slider_pro.php:101
+msgctxt "Background Position"
+msgid "right center"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:111, includes/widgets/slider_pro.php:102
+msgctxt "Background Position"
+msgid "right bottom"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:112, includes/widgets/slider_pro.php:103
+msgctxt "Background Position"
+msgid "center top"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:113, includes/widgets/slider_pro.php:104
+msgctxt "Background Position"
+msgid "center center"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:114, includes/widgets/slider_pro.php:105
+msgctxt "Background Position"
+msgid "center bottom"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:115, includes/widgets/slider_pro.php:106
+msgctxt "Background Position"
+msgid "initial"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:116, includes/widgets/slider_pro.php:107
+msgctxt "Background Position"
+msgid "inherit"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:127, includes/widgets/slider_pro.php:159
+msgid "Background Overlay"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:172, includes/widgets/slider_pro.php:204
+msgid "Content Alignment"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:195, includes/widgets/slider_pro.php:226
+msgid "Slider Title"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:197, includes/widgets/edubin_slider.php:340
+msgid "Choose the right <br> Theme for education"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:205
+msgid "Slider Title HTML Tag"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:224, includes/widgets/events.php:466, includes/widgets/footer_menu.php:238, includes/widgets/image_carousel.php:121, includes/widgets/latest_post.php:546, includes/widgets/section_4.php:386, includes/widgets/slider_pro.php:236, includes/widgets/teachers.php:304
+msgid "Title Color"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:234, includes/widgets/slider_pro.php:245
+msgid "Lorem dummy text of the printing and typesetting industry orem Ipsum has been the industry's standard dummy text."
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:241
+msgid "Description Color"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:262, includes/widgets/edubin_slider.php:753, includes/widgets/slider_pro.php:272, includes/widgets/slider_pro.php:728
+msgid "Button Left"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:274, includes/widgets/slider_pro.php:284
+msgid "Button Left Text"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:276, includes/widgets/edubin_slider.php:277, includes/widgets/slider_pro.php:286, includes/widgets/slider_pro.php:287
+msgid "Contact Us"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:284, includes/widgets/slider_pro.php:294
+msgid "Button Left Link"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:299, includes/widgets/edubin_slider.php:933, includes/widgets/slider_pro.php:309, includes/widgets/slider_pro.php:908
+msgid "Button Right"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:311, includes/widgets/slider_pro.php:321
+msgid "Button Right Text"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:313, includes/widgets/edubin_slider.php:314, includes/widgets/slider_pro.php:323, includes/widgets/slider_pro.php:324
+msgid "Get Started"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:321, includes/widgets/slider_pro.php:331
+msgid "Button Right Link"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:335, includes/widgets/slider_pro.php:345
+msgid "Slider Options"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:371
+msgid "Height & Position"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:380
+msgid "Keep blank value for the default full screen 100vh"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:404, includes/widgets/slider_pro.php:591
+msgid "Blank value for center position"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:419
+msgid "Left/Right Space"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:421
+msgid "It will be work for title, contest and button all sections"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:436
+msgid "Title Spacing"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:444
+msgid "Spacing Left/Right"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:464, includes/widgets/edubin_slider.php:529
+msgid "Content Spacing for Center Align"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:484, includes/widgets/edubin_slider.php:500
+msgid "Content Spacing"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:508, includes/widgets/slider_pro.php:488
+msgid "Content Spacing Left/Right Align"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:548, includes/widgets/slider_pro.php:528
+msgid "Content Button Spacing"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:570
+msgid "Global Options"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:577, includes/widgets/slider_pro.php:606
+msgid "Speed & Animation"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:585
+msgid "Auto Play"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:594, includes/widgets/edubin_slider.php:1081, includes/widgets/ld_courses_carousel.php:239, includes/widgets/ld_groups_courses_carousel.php:226, includes/widgets/lp_courses_carousel.php:222, includes/widgets/tutor_courses_carousel.php:270, includes/widgets/woo_product.php:180
+msgid "Nav Arrow"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:603, includes/widgets/edubin_testimonial.php:387, includes/widgets/image_carousel.php:298, includes/widgets/ld_courses_carousel.php:335, includes/widgets/ld_groups_courses_carousel.php:322, includes/widgets/lp_courses_carousel.php:318, includes/widgets/services_box.php:316, includes/widgets/tutor_courses_carousel.php:366, includes/widgets/woo_product.php:276
+msgid "Autoplay speed"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:613, includes/widgets/edubin_testimonial.php:400, includes/widgets/image_carousel.php:310, includes/widgets/ld_courses_carousel.php:348, includes/widgets/ld_groups_courses_carousel.php:335, includes/widgets/lp_courses_carousel.php:331, includes/widgets/tutor_courses_carousel.php:378, includes/widgets/woo_product.php:289
+msgid "Autoplay animation speed"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:626
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:637
+msgid "Mouse Drag"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:648
+msgid "Touch Drag"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:655
+msgid "Slider Gradient Overlay"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:656
+msgid "Using this option individual overlay will be override"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:666
+msgid "Gradient Overlay"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:699, includes/widgets/section_2.php:243, includes/widgets/section_3.php:303
+msgid "Span Color"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:711, includes/widgets/section_2.php:255, includes/widgets/section_3.php:317, includes/widgets/slider_pro.php:452
+msgid "Span Typography"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:737, includes/widgets/slider_pro.php:478
+msgid "Content Typography"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:804, includes/widgets/edubin_slider.php:849, includes/widgets/edubin_slider.php:1015, includes/widgets/edubin_testimonial.php:1025, includes/widgets/header_menu.php:269, includes/widgets/section_2.php:352, includes/widgets/section_2.php:397, includes/widgets/section_3.php:414, includes/widgets/section_3.php:459, includes/widgets/section_4.php:544, includes/widgets/section_4.php:591, includes/widgets/slider_pro.php:779, includes/widgets/slider_pro.php:824, includes/widgets/slider_pro.php:990
+msgid "Border Color"
+msgstr ""
+
+#: includes/widgets/edubin_slider.php:911, includes/widgets/slider_pro.php:886
+msgid "Button Space Between"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:15, includes/widgets/edubin_testimonial.php:40
+msgid "Testimonial"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:64
+msgid "Happy Students"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:124, includes/widgets/ld_courses_carousel.php:160, includes/widgets/ld_groups_courses_carousel.php:159, includes/widgets/lp_courses_carousel.php:159, includes/widgets/services_box.php:151, includes/widgets/tutor_courses_carousel.php:64, includes/widgets/woo_product.php:139
+msgid "Carousel"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:140
+msgid "Johan Doe"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:168, includes/widgets/teachers.php:92
+msgid "Designation"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:171
+msgid "Managing Director"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:178
+msgid "Client Say Heading"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:181
+msgid "I enjoyed the course thoroughly!"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:188
+msgid "Client Say"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:190
+msgid "Aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet sem nibh id elit sollicitudirem"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:203
+msgid "James Smith"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:204
+msgid "CFO Apple Corp"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:205, includes/widgets/edubin_testimonial.php:219
+msgid "Fantastic! Great instructor!"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:206, includes/widgets/edubin_testimonial.php:220
+msgid "I am grateful for your wonderful course! Your tutors are the best, and I am completely satisfied with the level of professional teaching. I recommend these courses to everyone, and wish you, guys, luck with the new studies!"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:210
+msgid "Monica Blews"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:211
+msgid "Manager"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:212
+msgid "I enjoyed every lesson"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:213
+msgid "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet. It is a very good course for those who are the beginner. luck with the new studies!"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:217
+msgid "John Dowson"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:218
+msgid "Developer"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:239, includes/widgets/edubin_testimonial.php:693
+msgid "Quote"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:252, includes/widgets/image_carousel.php:163
+msgid "Slider Option"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:262, includes/widgets/edubin_testimonial.php:439, includes/widgets/edubin_testimonial.php:494, includes/widgets/image_carousel.php:173, includes/widgets/image_carousel.php:349, includes/widgets/image_carousel.php:404, includes/widgets/ld_courses_carousel.php:387, includes/widgets/ld_courses_carousel.php:442, includes/widgets/ld_groups_courses_carousel.php:374, includes/widgets/ld_groups_courses_carousel.php:429, includes/widgets/lp_courses_carousel.php:370, includes/widgets/lp_courses_carousel.php:425, includes/widgets/tutor_courses_carousel.php:417, includes/widgets/tutor_courses_carousel.php:472, includes/widgets/woo_product.php:328, includes/widgets/woo_product.php:383
+msgid "Slider Items"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:277, includes/widgets/image_carousel.php:188
+msgid "Slider Arrow"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:290, includes/widgets/image_carousel.php:201, includes/widgets/ld_courses_carousel.php:268, includes/widgets/ld_groups_courses_carousel.php:255, includes/widgets/lp_courses_carousel.php:251, includes/widgets/services_box.php:219, includes/widgets/tutor_courses_carousel.php:299, includes/widgets/woo_product.php:209
+msgid "Previous icon"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:303, includes/widgets/image_carousel.php:214, includes/widgets/ld_courses_carousel.php:281, includes/widgets/ld_groups_courses_carousel.php:268, includes/widgets/lp_courses_carousel.php:264, includes/widgets/services_box.php:232, includes/widgets/tutor_courses_carousel.php:312, includes/widgets/woo_product.php:222
+msgid "Next icon"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:316, includes/widgets/image_carousel.php:227
+msgid "Slider dots"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:334, includes/widgets/image_carousel.php:245, includes/widgets/ld_courses_carousel.php:312, includes/widgets/ld_groups_courses_carousel.php:299, includes/widgets/lp_courses_carousel.php:295, includes/widgets/services_box.php:263, includes/widgets/tutor_courses_carousel.php:343, includes/widgets/woo_product.php:253
+msgid "Pause on Hover?"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:344, includes/widgets/image_carousel.php:255, includes/widgets/services_box.php:273
+msgid "Center Mode"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:357, includes/widgets/image_carousel.php:268, includes/widgets/services_box.php:286
+msgid "Center padding"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:373, includes/widgets/image_carousel.php:284
+msgid "Slider auto play"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:412, includes/widgets/edubin_testimonial.php:454, includes/widgets/edubin_testimonial.php:509, includes/widgets/image_carousel.php:322, includes/widgets/image_carousel.php:364, includes/widgets/image_carousel.php:419, includes/widgets/ld_courses_carousel.php:360, includes/widgets/ld_courses_carousel.php:402, includes/widgets/ld_courses_carousel.php:457, includes/widgets/ld_groups_courses_carousel.php:347, includes/widgets/ld_groups_courses_carousel.php:389, includes/widgets/ld_groups_courses_carousel.php:444, includes/widgets/lp_courses_carousel.php:343, includes/widgets/lp_courses_carousel.php:385, includes/widgets/lp_courses_carousel.php:440, includes/widgets/tutor_courses_carousel.php:390, includes/widgets/tutor_courses_carousel.php:432, includes/widgets/tutor_courses_carousel.php:487, includes/widgets/woo_product.php:301, includes/widgets/woo_product.php:343, includes/widgets/woo_product.php:398
+msgid "Slider item to scroll"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:427, includes/widgets/image_carousel.php:337, includes/widgets/ld_courses_carousel.php:375, includes/widgets/ld_groups_courses_carousel.php:362, includes/widgets/lp_courses_carousel.php:358, includes/widgets/services_box.php:355, includes/widgets/tutor_courses_carousel.php:405, includes/widgets/woo_product.php:316
+msgid "Tablet"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:469, includes/widgets/image_carousel.php:379, includes/widgets/ld_courses_carousel.php:417, includes/widgets/ld_groups_courses_carousel.php:404, includes/widgets/lp_courses_carousel.php:400, includes/widgets/services_box.php:397, includes/widgets/tutor_courses_carousel.php:447, includes/widgets/woo_product.php:358
+msgid "Tablet Resolution"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:470, includes/widgets/image_carousel.php:380, includes/widgets/ld_courses_carousel.php:418, includes/widgets/ld_groups_courses_carousel.php:405, includes/widgets/lp_courses_carousel.php:401, includes/widgets/services_box.php:398, includes/widgets/tutor_courses_carousel.php:448, includes/widgets/woo_product.php:359
+msgid "The resolution to tablet."
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:482, includes/widgets/image_carousel.php:392, includes/widgets/ld_courses_carousel.php:430, includes/widgets/ld_groups_courses_carousel.php:417, includes/widgets/lp_courses_carousel.php:413, includes/widgets/services_box.php:410, includes/widgets/tutor_courses_carousel.php:460, includes/widgets/woo_product.php:371
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:524, includes/widgets/image_carousel.php:434, includes/widgets/ld_courses_carousel.php:472, includes/widgets/ld_groups_courses_carousel.php:459, includes/widgets/lp_courses_carousel.php:455, includes/widgets/services_box.php:452, includes/widgets/tutor_courses_carousel.php:502, includes/widgets/woo_product.php:413
+msgid "Mobile Resolution"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:525, includes/widgets/image_carousel.php:435, includes/widgets/ld_courses_carousel.php:473, includes/widgets/ld_groups_courses_carousel.php:460, includes/widgets/lp_courses_carousel.php:456, includes/widgets/services_box.php:453, includes/widgets/tutor_courses_carousel.php:503, includes/widgets/woo_product.php:414
+msgid "The resolution to mobile."
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:618, includes/widgets/events.php:404, includes/widgets/wpforms.php:172
+msgid "Heading Padding"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:680
+msgid "Image Background"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:812, includes/widgets/teachers.php:353, includes/widgets/teachers.php:360
+msgid "Degree"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:893
+msgid "Client say"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:979, includes/widgets/image_carousel.php:532, includes/widgets/ld_courses_carousel.php:943, includes/widgets/ld_groups_courses_carousel.php:931, includes/widgets/lp_courses_carousel.php:916, includes/widgets/services_box.php:191, includes/widgets/tutor_courses_carousel.php:1341, includes/widgets/woo_product.php:601
+msgid "Arrow"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1036
+msgid "Icon Size"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1145, includes/widgets/latest_post.php:995
+msgid "Background Hover Color"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1156
+msgid "Border Hover Color"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1184, includes/widgets/ld_courses_carousel.php:1086, includes/widgets/ld_groups_courses_carousel.php:1074, includes/widgets/lp_courses_carousel.php:1059, includes/widgets/slider_pro.php:696, includes/widgets/tutor_courses_carousel.php:1484, includes/widgets/woo_product.php:742
+msgid "Dot"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1222, includes/widgets/header_menu.php:303, includes/widgets/header_menu.php:411, includes/widgets/image_carousel.php:858, includes/widgets/services_box.php:799
+msgid "Active"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1246, includes/widgets/ld_courses_carousel.php:1108, includes/widgets/ld_groups_courses_carousel.php:1096, includes/widgets/lp_courses_carousel.php:1081, includes/widgets/services_box.php:728, includes/widgets/tutor_courses_carousel.php:1506, includes/widgets/woo_product.php:749
+msgid "Dot Size"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1369, includes/widgets/edubin_testimonial.php:1398, includes/widgets/edubin_testimonial.php:1428, includes/widgets/edubin_testimonial.php:1475, includes/widgets/edubin_testimonial.php:1518
+msgid "$testimonial[client_say]"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1372, includes/widgets/edubin_testimonial.php:1401, includes/widgets/edubin_testimonial.php:1442, includes/widgets/edubin_testimonial.php:1490, includes/widgets/edubin_testimonial.php:1524
+msgid "$testimonial[client_name]"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1375, includes/widgets/edubin_testimonial.php:1404, includes/widgets/edubin_testimonial.php:1445, includes/widgets/edubin_testimonial.php:1493, includes/widgets/edubin_testimonial.php:1527
+msgid "$testimonial[client_designation]"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1386
+msgid "$settings[heading]"
+msgstr ""
+
+#: includes/widgets/edubin_testimonial.php:1425
+msgid "$testimonial[client_say_heading]"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:15
+msgid "Custom Title"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:40, includes/widgets/edubin_title.php:45, includes/widgets/edubin_title.php:390
+msgid "Subtitle"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:44
+msgid "ex: About Us"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:52
+msgid "Title 1st Part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:56
+msgid "1st part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:57
+msgctxt "LMSMart Double Heading"
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:64
+msgid "Title 2nd Part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:68
+msgid "2nd part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:69
+msgctxt "LMSMart Double Heading"
+msgid " consists of parts"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:76
+msgid "Title 3rd Part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:80
+msgid "3rd part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:87
+msgid "Sub Title Alignment"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:114
+msgid "Title Alignment"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:141, includes/widgets/services_box.php:109
+msgid "Title Link"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:149, includes/widgets/edubin_title.php:308
+msgid "Shape Background"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:151, includes/widgets/edubin_title.php:162, includes/widgets/edubin_title.php:208, includes/widgets/icon_text.php:169, includes/widgets/image_carousel.php:150, includes/widgets/services_box.php:153
+msgid "On"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:152, includes/widgets/edubin_title.php:163, includes/widgets/edubin_title.php:209, includes/widgets/icon_text.php:168, includes/widgets/image_carousel.php:151, includes/widgets/services_box.php:154
+msgid "Off"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:160
+msgid "Shape Animation"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:170
+msgid "Shape Width"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:182
+msgid "Shape Position X"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:194
+msgid "Shape Position Y"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:206, includes/widgets/edubin_title.php:216
+msgid "Image Shape"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:276
+msgid "1st Part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:318
+msgid "2nd Part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:351
+msgid "3rd Part"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:407
+msgid "Subtitle Color"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:420
+msgid "Subtitle Background Color"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:432
+msgid "Hide Circle?"
+msgstr ""
+
+#: includes/widgets/edubin_title.php:443
+msgid "Additional Color"
+msgstr ""
+
+#: includes/widgets/events.php:17
+msgid "The Events Calendar"
+msgstr ""
+
+#: includes/widgets/events.php:39, includes/widgets/events.php:374
+msgid "Events"
+msgstr ""
+
+#: includes/widgets/events.php:58
+msgid "Number of Event"
+msgstr ""
+
+#: includes/widgets/events.php:88, includes/widgets/latest_post.php:113, includes/widgets/ld_courses_carousel.php:113, includes/widgets/ld_groups_courses_carousel.php:112, includes/widgets/lp_courses_carousel.php:112, includes/widgets/tutor_courses_carousel.php:153, includes/widgets/woo_product.php:83
+msgid "Custom Order"
+msgstr ""
+
+#: includes/widgets/events.php:98, includes/widgets/latest_post.php:123, includes/widgets/ld_courses_carousel.php:123, includes/widgets/ld_groups_courses_carousel.php:122, includes/widgets/lp_courses_carousel.php:122, includes/widgets/tutor_courses_carousel.php:163, includes/widgets/woo_product.php:93
+msgid "Order"
+msgstr ""
+
+#: includes/widgets/events.php:102, includes/widgets/latest_post.php:127, includes/widgets/ld_courses_carousel.php:127, includes/widgets/ld_groups_courses_carousel.php:126, includes/widgets/lp_courses_carousel.php:126, includes/widgets/tutor_courses_carousel.php:167, includes/widgets/woo_product.php:97
+msgid "Descending"
+msgstr ""
+
+#: includes/widgets/events.php:103, includes/widgets/latest_post.php:128, includes/widgets/ld_courses_carousel.php:128, includes/widgets/ld_groups_courses_carousel.php:127, includes/widgets/lp_courses_carousel.php:127, includes/widgets/tutor_courses_carousel.php:168, includes/widgets/woo_product.php:98
+msgid "Ascending"
+msgstr ""
+
+#: includes/widgets/events.php:114, includes/widgets/latest_post.php:139, includes/widgets/ld_courses_carousel.php:139, includes/widgets/ld_groups_courses_carousel.php:138, includes/widgets/lp_courses_carousel.php:138, includes/widgets/tutor_courses_carousel.php:179, includes/widgets/woo_product.php:109
+msgid "Orderby"
+msgstr ""
+
+#: includes/widgets/events.php:119, includes/widgets/latest_post.php:144, includes/widgets/ld_courses_carousel.php:144, includes/widgets/ld_groups_courses_carousel.php:143, includes/widgets/lp_courses_carousel.php:143, includes/widgets/tutor_courses_carousel.php:184, includes/widgets/woo_product.php:114
+msgid "ID"
+msgstr ""
+
+#: includes/widgets/events.php:123, includes/widgets/latest_post.php:148, includes/widgets/ld_courses_carousel.php:148, includes/widgets/ld_groups_courses_carousel.php:147, includes/widgets/lp_courses_carousel.php:147, includes/widgets/tutor_courses_carousel.php:188, includes/widgets/woo_product.php:118
+msgid "Comment count"
+msgstr ""
+
+#: includes/widgets/events.php:124, includes/widgets/latest_post.php:149, includes/widgets/ld_courses_carousel.php:149, includes/widgets/ld_groups_courses_carousel.php:148, includes/widgets/lp_courses_carousel.php:148, includes/widgets/tutor_courses_carousel.php:189, includes/widgets/woo_product.php:119
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/events.php:134, includes/widgets/latest_post.php:159, includes/widgets/ld_courses_carousel.php:104, includes/widgets/ld_groups_courses_carousel.php:103, includes/widgets/lp_courses_carousel.php:103, includes/widgets/tutor_courses_carousel.php:129, includes/widgets/woo_product.php:129
+msgid "Select Category"
+msgstr ""
+
+#: includes/widgets/events.php:143
+msgid "Events Heading"
+msgstr ""
+
+#: includes/widgets/events.php:146
+msgid "Upcoming events"
+msgstr ""
+
+#: includes/widgets/events.php:152
+msgid "Date Format"
+msgstr ""
+
+#: includes/widgets/events.php:155
+msgid "d. F"
+msgstr ""
+
+#: includes/widgets/events.php:161
+msgid "Date Separator"
+msgstr ""
+
+#: includes/widgets/events.php:164, includes/widgets/events.php:182
+msgid "To"
+msgstr ""
+
+#: includes/widgets/events.php:170
+msgid "Time Format"
+msgstr ""
+
+#: includes/widgets/events.php:173
+msgid "g:i A"
+msgstr ""
+
+#: includes/widgets/events.php:179
+msgid "Time Separator"
+msgstr ""
+
+#: includes/widgets/events.php:235
+msgid "Number of Title Word"
+msgstr ""
+
+#: includes/widgets/events.php:248, includes/widgets/events.php:527, includes/widgets/latest_post.php:290, includes/widgets/latest_post.php:674, includes/widgets/ld_courses_carousel.php:487, includes/widgets/ld_courses_carousel.php:849, includes/widgets/ld_groups_courses_carousel.php:474, includes/widgets/ld_groups_courses_carousel.php:838, includes/widgets/lp_courses_carousel.php:470, includes/widgets/lp_courses_carousel.php:763, includes/widgets/tutor_courses_carousel.php:996, includes/widgets/woo_product.php:512
+msgid "Meta"
+msgstr ""
+
+#: includes/widgets/events.php:254
+msgid "Event Start Date"
+msgstr ""
+
+#: includes/widgets/events.php:265
+msgid "Event End Date"
+msgstr ""
+
+#: includes/widgets/events.php:287
+msgid "Event Venue"
+msgstr ""
+
+#: includes/widgets/events.php:487, includes/widgets/latest_post.php:566, includes/widgets/teachers.php:324
+msgid "Title Hover Color"
+msgstr ""
+
+#: includes/widgets/events.php:513, includes/widgets/footer_menu.php:250
+msgid "Title Padding"
+msgstr ""
+
+#: includes/widgets/events.php:703, includes/widgets/events.php:812
+msgid "Sorry no post found"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:23, includes/widgets/footer_menu.php:54
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:52
+msgid "Menu Title"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:60, includes/widgets/footer_menu.php:272, includes/widgets/header_menu.php:66, includes/widgets/header_menu.php:208
+msgid "Menu"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:102, includes/widgets/header_menu.php:95
+msgid "Inline-Flex"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:115, includes/widgets/header_menu.php:108
+msgid "Flex Grow"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:139, includes/widgets/header_menu.php:132
+msgid "Module Height (px)"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:261
+msgid "Title Margin"
+msgstr ""
+
+#: includes/widgets/footer_menu.php:287, includes/widgets/header_menu.php:224
+msgid "Items Padding"
+msgstr ""
+
+#: includes/widgets/header_menu.php:23
+msgid "Header Menu"
+msgstr ""
+
+#: includes/widgets/header_menu.php:53
+msgid "Template"
+msgstr ""
+
+#: includes/widgets/header_menu.php:56
+msgid "Theme Default"
+msgstr ""
+
+#: includes/widgets/header_menu.php:57
+msgid "Custom"
+msgstr ""
+
+#: includes/widgets/header_menu.php:75
+msgid "Disable Submenu"
+msgstr ""
+
+#: includes/widgets/header_menu.php:331
+msgid "Submenu"
+msgstr ""
+
+#: includes/widgets/header_menu.php:483
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/widgets/icon_text.php:19
+msgid "Icon + Text"
+msgstr ""
+
+#: includes/widgets/icon_text.php:45, includes/widgets/teachers.php:414, includes/widgets/woo_product.php:812
+msgid "Layout"
+msgstr ""
+
+#: includes/widgets/icon_text.php:59, includes/widgets/icon_text.php:355, includes/widgets/search.php:83, includes/widgets/section_2.php:79, includes/widgets/section_3.php:79, includes/widgets/section_4.php:199
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/icon_text.php:63, includes/widgets/icon_text.php:64
+msgid "List Item"
+msgstr ""
+
+#: includes/widgets/icon_text.php:100
+msgid "List Item #1"
+msgstr ""
+
+#: includes/widgets/icon_text.php:101
+msgid "List Item #2"
+msgstr ""
+
+#: includes/widgets/icon_text.php:102
+msgid "List Item #3"
+msgstr ""
+
+#: includes/widgets/icon_text.php:116
+msgid "List"
+msgstr ""
+
+#: includes/widgets/icon_text.php:124
+msgid "Gap Items"
+msgstr ""
+
+#: includes/widgets/icon_text.php:165
+msgid "Divider"
+msgstr ""
+
+#: includes/widgets/icon_text.php:183
+msgid "Solid"
+msgstr ""
+
+#: includes/widgets/icon_text.php:184
+msgid "Double"
+msgstr ""
+
+#: includes/widgets/icon_text.php:185
+msgid "Dotted"
+msgstr ""
+
+#: includes/widgets/icon_text.php:186
+msgid "Dashed"
+msgstr ""
+
+#: includes/widgets/icon_text.php:198
+msgid "Weight"
+msgstr ""
+
+#: includes/widgets/icon_text.php:261, includes/widgets/icon_text.php:372, includes/widgets/join_login_logout.php:198, includes/widgets/join_login_logout.php:260, includes/widgets/join_login_logout.php:405
+msgid "Idle"
+msgstr ""
+
+#: includes/widgets/icon_text.php:281
+msgid "Stacked Color"
+msgstr ""
+
+#: includes/widgets/icon_text.php:335
+msgid "Gap Icons"
+msgstr ""
+
+#: includes/widgets/icon_text.php:412
+msgid "Text Indent"
+msgstr ""
+
+#: includes/widgets/image_carousel.php:21
+msgid "Image Carousel"
+msgstr ""
+
+#: includes/widgets/image_carousel.php:48
+msgid "Icon Carousel"
+msgstr ""
+
+#: includes/widgets/image_carousel.php:71
+msgid "Image Carosul Title."
+msgstr ""
+
+#: includes/widgets/image_carousel.php:137
+msgid "Image Carousel Title"
+msgstr ""
+
+#: includes/widgets/image_carousel.php:148
+msgid "Slider"
+msgstr ""
+
+#: includes/widgets/image_carousel.php:466
+msgid "Image Width"
+msgstr ""
+
+#: includes/widgets/image_carousel.php:566, includes/widgets/services_box.php:561
+msgid "Font Size"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:18
+msgid "Join Login Logout"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:35
+msgid "Login/Join"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:42, includes/widgets/woo_cart.php:43
+msgid "Type"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:45, includes/widgets/woo_cart.php:46
+msgid "Type 1"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:46, includes/widgets/woo_cart.php:47
+msgid "Type 2"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:55
+msgid "Login Text"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:58, includes/widgets/join_login_logout.php:186
+msgid "Login"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:65
+msgid "Login Page URL"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:75, includes/widgets/join_login_logout.php:78
+msgid "Join Now"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:84
+msgid "Join Page URL"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:94
+msgid "Logout Text"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:97
+msgid "Logout"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:103
+msgid "Logout Page URL"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:113
+msgid "Profile Text"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:116, includes/widgets/join_login_logout.php:393
+msgid "Profile"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:122
+msgid "Profile Page URL"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:248
+msgid "Join/Logout"
+msgstr ""
+
+#: includes/widgets/join_login_logout.php:452
+msgid "Separator"
+msgstr ""
+
+#: includes/widgets/latest_post.php:15
+msgid "Blog Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:37
+msgid "Post Grid"
+msgstr ""
+
+#: includes/widgets/latest_post.php:60
+msgid "Limit Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:69
+msgid "Limit Lists Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:80, includes/widgets/latest_post.php:96
+msgid "Column Layout"
+msgstr ""
+
+#: includes/widgets/latest_post.php:84
+msgid "Column 6-6"
+msgstr ""
+
+#: includes/widgets/latest_post.php:85
+msgid "Column 5-7"
+msgstr ""
+
+#: includes/widgets/latest_post.php:86
+msgid "Column 7-5"
+msgstr ""
+
+#: includes/widgets/latest_post.php:100
+msgid "Column 1"
+msgstr ""
+
+#: includes/widgets/latest_post.php:101
+msgid "Column 2"
+msgstr ""
+
+#: includes/widgets/latest_post.php:102
+msgid "Column 3"
+msgstr ""
+
+#: includes/widgets/latest_post.php:103
+msgid "Column 4"
+msgstr ""
+
+#: includes/widgets/latest_post.php:193
+msgid "Image Height List Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:216
+msgid "Image Width List Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:264
+msgid "Title List Post"
+msgstr ""
+
+#: includes/widgets/latest_post.php:277
+msgid "Title Length List Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:296
+msgid "Author"
+msgstr ""
+
+#: includes/widgets/latest_post.php:333
+msgid "Content Length"
+msgstr ""
+
+#: includes/widgets/latest_post.php:350, includes/widgets/latest_post.php:878
+msgid "Content List Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:363
+msgid "Content Length List Post"
+msgstr ""
+
+#: includes/widgets/latest_post.php:374
+msgid "List Posts Image"
+msgstr ""
+
+#: includes/widgets/latest_post.php:398, includes/widgets/latest_post.php:407, includes/widgets/latest_post.php:419, includes/widgets/latest_post.php:420, includes/widgets/latest_post.php:928
+msgid "Read More"
+msgstr ""
+
+#: includes/widgets/latest_post.php:417
+msgid "Read More Text"
+msgstr ""
+
+#: includes/widgets/latest_post.php:520
+msgid "Image Overlay"
+msgstr ""
+
+#: includes/widgets/latest_post.php:634
+msgid "List Posts Title"
+msgstr ""
+
+#: includes/widgets/latest_post.php:694
+msgid "Date Background Color"
+msgstr ""
+
+#: includes/widgets/latest_post.php:739
+msgid "Month Typography"
+msgstr ""
+
+#: includes/widgets/latest_post.php:767
+msgid "Meta List Posts"
+msgstr ""
+
+#: includes/widgets/latest_post.php:985
+msgid "Hover Color"
+msgstr ""
+
+#: includes/widgets/latest_post.php:1191, includes/widgets/latest_post.php:1279, includes/widgets/latest_post.php:1364
+msgid "d F Y"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:15
+msgid "Courses (LearnDash) "
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:229, includes/widgets/ld_groups_courses_carousel.php:216, includes/widgets/lp_courses_carousel.php:212, includes/widgets/services_box.php:166, includes/widgets/tutor_courses_carousel.php:260, includes/widgets/woo_product.php:170
+msgid "Carousel Option"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:252, includes/widgets/ld_groups_courses_carousel.php:239, includes/widgets/lp_courses_carousel.php:235, includes/widgets/services_box.php:203, includes/widgets/slider_pro.php:657, includes/widgets/tutor_courses_carousel.php:283, includes/widgets/woo_product.php:193
+msgid "Nav Style"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:294, includes/widgets/ld_groups_courses_carousel.php:281, includes/widgets/lp_courses_carousel.php:277, includes/widgets/tutor_courses_carousel.php:325, includes/widgets/woo_product.php:235
+msgid "Dots"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:321, includes/widgets/ld_groups_courses_carousel.php:308, includes/widgets/lp_courses_carousel.php:304, includes/widgets/tutor_courses_carousel.php:352, includes/widgets/woo_product.php:262
+msgid "Auto play"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:1096, includes/widgets/ld_groups_courses_carousel.php:1084, includes/widgets/lp_courses_carousel.php:1069, includes/widgets/services_box.php:717, includes/widgets/tutor_courses_carousel.php:1494
+msgid "Dot Color"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:1491, includes/widgets/ld_groups_courses_carousel.php:1480, includes/widgets/ld_groups_courses_carousel.php:1773, includes/widgets/templates/ld_course_layout_5.php:29, includes/widgets/templates/ld_course_layout_6.php:29, includes/widgets/templates/ld_filter_grid.php:20
+msgid "See more"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:1544, includes/widgets/ld_groups_courses_carousel.php:1533, includes/widgets/ld_groups_courses_carousel.php:1872, includes/widgets/ld_groups_courses_carousel.php:1894, includes/widgets/templates/ld_course_layout_5.php:125, includes/widgets/templates/ld_course_layout_5.php:145, includes/widgets/templates/ld_course_layout_6.php:111, includes/widgets/templates/ld_course_layout_6.php:131, includes/widgets/templates/ld_filter_grid.php:73, includes/widgets/templates/lp_filter_list.php:46
+msgid "Enrolled"
+msgstr ""
+
+#: includes/widgets/ld_courses_carousel.php:1555, includes/widgets/ld_groups_courses_carousel.php:1544, includes/widgets/ld_groups_courses_carousel.php:1882, includes/widgets/ld_groups_courses_carousel.php:1904, includes/widgets/templates/ld_course_layout_5.php:134, includes/widgets/templates/ld_course_layout_5.php:154, includes/widgets/templates/ld_course_layout_6.php:120, includes/widgets/templates/ld_course_layout_6.php:140, includes/widgets/templates/ld_filter_grid.php:84
+msgid "Completed"
+msgstr ""
+
+#: includes/widgets/ld_groups_courses_carousel.php:15
+msgid "Groups Courses (LearnDash) "
+msgstr ""
+
+#: includes/widgets/ld_groups_courses_carousel.php:1625, includes/widgets/ld_groups_courses_carousel.php:1735, includes/widgets/templates/ld_course_layout_1_2_3.php:58, includes/widgets/templates/ld_course_layout_4.php:74
+msgid "Time"
+msgstr ""
+
+#: includes/widgets/ld_groups_courses_carousel.php:1649, includes/widgets/templates/ld_course_layout_1_2_3.php:82, includes/widgets/templates/ld_course_layout_6.php:269, includes/widgets/templates/ld_filter_list.php:65
+msgid "Topic"
+msgstr ""
+
+#: includes/widgets/ld_search.php:15
+msgid "Course Search (LearnDash)"
+msgstr ""
+
+#: includes/widgets/ld_search.php:44, includes/widgets/lp_search.php:44, includes/widgets/tutor_search.php:44
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/ld_search.php:54, includes/widgets/ld_search.php:205, includes/widgets/lp_search.php:54, includes/widgets/lp_search.php:205, includes/widgets/tutor_search.php:53, includes/widgets/tutor_search.php:204
+msgid "Placeholder"
+msgstr ""
+
+#: includes/widgets/ld_search.php:93, includes/widgets/lp_search.php:93, includes/widgets/tutor_search.php:92
+msgid "Submit Button Width"
+msgstr ""
+
+#: includes/widgets/ld_search.php:127, includes/widgets/lp_search.php:127, includes/widgets/tutor_search.php:126
+msgid "Input Text"
+msgstr ""
+
+#: includes/widgets/ld_search.php:138, includes/widgets/lp_search.php:138, includes/widgets/tutor_search.php:137
+msgid "Input Border"
+msgstr ""
+
+#: includes/widgets/ld_search.php:149, includes/widgets/lp_search.php:149, includes/widgets/tutor_search.php:148
+msgid "Input Background"
+msgstr ""
+
+#: includes/widgets/ld_search.php:160, includes/widgets/lp_search.php:160, includes/widgets/tutor_search.php:159
+msgid "Submit Background"
+msgstr ""
+
+#: includes/widgets/ld_search.php:171, includes/widgets/lp_search.php:171, includes/widgets/tutor_search.php:170
+msgid "Submit Background Hover"
+msgstr ""
+
+#: includes/widgets/ld_search.php:182, includes/widgets/lp_search.php:182, includes/widgets/tutor_search.php:181
+msgid "Submit Border"
+msgstr ""
+
+#: includes/widgets/ld_search.php:194, includes/widgets/lp_search.php:194, includes/widgets/tutor_search.php:193
+msgid "Submit Typography"
+msgstr ""
+
+#: includes/widgets/ld_search.php:216, includes/widgets/lp_search.php:216, includes/widgets/tutor_search.php:215
+msgid "Submit Text"
+msgstr ""
+
+#: includes/widgets/ld_search.php:228, includes/widgets/lp_search.php:228, includes/widgets/tutor_search.php:227
+msgid "Submit Text Hover"
+msgstr ""
+
+#: includes/widgets/logo.php:20
+msgid "Logo"
+msgstr ""
+
+#: includes/widgets/logo.php:44
+msgid "Use Custom Logo?"
+msgstr ""
+
+#: includes/widgets/logo.php:52
+msgid "Custom Logo"
+msgstr ""
+
+#: includes/widgets/logo.php:63
+msgid "Enable Logo Height?"
+msgstr ""
+
+#: includes/widgets/logo.php:71
+msgid "Logo Height"
+msgstr ""
+
+#: includes/widgets/logo.php:144
+msgid "Text Logo"
+msgstr ""
+
+#: includes/widgets/lp_courses_carousel.php:15
+msgid "Courses (LearnPress)"
+msgstr ""
+
+#: includes/widgets/lp_courses_carousel.php:1403, includes/widgets/lp_courses_carousel.php:1520, includes/widgets/templates/lp_filter_grid.php:68, includes/widgets/templates/lp_filter_grid.php:185
+msgid "reviews"
+msgstr ""
+
+#: includes/widgets/lp_search.php:15
+msgid "Course Search (LearnPress)"
+msgstr ""
+
+#: includes/widgets/search.php:55
+msgid "Search Type"
+msgstr ""
+
+#: includes/widgets/search.php:59
+msgid "WordPress Search"
+msgstr ""
+
+#: includes/widgets/search.php:60
+msgid "Tutor Search"
+msgstr ""
+
+#: includes/widgets/search.php:61
+msgid "LearnPress Search"
+msgstr ""
+
+#: includes/widgets/search.php:62
+msgid "LearnDash Search"
+msgstr ""
+
+#: includes/widgets/search.php:69
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/widgets/search.php:79
+msgid "Button Icon Type"
+msgstr ""
+
+#: includes/widgets/search.php:99
+msgid "Search Button Text"
+msgstr ""
+
+#: includes/widgets/search.php:333
+msgid "Submit Button"
+msgstr ""
+
+#: includes/widgets/search.php:517
+msgid "Search Icon"
+msgstr ""
+
+#: includes/widgets/section_1.php:19
+msgid "Here Section 1"
+msgstr ""
+
+#: includes/widgets/section_1.php:45, includes/widgets/section_2.php:116, includes/widgets/section_3.php:115
+msgid "Image 1"
+msgstr ""
+
+#: includes/widgets/section_1.php:65, includes/widgets/section_2.php:136, includes/widgets/section_3.php:135
+msgid "Image 2"
+msgstr ""
+
+#: includes/widgets/section_1.php:97
+msgid "Top Shape Color"
+msgstr ""
+
+#: includes/widgets/section_1.php:107
+msgid "Section Width"
+msgstr ""
+
+#: includes/widgets/section_1.php:125, includes/widgets/section_2.php:493, includes/widgets/section_3.php:688, includes/widgets/section_4.php:312
+msgid "Section Height"
+msgstr ""
+
+#: includes/widgets/section_1.php:143
+msgid "Image 1 Height"
+msgstr ""
+
+#: includes/widgets/section_1.php:161, includes/widgets/section_2.php:510, includes/widgets/section_3.php:742
+msgid "Image 1 Width"
+msgstr ""
+
+#: includes/widgets/section_1.php:178
+msgid "Image 2 Height"
+msgstr ""
+
+#: includes/widgets/section_1.php:196, includes/widgets/section_2.php:564, includes/widgets/section_3.php:799
+msgid "Image 2 Width"
+msgstr ""
+
+#: includes/widgets/section_2.php:21
+msgid "Here Section 2"
+msgstr ""
+
+#: includes/widgets/section_2.php:46, includes/widgets/section_2.php:266, includes/widgets/section_3.php:54, includes/widgets/section_3.php:328
+msgid "Sub Heading"
+msgstr ""
+
+#: includes/widgets/section_2.php:84, includes/widgets/section_2.php:85
+msgid "Explore More"
+msgstr ""
+
+#: includes/widgets/section_2.php:109, includes/widgets/section_3.php:108
+msgid "Images"
+msgstr ""
+
+#: includes/widgets/section_2.php:156, includes/widgets/section_3.php:155
+msgid "Image 3"
+msgstr ""
+
+#: includes/widgets/section_2.php:177, includes/widgets/section_3.php:176
+msgid "Image 4"
+msgstr ""
+
+#: includes/widgets/section_2.php:198, includes/widgets/section_3.php:196
+msgid "Image 5"
+msgstr ""
+
+#: includes/widgets/section_2.php:285, includes/widgets/section_3.php:347
+msgid "Sub Heading Color"
+msgstr ""
+
+#: includes/widgets/section_2.php:527, includes/widgets/section_3.php:760
+msgid "Image 1 Position X"
+msgstr ""
+
+#: includes/widgets/section_2.php:545, includes/widgets/section_3.php:779
+msgid "Image 1 Position Y"
+msgstr ""
+
+#: includes/widgets/section_2.php:581, includes/widgets/section_3.php:817
+msgid "Image 2 Position X"
+msgstr ""
+
+#: includes/widgets/section_2.php:598, includes/widgets/section_3.php:836
+msgid "Image 2 Position Y"
+msgstr ""
+
+#: includes/widgets/section_3.php:21
+msgid "Here Section 3"
+msgstr ""
+
+#: includes/widgets/section_3.php:84
+msgid "Get Started for Free"
+msgstr ""
+
+#: includes/widgets/section_3.php:218
+msgid "Front Content"
+msgstr ""
+
+#: includes/widgets/section_3.php:224
+msgid "Front Section"
+msgstr ""
+
+#: includes/widgets/section_3.php:261, includes/widgets/section_3.php:525
+msgid "Front Text"
+msgstr ""
+
+#: includes/widgets/section_3.php:270
+msgid "Sub Text"
+msgstr ""
+
+#: includes/widgets/section_3.php:554
+msgid "Text Span Color"
+msgstr ""
+
+#: includes/widgets/section_3.php:565
+msgid "Sub Text Color"
+msgstr ""
+
+#: includes/widgets/section_3.php:576
+msgid "Icon background"
+msgstr ""
+
+#: includes/widgets/section_3.php:607
+msgid "Front Content Position X"
+msgstr ""
+
+#: includes/widgets/section_3.php:626
+msgid "Front Content Position Y"
+msgstr ""
+
+#: includes/widgets/section_3.php:668
+msgid "Position & Spacing"
+msgstr ""
+
+#: includes/widgets/section_3.php:706
+msgid "Content Top Space"
+msgstr ""
+
+#: includes/widgets/section_3.php:724
+msgid "Media Top Space"
+msgstr ""
+
+#: includes/widgets/section_3.php:856
+msgid "Image 3 Position X"
+msgstr ""
+
+#: includes/widgets/section_3.php:875
+msgid "Image 3 Position Y"
+msgstr ""
+
+#: includes/widgets/section_3.php:895
+msgid "Image 4 Position X"
+msgstr ""
+
+#: includes/widgets/section_3.php:914
+msgid "Image 4 Position Y"
+msgstr ""
+
+#: includes/widgets/section_4.php:31
+msgid "Here Section 4"
+msgstr ""
+
+#: includes/widgets/section_4.php:58
+msgid "<span>Transform your</span> <span>full life today as</span> <span>my consultant</span>"
+msgstr ""
+
+#: includes/widgets/section_4.php:78
+msgid "Shape & Images"
+msgstr ""
+
+#: includes/widgets/section_4.php:84
+msgid "Signature Image"
+msgstr ""
+
+#: includes/widgets/section_4.php:100
+msgid "Signature Image Width"
+msgstr ""
+
+#: includes/widgets/section_4.php:116
+msgid "Dot Shape"
+msgstr ""
+
+#: includes/widgets/section_4.php:132
+msgid "Image Position"
+msgstr ""
+
+#: includes/widgets/section_4.php:149
+msgid "Shape 2"
+msgstr ""
+
+#: includes/widgets/section_4.php:165
+msgid "Shape 2 Position"
+msgstr ""
+
+#: includes/widgets/section_4.php:204
+msgid "Download Free E-Book"
+msgstr ""
+
+#: includes/widgets/section_4.php:245
+msgid "Background Shape A"
+msgstr ""
+
+#: includes/widgets/section_4.php:256
+msgid "Background Shape B"
+msgstr ""
+
+#: includes/widgets/section_4.php:267
+msgid "Background Shape C"
+msgstr ""
+
+#: includes/widgets/section_4.php:278
+msgid "Background Shape D"
+msgstr ""
+
+#: includes/widgets/section_4.php:289
+msgid "Round Border"
+msgstr ""
+
+#: includes/widgets/section_4.php:376, includes/widgets/services_box.php:491, includes/widgets/slider_pro.php:384
+msgid "Title Typography"
+msgstr ""
+
+#: includes/widgets/section_4.php:397
+msgid "Title Background Color"
+msgstr ""
+
+#: includes/widgets/section_4.php:479
+msgid "Button Top Space"
+msgstr ""
+
+#: includes/widgets/services_box.php:21
+msgid "Services"
+msgstr ""
+
+#: includes/widgets/services_box.php:57
+msgid "Choose Your Image"
+msgstr ""
+
+#: includes/widgets/services_box.php:75
+msgid "Icon Image"
+msgstr ""
+
+#: includes/widgets/services_box.php:93, includes/widgets/services_box.php:140
+msgid "Service Title"
+msgstr ""
+
+#: includes/widgets/services_box.php:95
+msgid "Science"
+msgstr ""
+
+#: includes/widgets/services_box.php:176, includes/widgets/services_box.php:367, includes/widgets/services_box.php:422
+msgid "Carousel Items"
+msgstr ""
+
+#: includes/widgets/services_box.php:245
+msgid "Carousel dots"
+msgstr ""
+
+#: includes/widgets/services_box.php:302
+msgid "Carousel auto play"
+msgstr ""
+
+#: includes/widgets/services_box.php:328
+msgid "Auto play animation speed"
+msgstr ""
+
+#: includes/widgets/services_box.php:340, includes/widgets/services_box.php:382, includes/widgets/services_box.php:437
+msgid "Carousel item to scroll"
+msgstr ""
+
+#: includes/widgets/services_box.php:474
+msgid "Icon Image Size"
+msgstr ""
+
+#: includes/widgets/services_box.php:528
+msgid "Navigation Arrow"
+msgstr ""
+
+#: includes/widgets/services_box.php:613
+msgid "Arrow Size"
+msgstr ""
+
+#: includes/widgets/services_box.php:695
+msgid "Dot Pagination"
+msgstr ""
+
+#: includes/widgets/services_box.php:773, includes/widgets/slider_pro.php:707
+msgid "Dot Position"
+msgstr ""
+
+#: includes/widgets/services_box.php:805
+msgid "Dot Active Color"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:15
+msgid "Edubin Basic Slider "
+msgstr ""
+
+#: includes/widgets/slider_pro.php:67
+msgctxt "Background Control"
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:93
+msgctxt "Background Position"
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:118
+msgid "Ken Burns Effect"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:137
+msgid "Zoom Direction"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:141, includes/widgets/templates/tutor_course_layout_4.php:98
+msgid "In"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:142
+msgid "Out"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:228, includes/widgets/slider_pro.php:350
+msgid "<span>Choose the right</span><br> Theme for education"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:252
+msgid "Content Color"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:394
+msgid "Title Spacing Left/Right"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:414, includes/widgets/slider_pro.php:509
+msgid "Content Spacing Center Align"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:434
+msgid "Title Content Spacing"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:549
+msgid "Slide Options"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:557
+msgid "Custom Height & Position"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:567
+msgid "Keep blank value for the default screen 100vh"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:615
+msgid "Slider Speed"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:624
+msgid "Animation Effect"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:628
+msgid "Slide"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:629
+msgid "Fade"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:630
+msgid "Slide & Zoom"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:631
+msgid "Slide & Fade"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:638
+msgid "Nav & Arrow"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:646
+msgid "Nav"
+msgstr ""
+
+#: includes/widgets/slider_pro.php:688
+msgid "Dot Options"
+msgstr ""
+
+#: includes/widgets/teachers.php:15, includes/widgets/teachers.php:256, includes/widgets/teachers.php:261, includes/widgets/teachers.php:266, includes/widgets/teachers.php:271
+msgid "Teacher"
+msgstr ""
+
+#: includes/widgets/teachers.php:40
+msgid "Teacher Content"
+msgstr ""
+
+#: includes/widgets/teachers.php:64
+msgid "Teacher Image"
+msgstr ""
+
+#: includes/widgets/teachers.php:85
+msgid "Jonathan Bean"
+msgstr ""
+
+#: includes/widgets/teachers.php:95
+msgid "Math Teacher"
+msgstr ""
+
+#: includes/widgets/teachers.php:102
+msgid "Email"
+msgstr ""
+
+#: includes/widgets/teachers.php:112
+msgid "Teacher details page link"
+msgstr ""
+
+#: includes/widgets/teachers.php:117
+msgid "Social Link"
+msgstr ""
+
+#: includes/widgets/teachers.php:123
+msgid "Facebook"
+msgstr ""
+
+#: includes/widgets/teachers.php:131
+msgid "Twitter"
+msgstr ""
+
+#: includes/widgets/teachers.php:139
+msgid "Linkedin"
+msgstr ""
+
+#: includes/widgets/teachers.php:147
+msgid "Youtube"
+msgstr ""
+
+#: includes/widgets/teachers.php:155
+msgid "Instagram"
+msgstr ""
+
+#: includes/widgets/teachers.php:163
+msgid "Skype"
+msgstr ""
+
+#: includes/widgets/teachers.php:171
+msgid "VK"
+msgstr ""
+
+#: includes/widgets/teachers.php:179
+msgid "Github"
+msgstr ""
+
+#: includes/widgets/teachers.php:186
+msgid "Bitbucket"
+msgstr ""
+
+#: includes/widgets/teachers.php:193
+msgid "Whatsapp"
+msgstr ""
+
+#: includes/widgets/teachers.php:201
+msgid "Tumblr"
+msgstr ""
+
+#: includes/widgets/teachers.php:209
+msgid "Stack Overflow"
+msgstr ""
+
+#: includes/widgets/teachers.php:217
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/widgets/teachers.php:225
+msgid "Slack"
+msgstr ""
+
+#: includes/widgets/teachers.php:232
+msgid "Dribbble"
+msgstr ""
+
+#: includes/widgets/teachers.php:239
+msgid "Behance"
+msgstr ""
+
+#: includes/widgets/teachers.php:249
+msgid "Add Teacher"
+msgstr ""
+
+#: includes/widgets/teachers.php:255
+msgid "Teacher 1"
+msgstr ""
+
+#: includes/widgets/teachers.php:260
+msgid "Teacher 2"
+msgstr ""
+
+#: includes/widgets/teachers.php:265
+msgid "Teacher 3"
+msgstr ""
+
+#: includes/widgets/teachers.php:270
+msgid "Teacher 4"
+msgstr ""
+
+#: includes/widgets/teachers.php:384
+msgid "Social"
+msgstr ""
+
+#: includes/widgets/teachers.php:402
+msgid "Icon Hover"
+msgstr ""
+
+#: includes/widgets/teachers.php:440
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/widgets/teachers.php:455
+msgid "Content Area Height"
+msgstr ""
+
+#: includes/widgets/teachers.php:472
+msgid "Content Area Padding"
+msgstr ""
+
+#: includes/widgets/templates/lp_filter_list.php:64
+msgid "Quizzes"
+msgstr ""
+
+#: includes/widgets/templates/tutor_course_layout_4.php:87
+msgid "by"
+msgstr ""
+
+#: includes/widgets/tutor_courses_carousel.php:18
+msgid "Courses (Tutor)"
+msgstr ""
+
+#: includes/widgets/tutor_courses_carousel.php:116
+msgid "Choose Category or Tag"
+msgstr ""
+
+#: includes/widgets/tutor_courses_carousel.php:141
+msgid "Select Tag"
+msgstr ""
+
+#: includes/widgets/tutor_courses_carousel.php:614
+msgid "Duration Text List Item"
+msgstr ""
+
+#: includes/widgets/tutor_courses_carousel.php:651
+msgid "Excerpt List Item"
+msgstr ""
+
+#: includes/widgets/tutor_search.php:15
+msgid "Course Search (Tutor)"
+msgstr ""
+
+#: includes/widgets/video_popup.php:15
+msgid "Video PopUp"
+msgstr ""
+
+#: includes/widgets/video_popup.php:39, includes/widgets/video_popup.php:177
+msgid "Video"
+msgstr ""
+
+#: includes/widgets/video_popup.php:56
+msgid "Style 7"
+msgstr ""
+
+#: includes/widgets/video_popup.php:57
+msgid "Style 8"
+msgstr ""
+
+#: includes/widgets/video_popup.php:64
+msgid "Video PopUp Text"
+msgstr ""
+
+#: includes/widgets/video_popup.php:66, includes/widgets/video_popup.php:67
+msgid "Play Video"
+msgstr ""
+
+#: includes/widgets/video_popup.php:76
+msgid "Video Source"
+msgstr ""
+
+#: includes/widgets/video_popup.php:80
+msgid "YouTube"
+msgstr ""
+
+#: includes/widgets/video_popup.php:81
+msgid "Vimeo"
+msgstr ""
+
+#: includes/widgets/video_popup.php:91
+msgid "Enter your YouTube link"
+msgstr ""
+
+#: includes/widgets/video_popup.php:105
+msgid "Enter your Vimeo link"
+msgstr ""
+
+#: includes/widgets/video_popup.php:131
+msgid "Video Options"
+msgstr ""
+
+#: includes/widgets/video_popup.php:141
+msgid "Autoplay"
+msgstr ""
+
+#: includes/widgets/video_popup.php:232
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/widgets/video_popup.php:247
+msgid "Play Background Size"
+msgstr ""
+
+#: includes/widgets/video_popup.php:270
+msgid "Play Icon Size"
+msgstr ""
+
+#: includes/widgets/woo_cart.php:18
+msgid "WooCart"
+msgstr ""
+
+#: includes/widgets/woo_cart.php:114
+msgid "Items Counter Background"
+msgstr ""
+
+#: includes/widgets/woo_cart.php:127
+msgid "Items Counter Text"
+msgstr ""
+
+#: includes/widgets/woo_cart.php:179
+msgid "Text Hover Color"
+msgstr ""
+
+#: includes/widgets/woo_product.php:15
+msgid "Woo Product"
+msgstr ""
+
+#: includes/widgets/woo_product.php:38
+msgid "Products"
+msgstr ""
+
+#: includes/widgets/woo_product.php:74
+msgid "Number of Product"
+msgstr ""
+
+#: includes/widgets/wpforms.php:15
+msgid "WPForms"
+msgstr ""
+
+#: includes/widgets/wpforms.php:37
+msgid "Form not found"
+msgstr ""
+
+#: includes/widgets/wpforms.php:47
+msgid "WP Form"
+msgstr ""
+
+#: includes/widgets/wpforms.php:98
+msgid "Header Background"
+msgstr ""
+
+#: includes/widgets/wpforms.php:160
+msgid "Submit Padding"
+msgstr ""
+
+#: includes/widgets/wpforms.php:821
+msgid "Please Select form."
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:29
+msgid "Footer"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:30
+msgid "Footers"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:46, post-types/footer/class-pt-footer.php:47, post-types/header/class-pt-header.php:46
+msgid "Add New %s"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:48, post-types/header/class-pt-header.php:47
+msgid "Edit %s"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:49, post-types/header/class-pt-header.php:48
+msgid "New %s"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:50
+msgid "All %s"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:51, post-types/header/class-pt-header.php:50
+msgid "View %s"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:52, post-types/header/class-pt-header.php:51
+msgid "Search %s"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:53, post-types/header/class-pt-header.php:52
+msgid "No %s found"
+msgstr ""
+
+#: post-types/footer/class-pt-footer.php:54, post-types/header/class-pt-header.php:53
+msgid "No %s found in Trash"
+msgstr ""
+
+#: post-types/header/class-pt-header.php:28, post-types/header/class-pt-header.php:30
+msgid "Header"
+msgstr ""
+
+#: post-types/header/class-pt-header.php:45
+msgid "Add New Template"
+msgstr ""
+
+#: post-types/header/class-pt-header.php:49
+msgid "All Templates"
+msgstr ""
+
+#: widgets/latest_post_widget.php:6
+msgid "Your most recent posts, with optional excerpts"
+msgstr ""
+
+#: widgets/latest_post_widget.php:7
+msgid "Edubin Recent Post"
+msgstr ""
+
+#: widgets/latest_post_widget.php:113
+msgid "Recent Posts"
+msgstr ""
+
+#: widgets/latest_post_widget.php:118
+msgid "more..."
+msgstr ""
+
+#: widgets/latest_post_widget.php:130, widgets/ld_course.php:387, widgets/lp_course.php:199
+msgid "Title:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:133
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:137
+msgid "Ignore sticky posts?"
+msgstr ""
+
+#: widgets/latest_post_widget.php:140
+msgid "Offset By:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:144
+msgid "Number of excerpts to show:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:148
+msgid "\"More\" link text:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:150
+msgid "Leave blank to omit \"more\" link"
+msgstr ""
+
+#: widgets/latest_post_widget.php:154
+msgid "Date format:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:156
+msgid "Leave blank to omit the date"
+msgstr ""
+
+#: widgets/latest_post_widget.php:159
+msgid "Limit to category:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:162
+msgid "Limit to tags:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:164
+msgid "Enter post tags separated by commas (\"cat,dog\")"
+msgstr ""
+
+#: widgets/latest_post_widget.php:169
+msgid "Limit excerpt to how many words?"
+msgstr ""
+
+#: widgets/latest_post_widget.php:173
+msgid "Allowed HTML tags:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:176
+msgid "E.g.: %s"
+msgstr ""
+
+#: widgets/latest_post_widget.php:182
+msgid "Show featured images in excerpts?"
+msgstr ""
+
+#: widgets/latest_post_widget.php:186
+msgid "Featured image position:"
+msgstr ""
+
+#: widgets/latest_post_widget.php:188
+msgid "Above title"
+msgstr ""
+
+#: widgets/latest_post_widget.php:189
+msgid "Between title and excerpt"
+msgstr ""
+
+#: widgets/latest_post_widget.php:190
+msgid "Below excerpt"
+msgstr ""
+
+#: widgets/latest_post_widget.php:194
+msgid "Featured image size:"
+msgstr ""
+
+#: widgets/ld_course.php:28
+msgid "Display LearnDash recent course by categories (or related)"
+msgstr ""
+
+#: widgets/ld_course.php:32
+msgid "(Edubin) LearnDash Courses"
+msgstr ""
+
+#: widgets/ld_course.php:335, widgets/lp_course.php:147
+msgid "No posts were found."
+msgstr ""
+
+#: widgets/ld_course.php:375
+msgid "LearnDash Courses"
+msgstr ""
+
+#: widgets/ld_course.php:392, widgets/lp_course.php:204
+msgid "Number of posts:"
+msgstr ""
+
+#: widgets/ld_course.php:398, widgets/lp_course.php:210
+msgid "Show related category posts"
+msgstr ""
+
+#: widgets/ld_course.php:403, widgets/lp_course.php:215
+msgid "Show thumbnail image"
+msgstr ""
+
+#: widgets/ld_course.php:407, widgets/lp_course.php:219
+msgid "Post meta info"
+msgstr ""
+
+#: widgets/ld_course.php:412, widgets/lp_course.php:224
+msgid "Show Price"
+msgstr ""
+
+#: widgets/ld_course.php:416, widgets/lp_course.php:228
+msgid "Show content"
+msgstr ""
+
+#: widgets/ld_course.php:420, widgets/lp_course.php:232
+msgid "Filter Category:"
+msgstr ""
+
+#: widgets/ld_course.php:422, widgets/lp_course.php:234
+msgid "All categories"
+msgstr ""
+
+#: widgets/lp_course.php:28
+msgid "Display LearnPress recent course by categories (or related)"
+msgstr ""
+
+#: widgets/lp_course.php:32
+msgid "(Edubin) LearnPress Courses"
+msgstr ""
+
+#: widgets/lp_course.php:187
+msgid "LearnPress Courses"
+msgstr ""

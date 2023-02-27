@@ -1,0 +1,198 @@
+<wpml-config>
+    <admin-texts>
+        <key name="ecademy_opt">
+            <key name="search_placeholder_text" />
+            <key name="login_register_title" />
+            <key name="profile_text" />
+            <key name="popup_title" />
+            <key name="popup_place" />
+            <key name="popup_button_text" />
+            <key name="blog_title" />
+            <key name="buy_course_title" />
+            <key name="lessons_title" />
+            <key name="students_title" />
+            <key name="price_title" />
+            <key name="rating_title" />
+            <key name="course_instructor_title" />
+            <key name="student_label" />
+            <key name="lessons_label" />
+            <key name="duration_label" />
+            <key name="access_label" />
+            <key name="enrolled_label" />
+            <key name="share_course_title" />
+            <key name="related_courses_title" />
+            <key name="related_post_count" />
+            <key name="enable_social_share_title" />
+            <key name="title_not_found" />
+            <key name="button_two_not_found" />
+            <key name="button_not_found" />
+            <key name="popup_desc" />
+            <key name="popup_bottom_desc" />
+            <key name="footer_desc" />
+            <key name="content_not_found" />
+            <key name="massage_btn_text" />
+            <key name="ld_enroll_title" />
+            <key name="ld_free_title" />
+            <key name="ld_related_courses_title" />
+        </key>
+    </admin-texts>
+    <elementor-widgets>
+        <widget name="Section">
+            <fields>
+                <field type="Heading" editor_type="LINE">top_title</field>
+                <field type="Heading" editor_type="LINE">title</field>
+                <field type="Heading" editor_type="AREA">content</field>
+                <field type="User Button Text" editor_type="LINE">user_button_text</field>
+                <field type="Button Text" editor_type="LINE">button_text</field>
+                <field type="Ex Link" editor_type="LINE">ex_link</field>
+            </fields>
+        </widget>
+
+        <widget name="Modern_Schooling_Hero">
+            <fields>
+                <field type="Title" editor_type="LINE">title</field>
+                <field type="Button Text" editor_type="LINE">button_text</field>
+                <field type="User Button Text" editor_type="LINE">user_button_text</field>
+                <field type="Content" editor_type="AREA">content</field>
+                <field type="Link" editor_type="LINE">ex_link</field>
+            </fields>
+        </widget>
+
+        <widget name="eCademy_Features_Boxe">
+            <fields-in-item items_of="card_item">
+                <field type="Repeater: Title" editor_type="LINE">title</field>
+                <field type="Repeater: Content" editor_type="AREA">content</field>
+                <field type="Repeater: Link Text" editor_type="LINE">link_text</field>
+                <field type="Repeater: External Link" editor_type="LINE">ex_link</field>
+            </fields-in-item>
+        </widget>
+
+         <widget name="FAQ">
+             <fields-in-item items_of="faq_tabs">
+                    <field type="Repeater: Title" editor_type="LINE">tab_title</field>
+                    <field type="Repeater: FAQ Item" editor_type="AREA">faqs</field>
+                </fields-in-item>
+        </widget>
+
+        <widget name="Contact_Area">
+            <fields>
+                <field type="Top Title" editor_type="LINE">top_title</field>
+                <field type="Title" editor_type="LINE">title</field>
+                <field type="Content" editor_type="AREA">content</field>
+                <field type="contact_title" editor_type="LINE">contact_title</field>
+                <field type="contact_content" editor_type="AREA">contact_content</field>
+            </fields>
+            <fields-in-item items_of="list_items">
+                <field type="Repeater: Content" editor_type="LINE">content</field>
+                <field type="Repeater: Title" editor_type="AREA">title</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="ProgramArea">
+            <fields>
+                <field type="Title" editor_type="LINE">title</field>
+                 <field type="Content" editor_type="AREA">content</field>
+                <field type="Button Text" editor_type="LINE">button_text</field>
+                <field type="User Button Text" editor_type="LINE">user_button_text</field>
+                <field type="Link" editor_type="LINE">ex_link</field>
+            </fields>
+            <fields-in-item items_of="card_item">
+                    <field type="Repeater: Title" editor_type="LINE">title</field>
+                    <field type="Repeater: Content" editor_type="AREA">content</field>
+                    <field type="Repeater: Link Text" editor_type="LINE">link_text</field>
+                    <field type="Repeater: External Link" editor_type="LINE">ex_link</field>
+                </fields-in-item>
+        </widget>
+
+        <widget name="Information_Area">
+            <fields>
+                <field type="Title" editor_type="LINE">top_title</field>
+                <field type="Title" editor_type="LINE">title</field>
+            </fields>
+            <fields-in-item items_of="list_items">
+                <field type="List-Item: Title" editor_type="LINE">title</field>
+                <field type="List-Item: Content" editor_type="AREA">content</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="Distance_Learning">
+            <fields>
+                <field type="Title" editor_type="LINE">top_title</field>
+                <field type="Title" editor_type="LINE">title</field>
+                <field type="Content" editor_type="AREA">content</field>
+                <field type="Button Text" editor_type="LINE">button_text</field>
+                <field type="User Button Text" editor_type="LINE">user_button_text</field>
+            </fields>
+            <fields-in-item items_of="list_items">
+                <field type="List-Item: Title" editor_type="LINE">title</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="FeedbackSliderTwo">
+            <fields-in-item items_of="ecademy_feedback_items">
+                <field type="List-Item: name" editor_type="LINE">name</field>
+                <field type="List-Item: designation" editor_type="LINE">designation</field>
+                <field type="List-Item: feedback" editor_type="AREA">feedback</field>
+            </fields-in-item>
+        </widget>
+
+        <widget name="Instant_Courses_Area">
+            <fields>
+                <field type="Title" editor_type="LINE">title</field>
+                <field type="Button Text" editor_type="LINE">button_text</field>
+                <field type="Content" editor_type="AREA">content</field>              
+                <field type="User Button Text" editor_type="LINE">user_button_text</field>
+                <field type="Link" editor_type="LINE">ex_link</field>
+            </fields>
+        </widget>
+
+        <widget name="eCademy_Funfacts">
+            <fields-in-item items_of="items">
+                <field type="List-Item: title" editor_type="LINE">title</field>
+                <field type="List-Item: number_suffix" editor_type="LINE">number_suffix</field>
+              </fields-in-item>
+        </widget>
+        
+        <widget name="eCademy_Banner_Four">
+            <fields>
+                <field type="Title" editor_type="LINE">title</field>
+                <field type="Content" editor_type="AREA">content</field>      
+                <field type="Button Text" editor_type="LINE">button_text</field>
+                <field type="Link" editor_type="LINE">ex_link</field>
+            </fields>
+        </widget>
+
+        <widget name="FeedbackThree">
+            <fields-in-item items_of="ecademy_feedback_items">
+                <field type="List-Item: name" editor_type="LINE">name</field>
+                <field type="List-Item: designation" editor_type="LINE">designation</field>
+                <field type="List-Item: feedback" editor_type="AREA">feedback</field>
+              </fields-in-item>
+        </widget>
+
+        <widget name="eCademy_Posts">
+            <fields>
+                <field type="Bottom Title" editor_type="LINE">bottom_title</field>
+                <field type="Bottom Link Title" editor_type="LINE">bottom_link_title</field>      
+            </fields>
+        </widget>
+
+        <widget name="eCademy_Newsletter">
+            <fields>
+                <field type="top_title" editor_type="LINE">top_title</field>
+                <field type="title" editor_type="LINE">title</field>
+                <field type="content" editor_type="LINE">content</field>
+                <field type="placeholder_text" editor_type="LINE">placeholder_text</field>
+                <field type="button_text" editor_type="LINE">button_text</field>  
+            </fields>
+        </widget>
+
+        <widget name="FeedbackThree">
+            <fields-in-item items_of="items">
+                <field type="List-Item: title" editor_type="LINE">title</field>
+                <field type="List-Item: content" editor_type="AREA">content</field>
+              </fields-in-item>
+        </widget>
+        
+    </elementor-widgets>
+</wpml-config>
